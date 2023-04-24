@@ -1,0 +1,499 @@
+body {
+
+    background-color: #f1f1f1;
+  
+  }
+     /*Nav bar main menu*/
+     .vector-icon {
+      position:relative;
+      width: 105%;
+      top: -701px;
+      left: 0;
+    }
+  .vector-icon {
+    height: 25.32%;
+    right: 0;
+    bottom: 71.68%;
+    max-width: 101.2%;
+    overflow: hidden;
+    max-height: 100%;
+    margin-top: 70px;
+    margin-left: -8px;
+    margin-right: px;
+  }
+  
+  /*Promo menu*/
+  
+    .promo2 {
+      cursor: pointer;
+      border: 0;
+      padding: 0;
+      background-color: transparent;
+      position: absolute;
+      top: 22px;
+      left: 1100px;
+      width: 166px;
+      height: 51px;
+      font-size: 18px;
+    }
+    .promo2 {
+      top: 37px;
+      left: 199px;
+      width: 78px;
+      height: 51px;
+     
+    }
+  
+     /*Customize ni dri*/
+  
+  .customize-us1 {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    line-height: 26px;
+    font-family: var(--font-gupter);
+    color: #000000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+  }
+  
+  .customize-us {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 22px;
+    left: 303px;
+    width: 131px;
+    height: 51px;
+  } 
+  
+   /*Logo ni dri*/
+  
+  .s-cakes-logo-1 {
+      position: absolute;
+      top: 5866px;
+      left: 0;
+      width: 1920px;
+      height: 646px;
+      z-index: 1;
+    }
+    .s-cakes-logo-1 {
+      top: -22px;
+      left: 540px;
+      width: 246px;
+      height: 157px;
+      object-fit: cover;
+    }         
+  
+    /*EST ni dri*/
+  
+    .est-2013 {
+      position: absolute;
+      top: 0;
+      left: 1px;
+      width: 146px;
+      height: 122px;
+    }
+    .est-2013 {
+      top: 57px;
+      left: 750px;
+      font-size: 10px;
+      line-height: 26px;
+      color: var(--color-black);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 69px;
+      height: 24px;
+    }
+  
+  /*Find us ni dri*/
+  
+    .Findus {
+    position: absolute;
+    top: 2px;
+    left: -4px;
+    width: 90px;
+    height: 125px;
+    font-size: 17px;
+  }
+  .Findus {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 22px;
+    left: 980px;
+    height: 51px;
+  }
+  
+    /*about us ni*/
+  
+  .aboutuus {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 22px;
+    left: 1100px;
+    width: 150px;
+    height: 51px;
+    font-size: 17px;
+  }
+  
+   /*Promo Square dri ---------------------------------------------- */
+    .cake-main {
+     z-index: 2;
+    }
+    .cake-main {
+    height: 625px;
+    width: 101.2%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: -8px;
+    margin-left: -8px;
+  
+  
+     }
+  
+     /*TSCAKES SA LOGO*/
+  
+     .tscakes {
+      position: absolute;
+      line-height: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .tscakes {
+      position:absolute;
+      height: 10.4%;
+      width: 46.04%;
+      top: 45%;
+      left: 27.03%;
+      font-size: 90px;
+      font-family: Josefin Slab;
+      color: rgb(255, 255, 255);
+    }
+  
+    /*3variants*/
+  
+  
+  .cakes-bread {
+    position:absolute;
+    top: 420px;
+    left: 580px;
+    width: 438px;
+    height: 106px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+  
+  /*order online button*/
+  
+  
+  
+  
+    /*arrow*/
+  
+    .arrow-icon {
+      position: absolute;
+      top: 400px;
+      left: 1300px;
+      width: 25px;
+      height: 73.64px;
+    }
+  
+    /*Cake Bread next slide */
+  
+    .cake-bread {
+      position: relative;
+      top: -235px;
+      left: 400px;
+      font-size: 80px;
+      line-height: 100px;
+      font-family: var(--font-cookie);
+      color: rgba(0, 0, 0, 0.79);
+      justify-content: center;
+      width: 550px;
+      height: 182px;
+      font-family: Cookie;
+    }
+  
+  /* sa ubos title */ 
+  /* cake vary*/
+  
+  .caken-nidri {
+    position: absolute;
+    top: 680px;
+    left: 520px;
+    letter-spacing: 0.14em;
+    line-height: 56px;
+    color: #505050;
+    display: flex;
+    align-items: center;
+    width: 814px;
+    height: 249px;
+    font-size: 25px;
+    font-family:Dosis;
+  }
+  
+  /*cake variety everythingnasad*/
+  
+  .caken-varyni {
+    position: absolute;
+    top: 750px;
+    left: 330px;
+    letter-spacing: 0.14em;
+    line-height: 45px;
+    color: #505050;
+    display: flex;
+    align-items:center;
+    text-align: center  ;
+    width: 700px;
+    height: 249px;
+    font-size: 20px;
+    margin: auto;
+    font-family:Dosis;
+  }
+  
+  /* Loc address name */
+  
+  .addrssbelow {
+    position: absolute;
+    top: 815px;
+    left: 440px;
+    letter-spacing: 2px;
+    line-height: 56px;
+    color: #7c7c7cd8;
+    display: flex;
+    align-items: center;
+    width: 814px;
+    height: 249px;
+    font-size: 15px;
+    font-family:Dosis;
+  }
+  
+  /* line for gapping */
+  
+  .for-Lin1
+  {
+  position: absolute;
+    top: 980px;
+    left: 100px;
+    width: 1150px;
+    height: 2px;
+  }
+  
+  .for-Lin2
+  {
+  position: absolute;
+    top: 635px;
+    left: 100px;
+    width: 1150px;
+    height: 2px;
+    height: 900px;
+  }
+  
+  .for-Lin3
+  {
+  position: absolute;
+    top: 1250px;
+    left: 100px;
+    width: 1150px;
+    height: 2px;
+  
+  }
+  /* para sa 3 parts na */
+  
+  .Main-3 {
+    height: 97.96%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family:Dosis;
+  }
+  
+  .categories1 {
+    position: absolute;
+    top: 1008px;
+    left: 552px;
+    box-sizing: border-box;
+    width: 222px;
+    height: 49px;
+    font-size: 25px;
+    color:rgb(228, 94, 217);
+  }
+  
+  .Main-2 {
+    height: 97.96%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .Promo1 {
+    position: absolute;
+    top: 1008px;
+    left: 280px;
+    box-sizing: border-box;
+    width: 222px;
+    height: 49px;
+    font-size: 25px;
+    color:rgb(228, 94, 217);
+     font-family:Dosis;
+  }
+  
+  .Main-1 {
+    height: 97.96%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family:Dosis;
+  }
+  .Customize1 {
+    position: absolute;
+    top: 1008px;
+    left: 860px;
+    box-sizing: border-box;
+    width: 222px;
+    height: 49px;
+    font-size: 25px;
+    color:rgb(228, 94, 217);
+  }
+  
+  /* time date sched of scakes */
+  
+  .Monday {
+    position: absolute;
+    top: 1120px;
+    left: 552px;
+    box-sizing: border-box;
+    width: 250px;
+    height: 49px;
+    font-size: 20px;
+    color:rgba(87, 87, 87, 0.733);
+    font-family:Dosis;
+  }
+  
+  .Saturday {
+    position: absolute;
+    top: 1160px;
+    left: 590px;
+    box-sizing: border-box;
+    width: 250px;
+    height: 49px;
+    font-size: 20px;
+    color:rgba(87, 87, 87, 0.733);
+    font-family:Dosis;
+  }
+  
+  .Sunday {
+    position: absolute;
+    top: 1200px;
+    left: 590px;
+    box-sizing: border-box;
+    width: 250px;
+    height: 49px;
+    font-size: 20px;
+    color:rgba(87, 87, 87, 0.733);
+    font-family:Dosis;
+  }
+  
+  /* join us dapit*/
+  
+  .JoinUs {
+    position: absolute;
+    top: 1280px;
+    left: 135px;
+    box-sizing: border-box;
+    width: 1100px;
+    height: 49px;
+    font-size: 17px;
+    color:rgba(0, 0, 0, 0.733);
+    text-align: center;
+    letter-spacing: 4px;
+    font-family:Dosis;
+  }
+  
+  /*special cake offer */
+  
+  .special-cake-offer
+  {
+    position: absolute;
+    top: 1445px;
+    left: 590px;
+    color:rgba(0, 0, 0, 0.733);
+    text-align: center;
+    font-family:Dosis;
+    font-size: 25px;
+    height: 1000px;
+  }
+  
+  .sco1 {
+   cursor: pointer;
+    font-family:Dosis;
+  }
+  
+  /*Event images*/
+  
+  .event-cakes {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .event-cakes
+  {
+    top: 1500px;
+    left: 0px;
+    width: 1500px;
+    height: 622px;
+  }
+  
+  .wedding-cake {
+    position: absolute;
+    height: 13.86%;
+    width: 64.32%;
+    top: 1800px;
+    left: 17.86%;
+    letter-spacing: 0.17em;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#f1f1f1;
+    font-size:40px;
+  }
