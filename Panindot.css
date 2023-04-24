@@ -451,7 +451,7 @@ body {
     text-align: center;
     font-family:Dosis;
     font-size: 25px;
-    height: 1000px;
+    height: 100px;
   }
   
   .sco1 {
@@ -497,3 +497,119 @@ body {
     color:#f1f1f1;
     font-size:40px;
   }
+
+  /* Quote/tagline */
+/*JM NIIIASDDDD WJASDPOAJSDKA */
+
+  .sweetness-in-every {
+    position: absolute;
+    top: 2120px;
+    left: 300px;
+    font-size: 55px;
+    line-height: 36px;
+    font-family: Cookie;
+    color: rgba(242, 151, 151, 0.55);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 900px;
+    height: 136px;
+  }
+
+  /* APRAA SA LAYNNNN */
+
+  .PLine1 
+  {  
+  position:absolute;
+  width: 1150px;  
+  height: 2px;  
+  background-color: #ffbfcac2;  
+  top: 2245px;
+  left: 100px;
+  height: 8px;
+  }  
+
+  .PLine2
+  {  
+  position:absolute;
+  width: 1150px;  
+  height: 2px;  
+  background-color: #ffbfcac2;  
+  top: 2340px;
+  left: 100px;
+  height: 8px;
+  }  
+
+  .PLine3
+  {  
+  position:absolute;
+  width: 1150px;  
+  height: 2px;  
+  background-color: #ffbfcac2;  
+  top: 2820px;
+  left: 100px;
+  height: 8px;
+  }  
+
+
+  .Categ-Big
+  {
+    position:absolute;
+    top: 2280px;
+    left: 450px;
+    font-size: 30px;
+    margin: auto;
+    letter-spacing: 40px;
+    font-family:Dosis;
+  }
+
+  /*categories na naay lami na cake */
+
+.Cake-C {
+  position: absolute;
+  top: 2410px;
+  left: 145px;
+  width: 250px;
+  height: 350px;
+}
+.Pastrien-C {
+  position: absolute;
+  top: 2410px;
+  left: 575px;
+  width: 250px;
+  height: 350px;
+}
+.Bread-C {
+  position: absolute;
+  top: 2410px;
+  left: 965px;
+  width: 250px;
+  height: 350px;
+}
+
+/* more sa pinakalast */
+
+.news-events {
+  position: absolute;
+  letter-spacing: 0.14em;
+  line-height: 36px;
+  font-family: cormorant;
+  color: darkslategray;
+  display: flex;
+  align-items: center;
+  height: 120px;
+}
+.news-events {
+  top: 2820px;
+  left: 550px;
+  font-size:40px;
+  width: 727px;
+}
+.keep-up-to {
+  position:absolute;
+  top: 2910px;
+  left: 440px;
+  font-size: 17px;
+  width:600px;
+  color: darkslategray;
+}
