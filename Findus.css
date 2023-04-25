@@ -13,24 +13,35 @@ body{
     z-index: 1;
   }
   .s-cakes-logo-1 {
-    top: -22px;
+    top: 30px;
     left: 540px;
-    width: 246px;
-    height: 157px;
-    object-fit: cover;
+    width: 156px;
+    height: 86px;
+   
   }
-  /*Background ni dri*/         
+  /*Background ni dri Upper*/         
 
 .FindUsBackground {
     z-index: 2;
    }
    .FindUsBackground {
-   height: 265px;
-   width: 101.2%;
+   height: 235px;
+   width: 100%;
    top: 0;
    right: 0;
    bottom: 0;
    left: 0;
-   margin-top: -8px;
-   margin-left: -8px;
+
+   
    }
+
+.Pline1
+{position: absolute;
+    top: 40px;
+    left: -10px;
+    width: 1287px;
+    height: 76px;
+    z-index: 1;
+    background-color: #ffffff;
+
+}
