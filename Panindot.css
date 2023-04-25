@@ -613,3 +613,59 @@ body {
   width:600px;
   color: darkslategray;
 }
+.libertad-compound {
+  position:absolute;
+  top: 3600px;
+  left: 415px;
+  font-size: 20px;
+  color: rgba(137, 137, 137, 0.81);
+  width: 1691px;
+  height: 75px;
+  
+}
+.numbers{
+  position: absolute;
+  top: 3510px;
+  left: 450px;
+  letter-spacing: 0.14em;
+  line-height: 56px;
+  color: #505050;
+  display: flex;
+  align-items: center;
+  width: 814px;
+  height: 249px;
+}
+.date-time {
+  position: absolute;
+  top: 3510px;
+  left: 400px;letter-spacing: 0.14em;
+  line-height: 56px;
+  color: #505050;
+  display: flex;
+  align-items: center;
+  height: 249px;
+  width: 100%;
+}
+.find-us {
+  position: absolute;
+  top: 3700px;
+  left: 550px;
+  letter-spacing: 0.14em;
+  line-height: 56px;
+  font-size: 17px;
+}
+.find-us {
+  top: 3700px;
+  left: 550px;
+  text-decoration: underline;
+  font-weight: 300;
+}
+.links
+{
+  position: absolute;
+  top: 3730px;
+  left: 555px;
+  letter-spacing: 0.14em;
+  line-height: 56px;
+  font-size: 17px;
+}
