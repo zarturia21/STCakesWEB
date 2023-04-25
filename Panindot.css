@@ -145,7 +145,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    margin-top: 0%;
+    margin-top: -6.5%;
     margin-left: -6%;
     margin-Right: 0%;
      }
@@ -220,15 +220,14 @@ body {
   
     .cake-bread {
       position: relative;
-      top: -235px;
-      left: 400px;
+      top: 100%;
+      left:28%;
       font-size: 80px;
       line-height: 100px;
-      font-family: var(--font-cookie);
       color: rgba(0, 0, 0, 0.79);
       justify-content: center;
-      width: 550px;
-      height: 182px;
+      width: 60%;
+      height: 5%;
       font-family: Cookie;
     }
   
@@ -237,15 +236,15 @@ body {
   
   .caken-nidri {
     position: absolute;
-    top: 680px;
-    left: 520px;
+    top: 115%;
+    left: 39%;
     letter-spacing: 0.14em;
     line-height: 56px;
     color: #505050;
     display: flex;
     align-items: center;
-    width: 814px;
-    height: 249px;
+    width: 30%;
+    height: 5%;
     font-size: 25px;
     font-family:Dosis;
   }
