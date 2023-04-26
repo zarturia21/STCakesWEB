@@ -2,6 +2,47 @@ body{
 
     background-color: #f1f1f1;
 }
+/* Buttons */
+.Home{
+  position:absolute;
+  height: 10%;
+  width: 46%;
+  top: 15%;
+  left: 6%;
+  font-size: 25px;
+  font-family: Dosis;
+  color: rgb(0, 0, 0);
+}
+.Aboutus{
+  position:absolute;
+  height: 10%;
+  width: 46%;
+  top: 15%;
+  left: 18%;
+  font-size: 25px;
+  font-family: Dosis;
+  color: rgb(0, 0, 0);
+}
+.Products{
+  position:absolute;
+  height: 10%;
+  width: 46%;
+  top: 15%;
+  left: 66%;
+  font-size: 25px;
+  font-family: Dosis;
+  color: rgb(0, 0, 0);
+}
+.Customize{
+  position:absolute;
+  height: 10%;
+  width: 46%;
+  top: 15%;
+  left: 82%;
+  font-size: 25px;
+  font-family: Dosis;
+  color: rgb(0, 0, 0);
+}
  /*Logo ni dri*/
   
  .s-cakes-logo-1 {
@@ -13,44 +54,145 @@ body{
     z-index: 1;
   }
   .s-cakes-logo-1 {
-    top: 30px;
+    top: 53px;
     left: 540px;
     width: 156px;
     height: 86px;
    
   }
+  .est-2013 {
+    position: absolute;
+    top: 0;
+    left: 1px;
+    width: 146px;
+    height: 122px;
+  }
+  .est-2013 {
+    top: 90px;
+    left: 664px;
+    font-size: 8px;
+    line-height: 26px;
+    color: var(--color-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 69px;
+    height: 24px;
+  }
+
+  
   /*Background*/         
 
-.FindUsBackground {
-    z-index: 2;
-   }
-   .FindUsBackground {
-   height: 235px;
-   width: 100%;
-   top: 0;
+   .FindUsBackground1 {
+  position: relative;
+   height: 67px;
+   width: 1275px;
+   top: -8;
    right: 0;
    bottom: 0;
-   left: 0;
+   left: -8;
    }
+
+   .FindUsBackground2 {
+    position: relative;
+     height: 235px;
+     width: 1275px;
+     top: -167;
+     right: 0;
+     bottom: 0;
+     left: -8;
+     }
+
     /*Title*/ 
 .store-location {
   position: absolute;
-  top: 25%;
-  left: 400px;
-  font-size: 50px;  
+  top: 35%;
+  left: 415px;
+  font-size: 55px;  
   letter-spacing: 0em;
   color:#ffffff;
-  font-family:'Dosis'Arial;
+  font-family:Dosis;
 } 
-
-   /*White Rectangle*/ 
-.Pline1
-{position: absolute;
-    top: 40px;
-    left: -10px;
-    width: 1282px;
-    height: 76px;
-    z-index: 1;
-    background-color: #ffffff;
-
-}
+/* Place pic*/
+.Place{
+  position: relative;
+   height: 335px;
+   width: 425px;
+   top: 54px;
+   right: -5%;
+   bottom: -69%;
+   }
+/* Place Tile*/
+   .Placetext {
+    position: absolute;
+    top: 64%;
+    left: 220px;
+    font-size: 40px;  
+    letter-spacing: 0em;
+    color:#ffffff;
+    font-family:Dosis;
+  } 
+  /* Place Info*/
+  .Placeinfo {
+    position: absolute;
+    top: 73%;
+    left: 170px;
+    font-size: 17px;  
+    letter-spacing: 0em;
+    color:#ffffff;
+    font-family:Dosis;
+  } 
+   /*Info*/
+   .Info {
+    position: absolute;
+    top: 122%;
+    left: 228px;
+    font-size: 40px;  
+    letter-spacing: 0em;
+    color:#000000;
+    font-family:Dosis;
+  } 
+  /*Infotext*/
+  .Infotext {
+    position: absolute;
+    top: 130%;
+    left: 43px;
+    font-size: 20px;  
+    letter-spacing: 0em;
+    width: 500px;
+    color:#2d2d2d;
+    font-family:Dosis;
+    text-align: justify;
+  } 
+   /*Subscribe*/
+   .Subscribe {
+    position: absolute;
+    top: 149%;
+    left: 570px;
+    font-size: 40px;  
+    letter-spacing: 0em;
+    color:#000000;
+    font-family:Dosis;
+  } 
+  /*Signinfo*/
+  .Signinfo {
+    position: absolute;
+    top: 156%;
+    left: 430px;
+    font-size: 18px;  
+    letter-spacing: 0em;
+    color:#000000;
+    font-family:Dosis;
+  } 
+    /*Signbutton*/
+    .Signbutton {
+      cursor: pointer;
+      border: 8;
+      padding: 0;
+      background-color: transparent;
+      position: absolute;
+      top: 975px;
+      left: 760px;
+      width: 131px;
+      height: 51px;
+    } 
