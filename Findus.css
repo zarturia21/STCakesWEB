@@ -8,7 +8,7 @@ body{
     position: absolute;
     top: 5866px;
     left: 0;
-    width: 920px;
+    width: 900px;
     height: 446px;
     z-index: 1;
   }
@@ -19,7 +19,7 @@ body{
     height: 86px;
    
   }
-  /*Background ni dri Upper*/         
+  /*Background*/         
 
 .FindUsBackground {
     z-index: 2;
@@ -31,15 +31,24 @@ body{
    right: 0;
    bottom: 0;
    left: 0;
-
-   
    }
+    /*Title*/ 
+.store-location {
+  position: absolute;
+  top: 25%;
+  left: 400px;
+  font-size: 50px;  
+  letter-spacing: 0em;
+  color:#ffffff;
+  font-family:'Dosis'Arial;
+} 
 
+   /*White Rectangle*/ 
 .Pline1
 {position: absolute;
     top: 40px;
     left: -10px;
-    width: 1287px;
+    width: 1282px;
     height: 76px;
     z-index: 1;
     background-color: #ffffff;
