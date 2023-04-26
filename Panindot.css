@@ -13,19 +13,29 @@ body {
 }
 
 .promo2 {
-  position: absolute;
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  font-size: 1.2vw;
-  width: 5%;
+  position: absolute;
+  top: 4%;
+  left: 22%;
+  width: 10%;
   height: 5%;
+  font-size: 1.2rem;
 }
 
 .promo2 {
-  top: 5%;
-  left: 12%;
+  top: 1.8vw;
+  left: 9vw;
+  line-height: 26%;
+  font-family: var(--font-gupter);
+  color: #161616;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
 }
 
 .customize-us1 {
@@ -40,7 +50,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2vw;
+  font-size: 1.2rem;
 }
 
 .customize-us {
@@ -53,7 +63,7 @@ body {
   left: 22%;
   width: 10%;
   height: 5%;
-  font-size: 1.2vw;
+  font-size: 1.2rem;
 }
 
 .s-cakes-logo-1 {
@@ -74,16 +84,16 @@ body {
 }
 
 .est-2013 {
-  top: 8%;
+  top: 7%;
   left: 53%;
-  font-size: 0.8vw;
+  font-size: 0.8rem;
   line-height: 26px;
   color: var(--color-black);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 5vw;
-  height: 2.5vw;
+  width: 5rem;
+  height: 2.5rem;
 }
 
 .Findus {
@@ -100,7 +110,7 @@ body {
   left: 65%;
   width: 10%;
   height: 5%;
-  font-size: 1.2vw;
+  font-size: 1.2rem;
 }
 
 .aboutuus {
@@ -113,7 +123,7 @@ body {
   left: 78%;
   width: 10%;
   height: 5%;
-  font-size: 1.2vw;
+  font-size: 1.2rem;
 }
 
 .cake-main {
@@ -131,6 +141,7 @@ body {
 .cake-main {
   width: 111.5%;
 }
+
 
 .tscakes {
   position: absolute;
@@ -207,24 +218,26 @@ body {
 
 /* sa ubos title */
 /* cake vary*/
+/* Cake name */
 .caken-nidri {
   position: absolute;
-  top: 115%;
+  top: 123%;
   left: 50%;
   transform: translate(-50%, -50%);
   letter-spacing: 0.14em;
-  line-height: 5vw;
+  line-height: 6vw;
   color: #505050;
   display: flex;
   align-items: center;
-  font-size: 2vw;
+  justify-content: center;
+  font-size: 1.8vw;
   font-family: Dosis;
 }
 
-/* cake variety everythingnasad*/
+/* Cake variety */
 .caken-varyni {
   position: absolute;
-  top: 128%;
+  top: calc(100% + 16.5vw);
   left: 50%;
   transform: translate(-50%, -50%);
   letter-spacing: 0.14em;
@@ -232,358 +245,451 @@ body {
   color: #505050;
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
-  width: 80%;
+  width: 90%;
   max-width: 800px;
-  font-size: 1.5vw;
-  margin: auto;
+  font-size: 1.8vw;
   font-family: Dosis;
 }
 
-/* Loc address name */
+/* Location address */
 .addrssbelow {
   position: absolute;
-  top: 200%;
+  top: calc(100% + 24vw);
   left: 50%;
   transform: translate(-50%, -50%);
   letter-spacing: 2px;
-  line-height: 5vw;
+  line-height: 6vw;
   color: #7c7c7cd8;
   display: flex;
   align-items: center;
-  width: 80%;
+  justify-content: center;
+  width: 90%;
   max-width: 800px;
-  font-size: 1.2vw;
+  font-size: 1.4vw;
   font-family: Dosis;
 }
 
 /* line for gapping */
 
   
-  .for-Lin1
-  {
+.for-Lin1 {
   position: absolute;
-    top: 980px;
-    left: 100px;
-    width: 1150px;
-    height: 2px;
-  }
-  
-  .for-Lin2
-  {
+  top: calc(100% + 26vw);
+  left: 5%;
+  width: 90%;
+  height: 2px;
+}
+
+.for-Lin2 {
   position: absolute;
-    top: 635px;
-    left: 100px;
-    width: 1150px;
-    height: 2px;
-    height: 900px;
-  }
-  
-  .for-Lin3
-  {
+  top: calc(100% + 33.5vw);
+  left: 5%;
+  width: 90%;
+  height: 2px;
+}
+
+.for-Lin3 {
   position: absolute;
-    top: 1250px;
-    left: 100px;
-    width: 1150px;
-    height: 2px;
-  
-  }
+  top: calc(100% + 47vw);
+  left: 5%;
+  width: 90%;
+  height: 2px;
+}
+
   /* para sa 3 parts na */
-  
+
   .Main-3 {
-    height: 97.96%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    line-height: 70px;
+    position:absolute;
+    height: 10vh;
+    top: calc(100% + 50.5vw);
+    left: 38%;
+    width: 5%;
+    line-height: 7vw;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    font-family:Dosis;
+    font-family: Dosis;
+    font-size: 2vw;
   }
   
   .categories1 {
     position: absolute;
-    top: 1008px;
-    left: 552px;
+    top: 45vh;
+    left: 47.5vw;
     box-sizing: border-box;
-    width: 222px;
-    height: 49px;
-    font-size: 25px;
-    color:rgb(228, 94, 217);
+    width: 5%;
+    height: 5vh;
+    font-size: 5vw;
+    color: rgb(228, 94, 217);
   }
   
   .Main-2 {
-    height: 97.96%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    line-height: 70px;
+    position: absolute;
+    height: 10vh;
+    top: calc(100% + 50.5vw);
+    font-size: 2vw;
+    left: 10vw;
+    width: 5%;
+    line-height: 7vw;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
   }
+  
   .Promo1 {
     position: absolute;
-    top: 1008px;
-    left: 280px;
+    top: 45vh;
+    left: 15vw;
     box-sizing: border-box;
-    width: 222px;
-    height: 49px;
-    font-size: 25px;
-    color:rgb(228, 94, 217);
-     font-family:Dosis;
+    width: 25vw;
+    height: 5vh;
+    font-size: 5vw;
+    color: rgb(228, 94, 217);
+    font-family: Dosis;
   }
   
   .Main-1 {
-    height: 97.96%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    line-height: 70px;
+    position: absolute;
+    top: calc(100% + 51.6vw);
+    font-size: 2vw;
+    left: calc(0% + 4vw);
+    height: 5vh;
+    width: 5%;
+    line-height: 7vw;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    font-family:Dosis;
+    font-family: Dosis;
   }
+  
   .Customize1 {
     position: absolute;
-    top: 1008px;
-    left: 860px;
+    top: 45vh;
+    left: 71vw;
     box-sizing: border-box;
-    width: 222px;
-    height: 49px;
-    font-size: 25px;
-    color:rgb(228, 94, 217);
+    width: 25vw;
+    height: 5vh;
+    font-size: 5vw;
+    color: rgb(228, 94, 217);
   }
   
   /* time date sched of scakes */
   
   .Monday {
     position: absolute;
-    top: 1120px;
-    left: 552px;
+    top: 178vh;
+    font-size: 1.5vw;
+    left: 42vw;
     box-sizing: border-box;
-    width: 250px;
-    height: 49px;
-    font-size: 20px;
-    color:rgba(87, 87, 87, 0.733);
-    font-family:Dosis;
+    width: 30vw;
+    height: 5vh;
+    color: rgba(87, 87, 87, 0.733);
+    font-family: Dosis;
   }
   
   .Saturday {
     position: absolute;
-    top: 1160px;
-    left: 590px;
+    top: 186vh;
+    font-size: 1.5vw;
+    left: 44vw;
     box-sizing: border-box;
-    width: 250px;
-    height: 49px;
-    font-size: 20px;
-    color:rgba(87, 87, 87, 0.733);
-    font-family:Dosis;
+    width: 30vw;
+    height: 5vh;
+    color: rgba(87, 87, 87, 0.733);
+    font-family: Dosis;
   }
   
   .Sunday {
     position: absolute;
-    top: 1200px;
-    left: 590px;
+    top: 193.5vh;
+    left: 44.4vw;
     box-sizing: border-box;
-    width: 250px;
-    height: 49px;
-    font-size: 20px;
-    color:rgba(87, 87, 87, 0.733);
-    font-family:Dosis;
+    width: 30vw;
+    height: 5vh;
+    font-size: 1.5vw;
+    color: rgba(87, 87, 87, 0.733);
+    font-family: Dosis;
   }
+  
   
   /* join us dapit*/
   
   .JoinUs {
     position: absolute;
-    top: 1280px;
-    left: 135px;
+    top: calc(100% + 48vw);
+    left: 5%;
     box-sizing: border-box;
-    width: 1100px;
-    height: 49px;
-    font-size: 17px;
-    color:rgba(0, 0, 0, 0.733);
+    width: 90%;
+    height: auto;
+    font-size: 1.2vw;
+    color: rgba(0, 0, 0, 0.733);
     text-align: center;
-    letter-spacing: 4px;
-    font-family:Dosis;
+    letter-spacing: 0.2vw;
+    font-family: Dosis;
   }
   
-  /*special cake offer */
+  /* special cake offer */
   
-  .special-cake-offer
-  {
+  .special-cake-offer {
     position: absolute;
-    top: 1445px;
-    left: 590px;
-    color:rgba(0, 0, 0, 0.733);
+    top: calc(100% + 58.5vw);
+    left: 45%;
+    color: rgba(0, 0, 0, 0.733);
     text-align: center;
-    font-family:Dosis;
-    font-size: 25px;
-    height: 100px;
+    font-family: Dosis;
+    font-size: 1.5vw;
+    height: 10%;
   }
   
   .sco1 {
-   cursor: pointer;
-    font-family:Dosis;
+    cursor: pointer;
+    font-family: Dosis;
   }
+  
   
   /*Event images*/
-  
   .event-cakes {
     position: absolute;
-    height: 100%;
     width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    max-width: 100%;
+    height: auto;
     overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
+    top: calc(100% + 62vw);
+    left: 0%;
   }
   
-  .event-cakes
-  {
-    top: 1500px;
-    left: 0px;
-    width: 1500px;
-    height: 622px;
+  .event-cakes img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
   }
   
   .wedding-cake {
     position: absolute;
     height: 13.86%;
     width: 64.32%;
-    top: 1800px;
-    left: 17.86%;
+    top: calc(100% + 87vw);
+    left: 51.5%;
+    transform: translate(-50%, -50%);
     letter-spacing: 0.17em;
+    cursor: pointer;
     line-height: 26px;
     display: flex;
     align-items: center;
     justify-content: center;
     color:#f1f1f1;
-    font-size:40px;
+    font-size:calc(2rem + 1vw);
   }
-
+  
   /* Quote/tagline */
 /*JM NIIIASDDDD WJASDPOAJSDKA */
 
-  .sweetness-in-every {
-    position: absolute;
-    top: 2120px;
-    left: 300px;
-    font-size: 55px;
-    line-height: 36px;
-    font-family: Cookie;
-    color: rgba(242, 151, 151, 0.55);
-    text-align: left;
-    display: flex;
-    align-items: center;
-    width: 900px;
-    height: 136px;
-  }
+ /* Sweetness in every */
+.sweetness-in-every {
+  position: absolute;
+  font-size: 4vw;
+  line-height: 1.2;
+  font-family: Cookie;
+  color: rgba(242, 151, 151, 0.55);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  top: calc(100% + 113vw);
+  left: 20%;
+}
 
-  /* APRAA SA LAYNNNN */
+/* APRAA SA LAYNNNN */
+.PLine1,
+.PLine2,
+.PLine3 {
+  position: absolute;
+  width: 80%;
+  height: 2px;
+  background-color: #ffbfcac2;
+  top: 28vw;
+  left: 10%;
+  height: 0.4vw;
+}
 
-  .PLine1 
-  {  
-  position:absolute;
-  width: 1150px;  
-  height: 2px;  
-  background-color: #ffbfcac2;  
-  top: 2245px;
-  left: 100px;
-  height: 8px;
-  }  
+.PLine1 {
+  top: calc(100% + 118.5vw);
+}
 
-  .PLine2
-  {  
-  position:absolute;
-  width: 1150px;  
-  height: 2px;  
-  background-color: #ffbfcac2;  
-  top: 2340px;
-  left: 100px;
-  height: 8px;
-  }  
+.PLine2 {
+  top: calc(100% + 127vw);
+}
 
-  .PLine3
-  {  
-  position:absolute;
-  width: 1150px;  
-  height: 2px;  
-  background-color: #ffbfcac2;  
-  top: 2820px;
-  left: 100px;
-  height: 8px;
-  }  
+.PLine3 {
+  top: calc(100% + 163vw);
+}
 
+.Categ-Big {
+  position: absolute;
+  top: calc(100% + 120.2vw);
+  left: 24.5%;
+  font-size: 4vw;
+  margin: auto;
+  letter-spacing: 4vw;
+  font-family:Dosis;
+}
 
-  .Categ-Big
-  {
-    position:absolute;
-    top: 2280px;
-    left: 450px;
-    font-size: 30px;
-    margin: auto;
-    letter-spacing: 40px;
-    font-family:Dosis;
-  }
-
-  /*categories na naay lami na cake */
-
+/*categories na naay lami na cake */
 .Cake-C {
   position: absolute;
-  top: 2410px;
-  left: 145px;
-  width: 250px;
-  height: 350px;
+  top: calc(100% + 130vw);
+  left: 12%;
+  width: 21vw;
+  height: 67vh;
 }
 .Pastrien-C {
   position: absolute;
-  top: 2410px;
-  left: 575px;
-  width: 250px;
-  height: 350px;
+  top: calc(100% + 130vw);
+  left: 40.2%;
+  width: 21vw;
+  height: 67vh;
 }
 .Bread-C {
   position: absolute;
-  top: 2410px;
-  left: 965px;
-  width: 250px;
-  height: 350px;
+  top: calc(100% + 130vw);
+  left: 68%;
+  width: 21vw;
+  height: 67vh;
 }
 
 /* more sa pinakalast */
-
 .news-events {
   position: absolute;
   letter-spacing: 0.14em;
-  line-height: 36px;
+  line-height: 6vw;
   font-family: cormorant;
-  color: darkslategray;
+  color: #223131;
   display: flex;
   align-items: center;
-  height: 120px;
+  height: 12vh;
 }
 .news-events {
-  top: 2820px;
-  left: 550px;
-  font-size:40px;
-  width: 727px;
+  top: calc(100% + 164vw);
+  left: 38.7%;
+  font-size: 3vw;
+  width: 48vw;
 }
 .keep-up-to {
-  position:absolute;
-  top: 2910px;
-  left: 440px;
-  font-size: 17px;
-  width:600px;
-  color: darkslategray;
+  position: absolute;
+  top: calc(100% + 169vw);
+  left: 29%;
+  font-size: 1.5vw;
+  width: 60vw;
+  color: #223131;
+  font-family: cormorant;
+}
+
+/* N1-3 layers of images */
+
+.N1 {
+  position: absolute;
+  top: calc(100% + 173vw);
+  left: 12%;
+  width: 21vw;
+  height: 45vh;
+}
+
+.N2 {
+  position: absolute;
+  top: calc(100% + 173vw);
+  left: 40.5%;
+  width: 21vw;
+  height: 45vh;
+}
+
+.N3 {
+  position: absolute;
+  top: calc(100% + 173vw);
+  left: 68%;
+  width: 21vw;
+  height: 45vh;
+}
+
+/* mga info na gi sulat under sa iamges*/
+
+.Info1
+{
+  position: absolute;
+  top: calc(100% + 194.5vw);
+  left: 12%;
+  font-size: 1.5vw;
+  width: 60vw;
+  color: #161616e7;
+  font-family: cormorant;
+}
+.Date1 
+{
+  position: absolute;
+  top: calc(100% + 196.5vw);
+  left: 12%;
+  font-size: 1.2vw;
+  width: 60vw;
+  color: #161616e7;
+  font-family: cormorant;
+  color:gray;
+}
+
+.Info2
+{
+  position: absolute;
+  top: calc(100% + 194.5vw);
+  left: 40.5%;
+  font-size: 1.5vw;
+  width: 22vw;
+  color: #161616e7;
+  font-family: cormorant;
+}
+.Date2 
+{
+  position: absolute;
+  top: calc(100% + 198.5vw);
+  left: 40.5%;
+  font-size: 1.2vw;
+  width: 50vw;
+  color: #161616e7;
+  font-family: cormorant;
+  color:gray;
+}
+
+.Info3
+{
+  position: absolute;
+  top: calc(100% + 194.5vw);
+  left: 70.5%;
+  font-size: 1.5vw;
+  width: 22vw;
+  color: #161616e7;
+  font-family: cormorant;
+}
+.Date3
+{
+  position: absolute;
+  top: calc(100% + 200vw);
+  left: 70.5%;
+  font-size: 1.2vw;
+  width: 10vw;
+  color: #161616e7;
+  font-family: cormorant;
+  color:gray;
+}
+
+.BLine4 {
+  position: absolute;
+  width: 92%;
+  height: 2px;
+  background-color: #2c2c2cc2;
+  top: 28vw;
+  left: 5%;
+  height: 0.4vw;
+  top: calc(100% + 205vw);
 }
