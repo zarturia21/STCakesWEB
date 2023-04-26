@@ -7,9 +7,9 @@ body{
   position:absolute;
   height: 10%;
   width: 46%;
-  top: 15%;
+  top: 11%;
   left: 6%;
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-family: Dosis;
   color: rgb(0, 0, 0);
 }
@@ -17,29 +17,29 @@ body{
   position:absolute;
   height: 10%;
   width: 46%;
-  top: 15%;
+  top: 11%;
   left: 18%;
-  font-size: 25px;
+  font-size: 2.5vw;
   font-family: Dosis;
   color: rgb(0, 0, 0);
 }
 .Products{
   position:absolute;
   height: 10%;
-  width: 46%;
-  top: 15%;
-  left: 66%;
-  font-size: 25px;
+  width: 1%;
+  top: 11%;
+  left: 69%;
+  font-size: 2.5vw;
   font-family: Dosis;
   color: rgb(0, 0, 0);
 }
 .Customize{
   position:absolute;
   height: 10%;
-  width: 46%;
-  top: 15%;
-  left: 82%;
-  font-size: 25px;
+  width: 1%;
+  top: 11%;
+  left: 85%;
+  font-size: 2.5vw;
   font-family: Dosis;
   color: rgb(0, 0, 0);
 }
@@ -47,119 +47,103 @@ body{
   
  .s-cakes-logo-1 {
     position: absolute;
-    top: 5866px;
-    left: 0;
-    width: 900px;
-    height: 446px;
+    left: 0%;
     z-index: 1;
   }
   .s-cakes-logo-1 {
-    top: 53px;
-    left: 540px;
-    width: 156px;
-    height: 86px;
+    top: 6%;
+    left: 42%;
+    width: 13%;
+    height: 16%;
    
   }
   .est-2013 {
     position: absolute;
-    top: 0;
-    left: 1px;
-    width: 146px;
-    height: 122px;
-  }
-  .est-2013 {
-    top: 90px;
-    left: 664px;
-    font-size: 8px;
-    line-height: 26px;
-    color: var(--color-black);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 69px;
-    height: 24px;
+    top: 14%;
+    left: 54%;
+    font-size: .8vw;
+    line-height: 26%;
+    color: #000000;
+    width: 19%;
+    height: 9%;
   }
 
   
   /*Background*/         
 
    .FindUsBackground1 {
-  position: relative;
+  position: absolute;
    height: 67px;
-   width: 1275px;
-   top: -8;
-   right: 0;
-   bottom: 0;
-   left: -8;
+   width: calc(100% + 0vw);
+   top: 0%;
+   right: 0%;
+   bottom: 0%;
+   left: 0%;
    }
 
    .FindUsBackground2 {
-    position: relative;
+    position: absolute;
      height: 235px;
-     width: 1275px;
-     top: -167;
-     right: 0;
-     bottom: 0;
-     left: -8;
+     width: calc(100% + 0vw);
+     top: 10%;
+     right: 0%;
+     bottom: 0%;
+     left: 0%;
      }
 
     /*Title*/ 
 .store-location {
   position: absolute;
-  top: 35%;
-  left: 415px;
-  font-size: 55px;  
-  letter-spacing: 0em;
+  top: 28%;
+  left: 33%;
+  right: 23%;
+  font-size: 5vw;  
   color:#ffffff;
   font-family:Dosis;
 } 
 /* Place pic*/
 .Place{
-  position: relative;
-   height: 335px;
-   width: 425px;
-   top: 54px;
-   right: -5%;
+  position: absolute;
+   height: 55%;
+   width: 35%;
+   top: 60%;
+   right: 60%;
    bottom: -69%;
    }
 /* Place Tile*/
    .Placetext {
     position: absolute;
-    top: 64%;
-    left: 220px;
-    font-size: 40px;  
-    letter-spacing: 0em;
+    top: 61%;
+    left: 19%;
+    font-size: 3.3vw;  
     color:#ffffff;
     font-family:Dosis;
   } 
   /* Place Info*/
   .Placeinfo {
     position: absolute;
-    top: 73%;
-    left: 170px;
-    font-size: 17px;  
-    letter-spacing: 0em;
+    top: 70%;
+    left: 14%;
+    font-size: 1.5vw;  
     color:#ffffff;
     font-family:Dosis;
   } 
    /*Info*/
    .Info {
     position: absolute;
-    top: 122%;
-    left: 228px;
-    font-size: 40px;  
-    letter-spacing: 0em;
+    top: 118%;
+    left: 20%;
+    font-size: 3.3vw;  
     color:#000000;
     font-family:Dosis;
   } 
   /*Infotext*/
   .Infotext {
     position: absolute;
-    top: 130%;
-    left: 80px;
-    font-size: 20px;  
-    letter-spacing: 0em;
-    width: 400px;
+    top: 127%;
+    left: 6%;
+    font-size: 1.5vw;  
+    width: 33%;
     color:#2d2d2d;
     font-family:Dosis;
     text-align: justify;
@@ -168,60 +152,56 @@ body{
    .Subscribe {
     position: absolute;
     top: 149%;
-    left: 570px;
-    font-size: 40px;  
-    letter-spacing: 0em;
+    left: 45%;
+    font-size: 3vw;  
     color:#000000;
     font-family:Dosis;
   } 
   /*Signinfo*/
   .Signinfo {
     position: absolute;
-    top: 156%;
-    left: 430px;
-    font-size: 18px;  
-    letter-spacing: 0em;
+    top: 157%;
+    left: 33%;
+    font-size: 1.5vw;  
     color:#000000;
     font-family:Dosis;
   } 
     /*Signbutton*/
-    .Signbutton {
-      cursor: pointer;
-      border: 8;
-      padding: 0;
-      background-color: transparent;
+    .signup-btn {
       position: absolute;
-      font-size: 18px;
-      top: 975px;
-      left: 760px;
-      width: 131px;
-      height: 51px;
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 1vw;
+      font-weight: bold;
+      text-align: center;
+      top: 162%;
+      left: 55%;
+      text-decoration: none;
+      border-radius: 5px;
+      border: none;
+      background-color: #f880b8;
+      color: #ffffff;
+      cursor: pointer;
+    }
+    
+    .signup-btn:hover {
+      background-color: #Ffbfcac2;
     } 
      /*We respect your privacy*/
   .WRYP {
     position: absolute;
-    top: 170%;
-    left: 571px;
-    font-size: 15px;  
-    letter-spacing: 0em;
+    top: 169%;
+    left: 46%;
+    font-size: 1.2vw;  
     color:#000000;
     font-family:Dosis;
-  } 
-   /*Line*/
-  .for-Lin1
-  {
-  position: absolute;
-    top: 1100px;
-    left: 63px;
-    width: 1150px;
-    height: 2px;
   }
    /*Map*/
   iframe{
     position: absolute;
     width: 55%;
     height: 80%;
-    top: 62.8%;
+    top: 60%;
     bottom: 40%;
     left: 42%;
   }
@@ -232,6 +212,7 @@ body{
     height: 5%;
     top: 162%;
     bottom: 40%;
-    left: 42%;
+    left: 38%;
   }
+
     
