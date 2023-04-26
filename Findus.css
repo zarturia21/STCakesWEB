@@ -1,6 +1,6 @@
 body{
 
-    background-color: #f1f1f1;
+    background-color: #fefaf1;
 }
 /* Buttons */
 .Home{
@@ -9,7 +9,7 @@ body{
   width: 46%;
   top: 15%;
   left: 6%;
-  font-size: 25px;
+  font-size: 3vw;
   font-family: Dosis;
   color: rgb(0, 0, 0);
 }
@@ -156,10 +156,10 @@ body{
   .Infotext {
     position: absolute;
     top: 130%;
-    left: 43px;
+    left: 80px;
     font-size: 20px;  
     letter-spacing: 0em;
-    width: 500px;
+    width: 400px;
     color:#2d2d2d;
     font-family:Dosis;
     text-align: justify;
@@ -207,6 +207,7 @@ body{
     color:#000000;
     font-family:Dosis;
   } 
+   /*Line*/
   .for-Lin1
   {
   position: absolute;
@@ -215,3 +216,22 @@ body{
     width: 1150px;
     height: 2px;
   }
+   /*Map*/
+  iframe{
+    position: absolute;
+    width: 55%;
+    height: 80%;
+    top: 62.8%;
+    bottom: 40%;
+    left: 42%;
+  }
+  /*SignUp Box*/
+  input{
+    position: absolute;
+    width: 15%;
+    height: 5%;
+    top: 162%;
+    bottom: 40%;
+    left: 42%;
+  }
+    
