@@ -191,8 +191,27 @@ body{
       padding: 0;
       background-color: transparent;
       position: absolute;
+      font-size: 18px;
       top: 975px;
       left: 760px;
       width: 131px;
       height: 51px;
     } 
+     /*We respect your privacy*/
+  .WRYP {
+    position: absolute;
+    top: 170%;
+    left: 571px;
+    font-size: 15px;  
+    letter-spacing: 0em;
+    color:#000000;
+    font-family:Dosis;
+  } 
+  .for-Lin1
+  {
+  position: absolute;
+    top: 1100px;
+    left: 63px;
+    width: 1150px;
+    height: 2px;
+  }
