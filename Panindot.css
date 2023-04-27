@@ -127,6 +127,7 @@ body {
   height: 5%;
   font-size: 1.2rem;
 }
+/*CakeCategories*/
 .TitleBG {
   position: absolute;
   z-index: -1;
@@ -153,12 +154,13 @@ body {
   width: 80%;
   font-size: 1.4vw;
   font-family: Cormorant;
+  text-align: justify;
   color: #ffffff
 }
 .cake1{
   position: absolute;
-  top: 83%;
-  left: 2%;
+  top: 82%;
+  left: 3%;
   width: 15%;
   height: 50%;
 }
@@ -167,6 +169,7 @@ body {
   top: 135%;
   left: 6%;
   font-size: 1.7vw;
+  font-family: Cormorant;
   width: 15%;
   height: 50%;
 }
@@ -196,6 +199,7 @@ body {
   top: 135%;
   left: 26%;
   font-size: 1.7vw;
+  font-family: Cormorant;
   width: 15%;
   height: 50%;
 }
@@ -225,6 +229,7 @@ body {
   top: 135%;
   left: 46%;
   font-size: 1.7vw;
+  font-family: Cormorant;
   width: 15%;
   height: 50%;
 }
@@ -254,6 +259,7 @@ body {
   top: 135%;
   left: 66%;
   font-size: 1.7vw;
+  font-family: Cormorant;
   width: 15%;
   height: 50%;
 }
@@ -283,6 +289,7 @@ body {
   top: 135%;
   left: 86%;
   font-size: 1.7vw;
+  font-family: Cormorant;
   width: 15%;
   height: 50%;
 }
@@ -312,6 +319,7 @@ body {
   top: 202%;
   left: 6%;
   font-size: 1.7vw;
+  font-family: Cormorant;
   width: 15%;
   height: 50%;
 }
@@ -341,6 +349,7 @@ body {
   top: 202%;
   left: 26%;
   font-size: 1.7vw;
+  font-family: Cormorant;
   width: 15%;
   height: 50%;
 }
@@ -370,6 +379,7 @@ body {
   top: 202%;
   left: 46%;
   font-size: 1.7vw;
+  font-family: Cormorant;
   width: 15%;
   height: 50%;
 }
@@ -399,6 +409,7 @@ body {
   top: 202%;
   left: 66%;
   font-size: 1.7vw;
+  font-family: Cormorant;
   width: 15%;
   height: 50%;
 }
@@ -428,12 +439,671 @@ body {
   top: 202%;
   left: 86%;
   font-size: 1.7vw;
+  font-family: Cormorant;
   width: 15%;
   height: 50%;
 }
 .cakeprice10 {
   position: absolute;
   top: 204%;
+  left: 86%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b10
+{
+  color:red;
+  font-size: 3vw;
+}
+/*Bread Categories*/
+.BreadBG {
+  position: absolute;
+  z-index: -1;
+  top: 230%;
+  left: 0%;
+  width: 100%;
+  height: 60%;
+  object-fit:fill;
+}
+.BREAD {
+  position: absolute;
+  top: 260%;
+  left: 6%;
+  font-size: 5vw;
+  font-family: Cormorant;
+  color: #ffffff
+}
+/*Bread Info*/
+.BREADInfo {
+  position: absolute;
+  top: 273%;
+  left: 6%;
+  width: 80%;
+  font-size: 1.4vw;
+  font-family: Cormorant;
+  text-align: justify;
+  color: #ffffff
+}
+.bread1{
+  position: absolute;
+  top: 303%;
+  left: 3%;
+  width: 15%;
+  height: 50%;
+}
+.BreadName1{
+  position: absolute;
+  top: 355%;
+  left: 6%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.breadprice1 {
+  position: absolute;
+  top: 357%;
+  left: 6%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b1
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread2{
+  position: absolute;
+  top: 303%;
+  left: 23%;
+  width: 15%;
+  height: 50%;
+}
+.BreadName2{
+  position: absolute;
+  top: 355%;
+  left: 26%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.breadprice2 {
+  position: absolute;
+  top: 357%;
+  left: 26%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b2
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread3{
+  position: absolute;
+  top: 303%;
+  left: 43%;
+  width: 15%;
+  height: 50%;
+}
+.BreadName3{
+  position: absolute;
+  top: 355%;
+  left: 46%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.breadprice3 {
+  position: absolute;
+  top: 357%;
+  left: 46%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b3
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread4{
+  position: absolute;
+  top: 303%;
+  left: 63%;
+  width: 15%;
+  height: 50%;
+}
+.BreadName4{
+  position: absolute;
+  top: 355%;
+  left: 66%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.breadprice4 {
+  position: absolute;
+  top: 357%;
+  left: 66%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b4
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread5{
+  position: absolute;
+  top: 303%;
+  left: 83%;
+  width: 15%;
+  height: 50%;
+}
+.BreadName5{
+  position: absolute;
+  top: 355%;
+  left: 86%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.breadprice5 {
+  position: absolute;
+  top: 357%;
+  left: 86%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b5
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread6{
+  position: absolute;
+  top: 375%;
+  left: 3%;
+  width: 15%;
+  height: 50%;
+}
+.BreadName6{
+  position: absolute;
+  top: 427%;
+  left: 6%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.breadprice6 {
+  position: absolute;
+  top: 429%;
+  left: 6%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b6
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread7{
+  position: absolute;
+  top: 375%;
+  left: 23%;
+  width: 15%;
+  height: 50%;
+}
+.BreadName7{
+  position: absolute;
+  top: 427%;
+  left: 26%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.breadprice7 {
+  position: absolute;
+  top: 429%;
+  left: 26%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b7
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread8{
+  position: absolute;
+  top: 375%;
+  left: 43%;
+  width: 15%;
+  height: 50%;
+}
+.BreadName8{
+  position: absolute;
+  top: 427%;
+  left: 46%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.breadprice8 {
+  position: absolute;
+  top: 429%;
+  left: 46%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b8
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread9{
+  position: absolute;
+  top: 375%;
+  left: 63%;
+  width: 15%;
+  height: 50%;
+}
+.BreadName9{
+  position: absolute;
+  top: 427%;
+  left: 66%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.breadprice9 {
+  position: absolute;
+  top: 429%;
+  left: 66%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b9
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread10{
+  position: absolute;
+  top: 375%;
+  left: 83%;
+  width: 15%;
+  height: 50%;
+}
+.BreadName10{
+  position: absolute;
+  top: 427%;
+  left: 86%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.breadprice10 {
+  position: absolute;
+  top: 429%;
+  left: 86%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b10
+{
+  color:red;
+  font-size: 3vw;
+}
+/*Pastry Categories*/
+.PastryBG {
+  position: absolute;
+  z-index: -1;
+  top: 450%;
+  left: 0%;
+  width: 100%;
+  height: 60%;
+  object-fit:fill;
+}
+.PASTRY {
+  position: absolute;
+  top: 480%;
+  left: 6%;
+  font-size: 5vw;
+  font-family: Cormorant;
+  color: #ffffff
+}
+/*Bread Info*/
+.PASTRYInfo {
+  position: absolute;
+  top: 493%;
+  left: 6%;
+  width: 60%;
+  font-size: 1.4vw;
+  font-family: Cormorant;
+  text-align: justify;
+  color: #ffffff
+}
+.pastry1{
+  position: absolute;
+  top: 522%;
+  left: 3%;
+  width: 15%;
+  height: 50%;
+}
+.PastryName1{
+  position: absolute;
+  top: 575%;
+  left: 6%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.pastryprice1 {
+  position: absolute;
+  top: 577%;
+  left: 6%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b1
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry2{
+  position: absolute;
+  top: 522%;
+  left: 23%;
+  width: 15%;
+  height: 50%;
+}
+.PastryName2{
+  position: absolute;
+  top: 575%;
+  left: 26%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.pastryprice2 {
+  position: absolute;
+  top: 577%;
+  left: 26%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b2
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry3{
+  position: absolute;
+  top: 522%;
+  left: 43%;
+  width: 15%;
+  height: 50%;
+}
+.PastryName3{
+  position: absolute;
+  top: 575%;
+  left: 46%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.pastryprice3 {
+  position: absolute;
+  top: 577%;
+  left: 46%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b3
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry4{
+  position: absolute;
+  top: 522%;
+  left: 63%;
+  width: 15%;
+  height: 50%;
+}
+.PastryName4{
+  position: absolute;
+  top: 575%;
+  left: 66%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.pastryprice4 {
+  position: absolute;
+  top: 577%;
+  left: 66%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b4
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry5{
+  position: absolute;
+  top: 522%;
+  left: 83%;
+  width: 15%;
+  height: 50%;
+}
+.PastryName5{
+  position: absolute;
+  top: 575%;
+  left: 86%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.pastryprice5 {
+  position: absolute;
+  top: 577%;
+  left: 86%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b5
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry6{
+  position: absolute;
+  top: 595%;
+  left: 3%;
+  width: 15%;
+  height: 50%;
+}
+.PastryName6{
+  position: absolute;
+  top: 647%;
+  left: 6%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.pastryprice6 {
+  position: absolute;
+  top: 649%;
+  left: 6%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b6
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry7{
+  position: absolute;
+  top: 595%;
+  left: 23%;
+  width: 15%;
+  height: 50%;
+}
+.PastryName7{
+  position: absolute;
+  top: 647%;
+  left: 26%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.pastryprice7 {
+  position: absolute;
+  top: 649%;
+  left: 26%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b7
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry8{
+  position: absolute;
+  top: 595%;
+  left: 43%;
+  width: 15%;
+  height: 50%;
+}
+.PastryName8{
+  position: absolute;
+  top: 647%;
+  left: 46%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.pastryprice8 {
+  position: absolute;
+  top: 649%;
+  left: 46%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b8
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry9{
+  position: absolute;
+  top: 595%;
+  left: 63%;
+  width: 15%;
+  height: 50%;
+}
+.PastryName9{
+  position: absolute;
+  top: 647%;
+  left: 66%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.pastryprice9 {
+  position: absolute;
+  top: 649%;
+  left: 66%;
+  width: 80%;
+  font-size: 2vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b9
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry10{
+  position: absolute;
+  top: 595%;
+  left: 83%;
+  width: 15%;
+  height: 50%;
+}
+.PastryName10{
+  position: absolute;
+  top: 647%;
+  left: 86%;
+  font-size: 1.7vw;
+  font-family: Cormorant;
+  width: 15%;
+  height: 50%;
+}
+.pastryprice10 {
+  position: absolute;
+  top: 649%;
   left: 86%;
   width: 80%;
   font-size: 2vw;
