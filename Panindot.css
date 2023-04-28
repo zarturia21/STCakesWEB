@@ -136,8 +136,8 @@ body {
 }
 
 .cake-main {
-  height: 100%;
-  max-width: 150%;
+  height: calc(100% + 20vw);
+  max-width: 100;
   top: 0;
   right: 0;
   bottom: 0;
@@ -148,7 +148,7 @@ body {
 }
 
 .cake-main {
-  width: 111.5%;
+  width: calc(100% + 8.1vw);
 }
 
 
@@ -177,7 +177,7 @@ body {
   /* cake bread title */
 .cakes-bread {
   position: absolute;
-  top: 65%;
+  top: 60%;
   left: 50%;
   padding-top: 3%;
   transform: translate(-50%, -50%);
@@ -229,8 +229,8 @@ body {
 /* cake vary*/
 /* Cake name */
 .caken-nidri {
-  position: absolute;
-  top: 123%;
+  position: relative;
+  top: -8vw;
   left: 50%;
   transform: translate(-50%, -50%);
   letter-spacing: 0.14em;
@@ -245,8 +245,8 @@ body {
 
 /* Cake variety */
 .caken-varyni {
-  position: absolute;
-  top: calc(100% + 16.5vw);
+  position: relative;
+  top: -6.5vw;
   left: 50%;
   transform: translate(-50%, -50%);
   letter-spacing: 0.14em;
@@ -264,8 +264,8 @@ body {
 
 /* Location address */
 .addrssbelow {
-  position: absolute;
-  top: calc(100% + 24vw);
+  position: relative;
+  top: -10vw;
   left: 50%;
   transform: translate(-50%, -50%);
   letter-spacing: 2px;
@@ -327,7 +327,7 @@ body {
   
   .categories1 {
     position: absolute;
-    top: 45vh;
+    top: 49vh;
     left: 46.5vw;
     box-sizing: border-box;
     width: 40%;
@@ -353,7 +353,7 @@ body {
   
   .Promo1 {
     position: absolute;
-    top: 45vh;
+    top: 49vh;
     left: 14vw;
     box-sizing: border-box;
     width: 40%;
@@ -381,7 +381,7 @@ body {
   
   .Customize1 {
     position: absolute;
-    top: 45vh;
+    top: 49vh;
     left: 70vw;
     box-sizing: border-box;
     width: 25vw;
@@ -410,7 +410,7 @@ body {
   
   .Monday {
     position: absolute;
-    top: 178vh;
+    top: 171vh;
     font-size: 1.5vw;
     left: 42vw;
     box-sizing: border-box;
@@ -422,7 +422,7 @@ body {
   
   .Saturday {
     position: absolute;
-    top: 186vh;
+    top: 177vh;
     font-size: 1.5vw;
     left: 44vw;
     box-sizing: border-box;
@@ -434,7 +434,7 @@ body {
   
   .Sunday {
     position: absolute;
-    top: 193.5vh;
+    top: 183vh;
     left: 44.4vw;
     box-sizing: border-box;
     width: 30vw;

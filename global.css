@@ -8,6 +8,6 @@ body, html {
 
 .Container {
     width: 90%;
-    min-width: 500px;
+    min-width: 95%;
     margin: auto;
 }
