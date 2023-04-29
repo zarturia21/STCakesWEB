@@ -18,6 +18,24 @@ body {
   border-radius: 4px;
 }
 
+.user-login {
+  z-index: 1;
+  position: absolute;
+  top: 0.3%;
+  left: 2%;
+  width: 7%;
+  height: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.user-login i {
+  font-size: 50px;
+  color: #fd8cfd;
+}
+
 
 .promo2 {
   cursor: pointer;
