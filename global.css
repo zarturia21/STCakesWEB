@@ -1,13 +1,12 @@
-
-body, html {
-    margin: 0px;
-    padding: 0px;
-    background-color: #ededed;
-    font-family: 'Trebuchet MS';
-}
-
 .Container {
     width: 90%;
     min-width: 95%;
+    height: 340vw;
+    margin: auto;
+    
+}
+.html
+{
+    height: 1800vw;
     margin: auto;
 }
