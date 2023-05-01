@@ -601,6 +601,17 @@ body {
   display: block;
   height: auto;
 }
+.Caketxt
+{
+  z-index: 1;
+  position: absolute;
+    top: 216vw;
+    left: 15vw;
+    width: 30vw;
+    height: auto;
+    font-family: Charm;
+    color: white;
+}
 .Pastrien-C {
   position: absolute;
   top: 190vw;
@@ -609,6 +620,17 @@ body {
   display: block;
   height: auto;
 }
+.Pastriestxt
+{
+  z-index: 1;
+  position: absolute;
+    top: 216vw;
+    left: 44.5vw;
+    width: 30vw;
+    height: auto;
+    font-family: Charm;
+    color: white;
+}
 .Bread-C {
   position: absolute;
   top: 190vw;
@@ -616,6 +638,17 @@ body {
   width: 21vw;
   display: block;
   height: auto;
+}
+.Breadtxt
+{
+  z-index: 1;
+  position: absolute;
+    top: 216vw;
+    left: 77.7vw;
+    width: 30vw;
+    height: auto;
+    font-family: Charm;
+    color: white;
 }
 
 /* more sa pinakalast */
