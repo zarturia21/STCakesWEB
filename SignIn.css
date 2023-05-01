@@ -53,3 +53,14 @@ body {
   object-fit:fill;
 }
   
+.white-rectangle {
+  position:  absolute;
+  z-index: -1;
+  width: 40vw;
+  height: 45vw;
+  top: 4vw;
+  left: 29.5vw;
+  opacity: 60%;
+  background-color: rgb(255, 255, 255);
+  display: block;
+}
