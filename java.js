@@ -1,7 +1,8 @@
 //Pag change sa images
 // Array of image URLs
-var images = ["./Photo/mainimg2.png", "./Photo/mainimg3.png", "./Photo/mainimg4.png"];
+var images = ["./Photo/cakemain.png", "./Photo/mainimg2.png", "./Photo/mainimg3.png", "./Photo/mainimg4.png"];
 var currentIndex = 0; 
+
 function changeImage() {
   var img = document.getElementById("Rec1img");
   img.src = images[currentIndex];  
@@ -29,3 +30,55 @@ function PasHov(element, newImage) {
 function BreadHov(element, newImage) {
     element.src = newImage;
 }
+
+
+
+//Vary cakes occasion
+var imagess = ["./Photo/Eventcakes.png", "./Photo/E-cake2.png", "./Photo/E-cake3.png", "./Photo/E-cake4.png"];
+var EcakeIndex = 0; 
+
+function Ecakeschange() {
+  var img = document.getElementById("eventcakess");
+  img.src = imagess[EcakeIndex];  
+  EcakeIndex++; 
+
+  if (EcakeIndex >= imagess.length) {
+    EcakeIndex = 0;
+  }
+}
+
+//===================-varcakes auto
+
+var interval = 3000;  // Change image every 3 seconds
+setInterval(Ecakeschange, interval);
+
+//text automatic move
+var textIndex = 0;
+var texts = ["WEDDING CAKE", "BIRTHDAY CAKE", "ANNIVERSARY CAKE"]; // add your desired texts here
+
+function showNextText() {
+  var textContainer = document.getElementById("varycake");
+  textContainer.innerText = texts[textIndex];
+  textIndex = (textIndex + 1) % texts.length; // wrap around to the beginning of the array
+}
+
+showNextText(); // show the first text immediately
+
+setInterval(showNextText, 5000); // move to the next text every 5 seconds
+
+
+//==============================- VAry text
+
+
+var textIndex = 0;
+var texts = ["WEDDING CAKE", "BIRTHDAY CAKE", "ANNIVERSARY CAKE"]; // add your desired texts here
+
+function showNextText() {
+  var textContainer = $("#varycake");
+  textContainer.text(texts[textIndex]);
+  textIndex = (textIndex + 1) % texts.length; // wrap around to the beginning of the array
+}
+
+showNextText(); // show the first text immediately
+
+setInterval(showNextText, 5000); // move to the next text every 5 seconds

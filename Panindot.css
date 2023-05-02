@@ -274,7 +274,7 @@ body {
 .caken-nidri {
   position: relative;
   top: -8vw;
-  left: 53%;
+  left: 50vw;
   transform: translate(-50%, -50%);
   letter-spacing: 0.14em;
   line-height: 6vw;
@@ -283,6 +283,8 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 1.8vw;
+  width: 80vw;
+  max-width: 100vw;
   font-family: Dosis;
 }
 
@@ -519,9 +521,9 @@ body {
   .wedding-cake {
     position: absolute;
     height: auto;
-    width: 21vw;
+    width: 30vw;
     top: 140vw;
-    left: 41vw;
+    left: 35vw;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -607,7 +609,7 @@ body {
   position: absolute;
     top: 216vw;
     left: 15vw;
-    width: 30vw;
+    width: 10vw;
     height: auto;
     font-family: Charm;
     color: white;
@@ -626,7 +628,7 @@ body {
   position: absolute;
     top: 216vw;
     left: 44.5vw;
-    width: 30vw;
+    width: 10vw;
     height: auto;
     font-family: Charm;
     color: white;
@@ -645,7 +647,7 @@ body {
   position: absolute;
     top: 216vw;
     left: 77.7vw;
-    width: 30vw;
+    width: 10vw;
     height: auto;
     font-family: Charm;
     color: white;
