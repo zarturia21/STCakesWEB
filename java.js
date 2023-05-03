@@ -47,31 +47,13 @@ function Ecakeschange() {
   }
 }
 
-//===================-varcakes auto
-
-var interval = 3000;  // Change image every 3 seconds
+var interval = 5000;  // Change image every 5 seconds
 setInterval(Ecakeschange, interval);
-
-//text automatic move
-var textIndex = 0;
-var texts = ["WEDDING CAKE", "BIRTHDAY CAKE", "ANNIVERSARY CAKE"]; // add your desired texts here
-
-function showNextText() {
-  var textContainer = document.getElementById("varycake");
-  textContainer.innerText = texts[textIndex];
-  textIndex = (textIndex + 1) % texts.length; // wrap around to the beginning of the array
-}
-
-showNextText(); // show the first text immediately
-
-setInterval(showNextText, 5000); // move to the next text every 5 seconds
-
 
 //==============================- VAry text
 
-
 var textIndex = 0;
-var texts = ["WEDDING CAKE", "BIRTHDAY CAKE", "ANNIVERSARY CAKE"]; // add your desired texts here
+var texts = ["WEDDING CAKE", "BIRTHDAY CAKE","CHRISTMAS CAKE", "ANNIVERSARY CAKE"]; // add your desired texts here
 
 function showNextText() {
   var textContainer = $("#varycake");
@@ -82,3 +64,4 @@ function showNextText() {
 showNextText(); // show the first text immediately
 
 setInterval(showNextText, 5000); // move to the next text every 5 seconds
+
