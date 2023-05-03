@@ -79,6 +79,7 @@ body {
   width: 11%;
   height: 16%;
   object-fit:fill;
+  display: block;
 }
 
 .est-2013 {
@@ -131,17 +132,18 @@ body {
 .TitleBG {
   position: absolute;
   z-index: -1;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 75%;
+  top: 0vw;
+  left: 0vw;
+  width: 98.7vw;
+  height: 35vw;
   object-fit:fill;
+  display: block;
 }
 /*CakeTitle*/
 .CAKES {
   position: absolute;
-  top: 44%;
-  left: 6%;
+  top: 21vw;
+  left: 6vw;
   font-size: 5vw;
   font-family: Cormorant;
   color: #ffffff
@@ -149,9 +151,9 @@ body {
 /*CakeInfo*/
 .CAKESInfo {
   position: absolute;
-  top: 57%;
-  left: 6%;
-  width: 80%;
+  top: 26.5vw;
+  left: 6vw;
+  width: 80vw;
   font-size: 1.4vw;
   font-family: Cormorant;
   text-align: justify;
@@ -159,25 +161,26 @@ body {
 }
 .cake1{
   position: absolute;
-  top: 82%;
-  left: 3%;
-  width: 15%;
-  height: 50%;
+  top: 38vw;
+  left: 3vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .CakeName1{
   position: absolute;
-  top: 135%;
-  left: 6%;
+  top: 62vw;
+  left: 6vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 8vw;
+  height: 50vw;
 }
 .cakeprice1 {
   position: absolute;
-  top: 137%;
-  left: 6%;
-  width: 80%;
+  top: 63vw;
+  left: 5.8vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -189,25 +192,26 @@ body {
 }
 .cake2{
   position: absolute;
-  top: 82%;
-  left: 23%;
-  width: 15%;
-  height: 50%;
+  top: 38vw;
+  left: 23vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .CakeName2{
   position: absolute;
-  top: 135%;
-  left: 26%;
+  top: 62vw;
+  left: 26vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 8vw;
+  height: 50vw;
 }
 .cakeprice2 {
   position: absolute;
-  top: 137%;
-  left: 26%;
-  width: 80%;
+  top: 63vw;
+  left: 25.8vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -219,25 +223,26 @@ body {
 }
 .cake3{
   position: absolute;
-  top: 82%;
-  left: 43%;
-  width: 15%;
-  height: 50%;
+  top: 38vw;
+  left: 43vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .CakeName3{
   position: absolute;
-  top: 135%;
-  left: 46%;
+  top: 62vw;
+  left: 46vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 15vw;
+  height: 50vw;
 }
 .cakeprice3 {
   position: absolute;
-  top: 137%;
-  left: 46%;
-  width: 80%;
+  top: 63vw;
+  left: 45.8vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -249,25 +254,26 @@ body {
 }
 .cake4{
   position: absolute;
-  top: 82%;
-  left: 63%;
-  width: 15%;
-  height: 50%;
+  top: 38vw;
+  left: 63vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .CakeName4{
   position: absolute;
-  top: 135%;
-  left: 66%;
+  top: 62vw;
+  left: 66vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 8vw;
+  height: 50vw;
 }
 .cakeprice4 {
   position: absolute;
-  top: 137%;
-  left: 66%;
-  width: 80%;
+  top: 63vw;
+  left: 65.8vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -279,25 +285,26 @@ body {
 }
 .cake5{
   position: absolute;
-  top: 82%;
-  left: 83%;
-  width: 15%;
-  height: 50%;
+  top: 38vw;
+  left: 83vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .CakeName5{
   position: absolute;
-  top: 135%;
-  left: 86%;
+  top: 62vw;
+  left: 86vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 8vw;
+  height: 50vw;
 }
 .cakeprice5 {
   position: absolute;
-  top: 137%;
-  left: 86%;
-  width: 80%;
+  top: 63vw;
+  left: 85.8vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -309,25 +316,26 @@ body {
 }
 .cake6{
   position: absolute;
-  top: 150%;
-  left: 3%;
-  width: 15%;
-  height: 50%;
+  top: 69.5vw;
+  left: 3vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .CakeName6{
   position: absolute;
-  top: 202%;
-  left: 6%;
+  top: 93vw;
+  left: 6vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 8vw;
+  height: 50vw;
 }
 .cakeprice6 {
   position: absolute;
-  top: 204%;
-  left: 6%;
-  width: 80%;
+  top: 94vw;
+  left: 5.8vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -339,25 +347,26 @@ body {
 }
 .cake7{
   position: absolute;
-  top: 150%;
-  left: 23%;
-  width: 15%;
-  height: 50%;
+  top: 69.5vw;
+  left: 23vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .CakeName7{
   position: absolute;
-  top: 202%;
-  left: 26%;
+  top: 93vw;
+  left: 26vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 8vw;
+  height: 50vw;
 }
 .cakeprice7 {
   position: absolute;
-  top: 204%;
-  left: 26%;
-  width: 80%;
+  top: 94vw;
+  left: 25.8vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -369,25 +378,26 @@ body {
 }
 .cake8{
   position: absolute;
-  top: 150%;
-  left: 43%;
-  width: 15%;
-  height: 50%;
+  top: 69.5vw;
+  left: 43vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .CakeName8{
   position: absolute;
-  top: 202%;
-  left: 46%;
+  top: 93vw;
+  left: 46vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 8vw;
+  height: 50vw;
 }
 .cakeprice8 {
   position: absolute;
-  top: 204%;
-  left: 46%;
-  width: 80%;
+  top: 94vw;
+  left: 45.8vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -399,25 +409,26 @@ body {
 }
 .cake9{
   position: absolute;
-  top: 150%;
-  left: 63%;
-  width: 15%;
-  height: 50%;
+  top: 69.5vw;
+  left: 63vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .CakeName9{
   position: absolute;
-  top: 202%;
-  left: 66%;
+  top: 93vw;
+  left: 66vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 8vw;
+  height: 50vw;
 }
 .cakeprice9 {
   position: absolute;
-  top: 204%;
-  left: 66%;
-  width: 80%;
+  top: 94vw;
+  left: 65.8vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -429,25 +440,26 @@ body {
 }
 .cake10{
   position: absolute;
-  top: 150%;
-  left: 83%;
-  width: 15%;
-  height: 50%;
+  top: 69.5vw;
+  left: 83vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .CakeName10{
   position: absolute;
-  top: 202%;
-  left: 86%;
+  top: 93vw;
+  left: 86vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 8vw;
+  height: 50%vw;
 }
 .cakeprice10 {
   position: absolute;
-  top: 204%;
-  left: 86%;
-  width: 80%;
+  top: 94vw;
+  left: 85.8vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -461,16 +473,17 @@ body {
 .BreadBG {
   position: absolute;
   z-index: -1;
-  top: 230%;
-  left: 0%;
-  width: 100%;
-  height: 60%;
+  top: 107vw;
+  left: 0vw;
+  width: 98.7vw;
+  height: 28vw;
   object-fit:fill;
+  display: block;
 }
 .BREAD {
   position: absolute;
-  top: 260%;
-  left: 6%;
+  top: 121vw;
+  left: 6vw;
   font-size: 5vw;
   font-family: Cormorant;
   color: #ffffff
@@ -478,9 +491,9 @@ body {
 /*Bread Info*/
 .BREADInfo {
   position: absolute;
-  top: 273%;
-  left: 6%;
-  width: 80%;
+  top: 126.5vw;
+  left: 6vw;
+  width: 80vw;
   font-size: 1.4vw;
   font-family: Cormorant;
   text-align: justify;
@@ -488,25 +501,26 @@ body {
 }
 .bread1{
   position: absolute;
-  top: 303%;
-  left: 3%;
-  width: 15%;
-  height: 50%;
+  top: 140.3vw;
+  left: 3vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .BreadName1{
   position: absolute;
-  top: 355%;
-  left: 6%;
+  top: 164vw;
+  left: 6vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 9vw;
+  height: 50vw;
 }
 .breadprice1 {
   position: absolute;
-  top: 357%;
-  left: 6%;
-  width: 80%;
+  top: 165vw;
+  left: 6vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -518,25 +532,26 @@ body {
 }
 .bread2{
   position: absolute;
-  top: 303%;
-  left: 23%;
-  width: 15%;
-  height: 50%;
+  top: 140.3vw;
+  left: 23vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .BreadName2{
   position: absolute;
-  top: 355%;
-  left: 26%;
+  top: 164vw;
+  left: 26vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 9vw;
+  height: 50vw;
 }
 .breadprice2 {
   position: absolute;
-  top: 357%;
-  left: 26%;
-  width: 80%;
+  top: 165vw;
+  left: 26vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -548,25 +563,26 @@ body {
 }
 .bread3{
   position: absolute;
-  top: 303%;
-  left: 43%;
-  width: 15%;
-  height: 50%;
+  top: 140.3vw;
+  left: 43vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .BreadName3{
   position: absolute;
-  top: 355%;
-  left: 46%;
+  top: 164vw;
+  left: 46vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 9vw;
+  height: 50vw;
 }
 .breadprice3 {
   position: absolute;
-  top: 357%;
-  left: 46%;
-  width: 80%;
+  top: 165vw;
+  left: 46vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -578,25 +594,26 @@ body {
 }
 .bread4{
   position: absolute;
-  top: 303%;
-  left: 63%;
-  width: 15%;
-  height: 50%;
+  top: 140.3vw;
+  left: 63vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .BreadName4{
   position: absolute;
-  top: 355%;
-  left: 66%;
+  top: 164vw;
+  left: 66vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 9vw;
+  height: 50vw;
 }
 .breadprice4 {
   position: absolute;
-  top: 357%;
-  left: 66%;
-  width: 80%;
+  top: 165vw;
+  left: 66vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -608,25 +625,26 @@ body {
 }
 .bread5{
   position: absolute;
-  top: 303%;
-  left: 83%;
-  width: 15%;
-  height: 50%;
+  top: 140.3vw;
+  left: 83vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .BreadName5{
   position: absolute;
-  top: 355%;
-  left: 86%;
+  top: 164vw;
+  left: 86vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 9vw;
+  height: 50vw;
 }
 .breadprice5 {
   position: absolute;
-  top: 357%;
-  left: 86%;
-  width: 80%;
+  top: 165vw;
+  left: 86vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -638,25 +656,26 @@ body {
 }
 .bread6{
   position: absolute;
-  top: 375%;
-  left: 3%;
-  width: 15%;
-  height: 50%;
+  top: 173.7vw;
+  left: 3vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .BreadName6{
   position: absolute;
-  top: 427%;
-  left: 6%;
+  top: 197.5vw;
+  left: 6vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 9vw;
+  height: 50vw;
 }
 .breadprice6 {
   position: absolute;
-  top: 429%;
-  left: 6%;
-  width: 80%;
+  top: 198.5vw;
+  left: 6vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -668,25 +687,26 @@ body {
 }
 .bread7{
   position: absolute;
-  top: 375%;
-  left: 23%;
-  width: 15%;
-  height: 50%;
+  top: 173.7vw;
+  left: 23vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .BreadName7{
   position: absolute;
-  top: 427%;
-  left: 26%;
+  top: 197.5vw;
+  left: 26vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 9vw;
+  height: 50vw;
 }
 .breadprice7 {
   position: absolute;
-  top: 429%;
-  left: 26%;
-  width: 80%;
+  top: 198.5vw;
+  left: 26vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -698,25 +718,26 @@ body {
 }
 .bread8{
   position: absolute;
-  top: 375%;
-  left: 43%;
-  width: 15%;
-  height: 50%;
+  top: 173.7vw;
+  left: 43vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .BreadName8{
   position: absolute;
-  top: 427%;
-  left: 46%;
+  top: 197.5vw;
+  left: 46vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 9vw;
+  height: 50vw;
 }
 .breadprice8 {
   position: absolute;
-  top: 429%;
-  left: 46%;
-  width: 80%;
+  top: 198.5vw;
+  left: 46vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -728,25 +749,26 @@ body {
 }
 .bread9{
   position: absolute;
-  top: 375%;
-  left: 63%;
-  width: 15%;
-  height: 50%;
+  top: 173.7vw;
+  left: 63vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .BreadName9{
   position: absolute;
-  top: 427%;
-  left: 66%;
+  top: 197.5vw;
+  left: 66vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 15vw;
+  height: 50vw;
 }
 .breadprice9 {
   position: absolute;
-  top: 429%;
-  left: 66%;
-  width: 80%;
+  top: 198.5vw;
+  left: 66vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -758,25 +780,26 @@ body {
 }
 .bread10{
   position: absolute;
-  top: 375%;
-  left: 83%;
-  width: 15%;
-  height: 50%;
+  top: 173.7vw;
+  left: 83vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .BreadName10{
   position: absolute;
-  top: 427%;
-  left: 86%;
+  top: 197.5vw;
+  left: 86vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 9vw;
+  height: 50vw;
 }
 .breadprice10 {
   position: absolute;
-  top: 429%;
-  left: 86%;
-  width: 80%;
+  top: 198.5vw;
+  left: 86vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -790,16 +813,17 @@ body {
 .PastryBG {
   position: absolute;
   z-index: -1;
-  top: 450%;
-  left: 0%;
-  width: 100%;
-  height: 60%;
+  top: 210vw;
+  left: 0vw;
+  width: 98.7vw;
+  height: 28vw;
   object-fit:fill;
+  display: block;
 }
 .PASTRY {
   position: absolute;
-  top: 480%;
-  left: 6%;
+  top: 226vw;
+  left: 6vw;
   font-size: 5vw;
   font-family: Cormorant;
   color: #ffffff
@@ -807,9 +831,9 @@ body {
 /*Bread Info*/
 .PASTRYInfo {
   position: absolute;
-  top: 493%;
-  left: 6%;
-  width: 60%;
+  top: 231.5vw;
+  left: 6vw;
+  width: 60vw;
   font-size: 1.4vw;
   font-family: Cormorant;
   text-align: justify;
@@ -817,25 +841,26 @@ body {
 }
 .pastry1{
   position: absolute;
-  top: 522%;
-  left: 3%;
-  width: 15%;
-  height: 50%;
+  top: 244vw;
+  left: 3vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .PastryName1{
   position: absolute;
-  top: 575%;
-  left: 6%;
+  top: 268vw;
+  left: 6vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 9vw;
+  height: 50vw;
 }
 .pastryprice1 {
   position: absolute;
-  top: 577%;
-  left: 6%;
-  width: 80%;
+  top: 269vw;
+  left: 6vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -847,25 +872,26 @@ body {
 }
 .pastry2{
   position: absolute;
-  top: 522%;
-  left: 23%;
-  width: 15%;
-  height: 50%;
+  top: 244vw;
+  left: 23vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .PastryName2{
   position: absolute;
-  top: 575%;
-  left: 26%;
+  top: 268vw;
+  left: 26vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 15vw;
+  height: 50vw;
 }
 .pastryprice2 {
   position: absolute;
-  top: 577%;
-  left: 26%;
-  width: 80%;
+  top: 269vw;
+  left: 26vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -877,25 +903,26 @@ body {
 }
 .pastry3{
   position: absolute;
-  top: 522%;
-  left: 43%;
-  width: 15%;
-  height: 50%;
+  top: 244vw;
+  left: 43vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .PastryName3{
   position: absolute;
-  top: 575%;
-  left: 46%;
+  top: 268vw;
+  left: 46vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 15vw;
+  height: 50vw;
 }
 .pastryprice3 {
   position: absolute;
-  top: 577%;
-  left: 46%;
-  width: 80%;
+  top: 269vw;
+  left: 46vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -907,25 +934,26 @@ body {
 }
 .pastry4{
   position: absolute;
-  top: 522%;
-  left: 63%;
-  width: 15%;
-  height: 50%;
+  top: 244vw;
+  left: 63vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .PastryName4{
   position: absolute;
-  top: 575%;
-  left: 66%;
+  top: 268vw;
+  left: 66vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 15vw;
+  height: 50vw;
 }
 .pastryprice4 {
   position: absolute;
-  top: 577%;
-  left: 66%;
-  width: 80%;
+  top: 269vw;
+  left: 66vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -937,25 +965,26 @@ body {
 }
 .pastry5{
   position: absolute;
-  top: 522%;
-  left: 83%;
-  width: 15%;
-  height: 50%;
+  top: 244vw;
+  left: 83vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .PastryName5{
   position: absolute;
-  top: 575%;
-  left: 86%;
+  top: 268vw;
+  left: 86vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 9vw;
+  height: 50vw;
 }
 .pastryprice5 {
   position: absolute;
-  top: 577%;
-  left: 86%;
-  width: 80%;
+  top: 269vw;
+  left: 86vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -967,25 +996,26 @@ body {
 }
 .pastry6{
   position: absolute;
-  top: 595%;
-  left: 3%;
-  width: 15%;
-  height: 50%;
+  top: 277vw;
+  left: 3vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .PastryName6{
   position: absolute;
-  top: 647%;
-  left: 6%;
+  top: 301vw;
+  left: 6vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 15vw;
+  height: 50vw;
 }
 .pastryprice6 {
   position: absolute;
-  top: 649%;
-  left: 6%;
-  width: 80%;
+  top: 302vw;
+  left: 6vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -997,25 +1027,26 @@ body {
 }
 .pastry7{
   position: absolute;
-  top: 595%;
-  left: 23%;
-  width: 15%;
-  height: 50%;
+  top: 277vw;
+  left: 23vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .PastryName7{
   position: absolute;
-  top: 647%;
-  left: 26%;
+  top: 301vw;
+  left: 26vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 9vw;
+  height: 50vw;
 }
 .pastryprice7 {
   position: absolute;
-  top: 649%;
-  left: 26%;
-  width: 80%;
+  top: 302vw;
+  left: 26vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -1027,25 +1058,26 @@ body {
 }
 .pastry8{
   position: absolute;
-  top: 595%;
-  left: 43%;
-  width: 15%;
-  height: 50%;
+  top: 277vw;
+  left: 43vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .PastryName8{
   position: absolute;
-  top: 647%;
-  left: 46%;
+  top: 301vw;
+  left: 46vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 9vw;
+  height: 50vw;
 }
 .pastryprice8 {
   position: absolute;
-  top: 649%;
-  left: 46%;
-  width: 80%;
+  top: 302vw;
+  left: 46vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -1057,25 +1089,26 @@ body {
 }
 .pastry9{
   position: absolute;
-  top: 595%;
-  left: 63%;
-  width: 15%;
-  height: 50%;
+  top: 277vw;
+  left: 63vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .PastryName9{
   position: absolute;
-  top: 647%;
-  left: 66%;
+  top: 301vw;
+  left: 66vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 9vw;
+  height: 50vw;
 }
 .pastryprice9 {
   position: absolute;
-  top: 649%;
-  left: 66%;
-  width: 80%;
+  top: 302vw;
+  left: 66vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
@@ -1087,25 +1120,26 @@ body {
 }
 .pastry10{
   position: absolute;
-  top: 595%;
-  left: 83%;
-  width: 15%;
-  height: 50%;
+  top: 277vw;
+  left: 83vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
 }
 .PastryName10{
   position: absolute;
-  top: 647%;
-  left: 86%;
+  top: 301vw;
+  left: 86vw;
   font-size: 1.7vw;
   font-family: Cormorant;
-  width: 15%;
-  height: 50%;
+  width: 9vw;
+  height: 50vw;
 }
 .pastryprice10 {
   position: absolute;
-  top: 649%;
-  left: 86%;
-  width: 80%;
+  top: 302vw;
+  left: 86vw;
+  width: 8vw;
   font-size: 2vw;
   font-family: Cormorant;
   color: #000000
