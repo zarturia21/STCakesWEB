@@ -1,7 +1,42 @@
+
+
 .Lpic {
     position: absolute;
-    left: 54.4vw;
+    top: 8vw;
+    left: 49vw;
+    width: 40vw;
     display: fill;
-    height: 45.6vw;
-   
+    height: 30vw;  
+}
+
+.trants{
+    position: absolute;
+    left: 11vw;
+    height: 30vw;
+    top: 8vw;
+    width: 38vw;
+    background-color: #ff05c9;
+    
+}
+.logo{
+    position: absolute;
+    top: 14vw;
+    left: 60vw;
+    width: 16vw;
+
+}
+.UP{
+    position: absolute;
+    left: 35vw;
+    top: 10vw;
+    font-style: dosis;
+    color:black;
+}
+
+.IN{
+    position: absolute;
+    left: 19vw;
+    top: 10vw;
+    font-style: dosis;
+    color:black;
 }
