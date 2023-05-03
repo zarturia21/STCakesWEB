@@ -27,20 +27,65 @@
     width: 16vw;
 
 }
-.UP{
+.S-UP{
+    cursor: pointer;
     position: absolute;
     left: 35vw;
     top: 10vw;
     font-style: dosis;
-    color:rgb(0, 0, 0);
+    color:#1f1f1fe3;
 }
 
-.IN{
+.S-IN{
+    cursor: pointer;
     position: absolute;
     left: 19vw;
     top: 10vw;
     font-style: dosis;
-    color:black;
+    color:1f1f1fe3;
+}
+
+.S-IN:hover, .S-UP:hover
+{
+     text-decoration: underline;
+    color: pink;
+}
+/* sign in and out */
+
+.User-In {
+   
+    position: absolute;
+    top: 18vw;
+    left: 15vw;
+    border-radius: 1vw;
+    display: block;
+    box-sizing: border-box;
+    width: 28vw;
+    height: auto;
+    padding: 1vw;
+}
+
+.Passwrd-In {
+  
+    position: absolute;
+    top: 23vw;
+    left: 15vw;
+    border-radius: 1vw;
+    display: block;
+    box-sizing: border-box;
+    width: 28vw;
+    height: auto;
+    padding: 1vw;
 }
 
 
+
+/* showpassw*/
+.chkbox
+{
+    position: absolute;
+    top: 28vw;
+    left: 15vw;
+    display: block;
+    border: 1px solid black;
+}
