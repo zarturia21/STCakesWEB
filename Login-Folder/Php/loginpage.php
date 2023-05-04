@@ -1,4 +1,44 @@
 <!DOCTYPE html>
+<?php
+    // Connection variables
+    $host = "localhost";
+    $user = "fallzur";
+    $password = "password";
+    $database = "tscakesdb";
+    $table = "users";
+    
+    // Create connection
+    $conn = mysqli_connect($host, $user, $password, $database);
+    
+    // Check connection
+    if (!$conn) {
+        die("Connection failed: " . mysqli_connect_error());
+    }
+    
+    // Check if form is submitted
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        
+        // Get form data
+        $username = $_POST["username"];
+        $password = $_POST["password"];
+        
+        // Create SQL query
+        $sql = "SELECT * FROM " . $table . " WHERE username='" . $username . "' AND password='" . $password . "'";
+        
+        // Execute query
+        $result = mysqli_query($conn, $sql);
+        
+        // Check if query returned a result
+        if (mysqli_num_rows($result) > 0) {
+            // Redirect to success page
+            header("Location: success.php");
+            exit();
+        } else {
+            // Show error message
+            $error = "Invalid username or password";
+        }
+    }
+?>
 <html lang="en">
 <head>
   <meta charset="utf-8">
