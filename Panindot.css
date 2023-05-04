@@ -178,11 +178,11 @@ body {
 
 
 .tscakes {
-  border: 0;
-  padding: 0;
+  border: 0vw;
+  padding: 0vw;
   background-color: transparent;
   position: absolute;
-  width: 6%;
+  width: 6vw;
   height: auto;
 }
 
@@ -233,7 +233,7 @@ body {
     display: block;
     font-family: Dosis;
     height: auto;
-    border: 3px solid #ffffff;
+    border: .2vw solid #ffffff;
     border-radius: 0.8vw;
     padding: 0.1vw;
 }
