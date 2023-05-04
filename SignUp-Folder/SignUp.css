@@ -1,3 +1,47 @@
+
+.Lpic {
+    position: absolute;
+    top: 8vw;
+    left: 49vw;
+    width: 40vw;
+    display: fill;
+    box-shadow: 0 4px 8px 0 #3535357a, 0 6px 20px 0 #3535357a;
+    height: 30vw;  
+}
+
+.squre{
+    position: absolute;
+    box-shadow: 0 4px 8px 0 #3535357a, 0 6px 20px 0 #3535357a;
+    left: 11vw;
+    height: 30vw;
+    top: 8vw;
+    width: 38vw;
+    background-color: #ffffff4b;
+    
+}
+.logo{
+    position: absolute;
+    top: 14vw;
+    left: 60vw;
+    width: 16vw;
+
+}
+.UP{
+    position: absolute;
+    left: 35vw;
+    top: 10vw;
+    font-style: dosis;
+    color:rgb(0, 0, 0);
+}
+
+.IN{
+    position: absolute;
+    left: 19vw;
+    top: 10vw;
+    font-style: dosis;
+    color:black;
+}
+
 #username
 {
     position: absolute;
@@ -35,33 +79,6 @@
     width: 26vw;
 }
 
-.Lpic {
-    position: absolute;
-    z-index: -1;
-    top: 8vw;
-    left: 49vw;
-    width: 40vw;
-    display: fill;
-    height: 30vw;  
-}
-
-.trants{
-    position: absolute;
-    z-index: -1;
-    left: 11vw;
-    height: 30vw;
-    top: 8vw;
-    width: 38vw;
-    background-color: #ff05c9;
-    
-}
-.logo{
-    position: absolute;
-    top: 14vw;
-    left: 60vw;
-    width: 16vw;
-
-}
 form {
     position: absolute;
     margin: auto;
