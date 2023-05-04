@@ -6,16 +6,18 @@
     left: 49vw;
     width: 40vw;
     display: fill;
+    box-shadow: 0 4px 8px 0 #3535357a, 0 6px 20px 0 #3535357a;
     height: 30vw;  
 }
 
-.trants{
+.squre{
     position: absolute;
+    box-shadow: 0 4px 8px 0 #3535357a, 0 6px 20px 0 #3535357a;
     left: 11vw;
     height: 30vw;
     top: 8vw;
     width: 38vw;
-    background-color: #ff05c9;
+    background-color: #ffffff4b;
     
 }
 .logo{
@@ -30,7 +32,7 @@
     left: 35vw;
     top: 10vw;
     font-style: dosis;
-    color:black;
+    color:rgb(0, 0, 0);
 }
 
 .IN{
@@ -40,3 +42,5 @@
     font-style: dosis;
     color:black;
 }
+
+
