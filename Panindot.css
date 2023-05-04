@@ -11,30 +11,30 @@ body {
   height: 6.2vw;
   left: 0vw;
   background-color: rgba(255, 211, 240, 0.8);
+}
+
+.promo2:hover, .customize-us1:hover, .Findus:hover, .aboutuus:hover {
+  background-color: #ff85f58a;
+  border: 1px solid var(--color-black);
+  border-radius: 6px;
 
 }
 
 .promo2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   position: absolute;
-  top: 2vw;
-  left: 9vw;
-  font-family: var(--font-gupter);
-  color: #161616;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+  width: 5%;
+  height: auto;
 }
 
-.customize-us1 {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  line-height: 26%;
+.promo2 {
+  top:2.5vw;
+  left: 13vw;
   font-family: var(--font-gupter);
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   display: flex;
   align-items: center;
@@ -48,10 +48,19 @@ body {
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 4%;
-  left: 22%;
-  width: 10%;
-  height: 5%;
+  width: 6%;
+  height: auto;
+}
+
+.customize-us {
+  top:2.57vw;
+  left: 24vw;
+  font-family: var(--font-gupter);
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -81,34 +90,47 @@ body {
 }
 
 .Findus {
-  z-index: 1;
-}
-
-.Findus {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 4%;
-  left: 65%;
-  width: 10%;
-  height: 5%;
-  
+  width: 6%;
+  height: auto;
 }
 
+.Findus {
+  top:2.5vw;
+  left: 65vw;
+  font-family: var(--font-gupter);
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .aboutuus {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 4%;
-  left: 78%;
-  width: 10%;
-  height: 5%;
-  
+  width: 8%;
+  height: auto;
 }
+
+.aboutuus
+{
+  top:2.5vw;
+  left: 78vw;
+  font-family: var(--font-gupter);
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*CakeCategories*/
 .TitleBG {
   position: absolute;
