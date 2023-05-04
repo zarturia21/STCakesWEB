@@ -7,37 +7,24 @@ body {
 
 .rectangle {
   position: absolute;
-  width: 100%;
-  height: 13%;
-  left: 0%;
+  width: 98.7vw;
+  height: 6.2vw;
+  left: 0vw;
   background-color: rgba(255, 211, 240, 0.8);
 
 }
 
 .promo2 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
   position: absolute;
-  top: 4%;
-  left: 22%;
-  width: 10%;
-  height: 5%;
-  font-size: 1.2rem;
-}
-
-.promo2 {
-  top: 1.8vw;
+  top: 2vw;
   left: 9vw;
-  line-height: 26%;
   font-family: var(--font-gupter);
   color: #161616;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2rem;
+
 }
 
 .customize-us1 {
@@ -52,7 +39,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2rem;
+
 }
 
 .customize-us {
@@ -65,7 +52,7 @@ body {
   left: 22%;
   width: 10%;
   height: 5%;
-  font-size: 1.2rem;
+
 }
 
 .s-cakes-logo-1 {
@@ -74,29 +61,23 @@ body {
 }
 
 .s-cakes-logo-1 {
-  top: -2%;
-  left: 42%;
-  width: 11%;
-  height: 16%;
+  top: -.7vw;
+  left: 42vw;
+  width: 11vw;
   object-fit:fill;
   display: block;
 }
 
 .est-2013 {
   position: absolute;
-}
-
-.est-2013 {
-  top: 3%;
-  left: 50.5%;
-  font-size: 0.5rem;
-  line-height: 26px;
+  top: 2vw;
+  left: 50.5vw;
   color: var(--color-black);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 5rem;
-  height: 2.5rem;
+  width: 5vw;
+  height: 2.5vw;
 }
 
 .Findus {
@@ -113,7 +94,7 @@ body {
   left: 65%;
   width: 10%;
   height: 5%;
-  font-size: 1.2rem;
+  
 }
 
 .aboutuus {
@@ -126,7 +107,7 @@ body {
   left: 78%;
   width: 10%;
   height: 5%;
-  font-size: 1.2rem;
+  
 }
 /*CakeCategories*/
 .TitleBG {
