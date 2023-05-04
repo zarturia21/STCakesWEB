@@ -41,7 +41,7 @@
     font-style: dosis;
     color:black;
 }
-
+/*
 #username
 {
     position: absolute;
@@ -120,5 +120,67 @@ form {
     background-color: #f27a8ec2;
   }
   
+  */
+  .User-In {
+   
+    position: absolute;
+    top: 13vw;
+    left: 15vw;
+    border-radius: 1vw;
+    display: block;
+    box-sizing: border-box;
+    width: 28vw;
+    height: auto;
+    padding: 1vw;
+}
+
+.Email-In {
+   
+    position: absolute;
+    top: 17vw;
+    left: 15vw;
+    border-radius: 1vw;
+    display: block;
+    box-sizing: border-box;
+    width: 28vw;
+    height: auto;
+    padding: 1vw;
+}
+.Number-In {
+   
+    position: absolute;
+    top: 21vw;
+    left: 15vw;
+    border-radius: 1vw;
+    display: block;
+    box-sizing: border-box;
+    width: 28vw;
+    height: auto;
+    padding: 1vw;
+}
+.Password-In {
   
+    position: absolute;
+    top: 25vw;
+    left: 15vw;
+    border-radius: 1vw;
+    display: block;
+    box-sizing: border-box;
+    width: 28vw;
+    height: auto;
+    padding: 1vw;
+}
+
+.Confirm_Password-In {
   
+    position: absolute;
+    top: 29vw;
+    left: 15vw;
+    border-radius: 1vw;
+    display: block;
+    box-sizing: border-box;
+    width: 28vw;
+    height: auto;
+    padding: 1vw;
+}
+
