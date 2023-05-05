@@ -1,44 +1,48 @@
 <!DOCTYPE html>
+
+    <?php
+ $servername = "localhost";
+ $username = "fallzur";
+ $password = "pass123";
+ $dbname = "stcakesdb";
+ 
+ // Create connection
+ $conn = mysqli_connect($servername, $username, $password, $dbname);
+ 
+ // Check connection
+ if (!$conn) {
+   die("Connection failed: " . mysqli_connect_error());
+ }
+    ?>
+
 <?php
-    // Connection variables
-    $host = "localhost";
-    $user = "fallzur";
-    $password = "password";
-    $database = "tscakesdb";
-    $table = "users";
-    
-    // Create connection
-    $conn = mysqli_connect($host, $user, $password, $database);
-    
-    // Check connection
-    if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
-    }
-    
-    // Check if form is submitted
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        
-        // Get form data
-        $username = $_POST["username"];
-        $password = $_POST["password"];
-        
-        // Create SQL query
-        $sql = "SELECT * FROM " . $table . " WHERE username='" . $username . "' AND password='" . $password . "'";
-        
-        // Execute query
-        $result = mysqli_query($conn, $sql);
-        
-        // Check if query returned a result
-        if (mysqli_num_rows($result) > 0) {
-            // Redirect to success page
-            header("Location: ./afterlogin/Main.html");
-            exit();
-        } else {
-            // Show error message
-            $error = "Invalid username or password";
-        }
-    }
+// Include database connection file
+include_once("db_connect.php");
+
+if($_SERVER["REQUEST_METHOD"] == "POST") {
+  // username and password sent from form 
+  $myusername = mysqli_real_escape_string($conn,$_POST['username']);
+  $mypassword = mysqli_real_escape_string($conn,$_POST['password']); 
+  
+  $sql = "SELECT id FROM users WHERE username = '$myusername' and password = '$mypassword'";
+  $result = mysqli_query($conn,$sql);
+  $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+  $active = $row['active'];
+  
+  $count = mysqli_num_rows($result);
+  
+  // If result matched $myusername and $mypassword, table row must be 1 row
+  if($count == 1) {
+     session_register("myusername");
+     $_SESSION['login_user'] = $myusername;
+     
+     header("location: welcome.php");
+  }else {
+     $error = "Your Login Name or Password is invalid";
+  }
+}
 ?>
+    
 <html lang="en">
 <head>
   <meta charset="utf-8">
