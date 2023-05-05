@@ -31,7 +31,7 @@
         // Check if query returned a result
         if (mysqli_num_rows($result) > 0) {
             // Redirect to success page
-            header("Location: success.php");
+            header("Location: ./afterlogin/Main.html");
             exit();
         } else {
             // Show error message
