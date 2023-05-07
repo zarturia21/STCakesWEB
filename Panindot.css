@@ -42,7 +42,7 @@ body {
   top:2.5vw;
   left: 13vw;
   font-family: var(--font-gupter);
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   display: flex;
   align-items: center;
@@ -64,7 +64,7 @@ body {
   top:2.57vw;
   left: 24vw;
   font-family: var(--font-gupter);
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   display: flex;
   align-items: center;
@@ -111,7 +111,7 @@ body {
   top:2.5vw;
   left: 65vw;
   font-family: var(--font-gupter);
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   display: flex;
   align-items: center;
@@ -132,7 +132,7 @@ body {
   top:2.5vw;
   left: 78vw;
   font-family: var(--font-gupter);
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   display: flex;
   align-items: center;
@@ -155,8 +155,14 @@ body {
   font-family: Dosis;
   color: #000000
 }
+.Cakes:hover, .Breads:hover, .Pastries:hover {
+  background-color:rgba(255, 211, 240, 0.8);
+  border: 1px solid var(--color-black);
+  border-radius: 6px;
+}
 .Cakes {
   position: absolute;
+  text-decoration: underline;
   top: 13vw;
   left: 30vw;
   font-family: Dosis;
@@ -164,6 +170,7 @@ body {
 }
 .Breads {
   position: absolute;
+  text-decoration: underline;
   top: 13vw;
   left: 44vw;
   font-family: Dosis;
@@ -171,6 +178,7 @@ body {
 }
 .Pastries {
   position: absolute;
+  text-decoration: underline;
   top: 13vw;
   left: 60vw;
   font-family: Dosis;
@@ -286,6 +294,71 @@ textarea {
 .checkout-button:hover {
   background-color: #ff85f58a;
 }
+.rectangle5 {
+  position: absolute;
+  top: 47vw;
+  width: 80vw;
+  height: .2vw;
+  left: 10vw;
+  background-color: rgb(0, 0, 0);
+}
+.locpound {
+  position: absolute;
+  top: 50vw;
+  left: 20vw;
+  letter-spacing: 0.14em;
+  line-height: 0;
+  color: #5a5a5a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 59vw;
+  height: auto;
+  text-align: center;
+}
+.numts {
+  position: absolute;
+  top: 52vw;
+  left: 20vw;
+  letter-spacing: 0.14em;
+  line-height: 0;
+  color: #5a5a5a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 59vw;
+  height: auto;
+  text-align: center;
+}
+.dates {
+  position: absolute;
+  top: 54vw;
+  left: 20vw;
+  letter-spacing: 0.14em;
+  line-height: 0;
+  color: #5a5a5a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 59vw;
+  height: auto;
+  text-align: center;
+}
 
+.find-us,
+.links {
+  position: absolute;
+  top: 61vw;
+  left: 47vw;
+  line-height: 5;
+}
+.find-us {
+  text-decoration: underline;
 
+  top: 56vw;
+  left: 46vw;
+}
 
