@@ -160,6 +160,10 @@ body {
   text-align: justify;
   color: #ffffff
 }
+.cake1:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
 .cake1{
   position: absolute;
   top: 38vw;
@@ -188,6 +192,10 @@ body {
 {
   color:red;
   font-size: 3vw;
+}
+.cake2:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 .cake2{
   position: absolute;
@@ -218,6 +226,10 @@ body {
   color:red;
   font-size: 3vw;
 }
+.cake3:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
 .cake3{
   position: absolute;
   top: 38vw;
@@ -246,6 +258,10 @@ body {
 {
   color:red;
   font-size: 3vw;
+}
+.cake4:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 .cake4{
   position: absolute;
@@ -276,6 +292,10 @@ body {
   color:red;
   font-size: 3vw;
 }
+.cake5:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
 .cake5{
   position: absolute;
   top: 38vw;
@@ -304,6 +324,10 @@ body {
 {
   color:red;
   font-size: 3vw;
+}
+.cake6:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 .cake6{
   position: absolute;
@@ -334,6 +358,10 @@ body {
   color:red;
   font-size: 3vw;
 }
+.cake7:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
 .cake7{
   position: absolute;
   top: 69.5vw;
@@ -362,6 +390,10 @@ body {
 {
   color:red;
   font-size: 3vw;
+}
+.cake8:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 .cake8{
   position: absolute;
@@ -392,6 +424,10 @@ body {
   color:red;
   font-size: 3vw;
 }
+.cake9:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
 .cake9{
   position: absolute;
   top: 69.5vw;
@@ -420,6 +456,10 @@ body {
 {
   color:red;
   font-size: 3vw;
+}
+.cake10:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 .cake10{
   position: absolute;
@@ -478,6 +518,10 @@ body {
   text-align: justify;
   color: #ffffff
 }
+.bread1:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
 .bread1{
   position: absolute;
   top: 140.3vw;
@@ -506,6 +550,10 @@ body {
 {
   color:red;
   font-size: 3vw;
+}
+.bread2:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 .bread2{
   position: absolute;
@@ -536,6 +584,10 @@ body {
   color:red;
   font-size: 3vw;
 }
+.bread3:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
 .bread3{
   position: absolute;
   top: 140.3vw;
@@ -564,6 +616,10 @@ body {
 {
   color:red;
   font-size: 3vw;
+}
+.bread4:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 .bread4{
   position: absolute;
@@ -594,6 +650,10 @@ body {
   color:red;
   font-size: 3vw;
 }
+.bread5:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
 .bread5{
   position: absolute;
   top: 140.3vw;
@@ -622,6 +682,10 @@ body {
 {
   color:red;
   font-size: 3vw;
+}
+.bread6:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 .bread6{
   position: absolute;
@@ -652,6 +716,10 @@ body {
   color:red;
   font-size: 3vw;
 }
+.bread7:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
 .bread7{
   position: absolute;
   top: 173.7vw;
@@ -680,6 +748,10 @@ body {
 {
   color:red;
   font-size: 3vw;
+}
+.bread8:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 .bread8{
   position: absolute;
@@ -710,6 +782,10 @@ body {
   color:red;
   font-size: 3vw;
 }
+.bread9:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
 .bread9{
   position: absolute;
   top: 173.7vw;
@@ -738,6 +814,10 @@ body {
 {
   color:red;
   font-size: 3vw;
+}
+.bread10:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 .bread10{
   position: absolute;
@@ -796,6 +876,10 @@ body {
   text-align: justify;
   color: #ffffff
 }
+.pastry1:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
 .pastry1{
   position: absolute;
   top: 244vw;
@@ -824,6 +908,10 @@ body {
 {
   color:red;
   font-size: 3vw;
+}
+.pastry2:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 .pastry2{
   position: absolute;
@@ -854,6 +942,10 @@ body {
   color:red;
   font-size: 3vw;
 }
+.pastry3:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
 .pastry3{
   position: absolute;
   top: 244vw;
@@ -882,6 +974,10 @@ body {
 {
   color:red;
   font-size: 3vw;
+}
+.pastry4:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 .pastry4{
   position: absolute;
@@ -912,6 +1008,10 @@ body {
   color:red;
   font-size: 3vw;
 }
+.pastry5:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
 .pastry5{
   position: absolute;
   top: 244vw;
@@ -940,6 +1040,10 @@ body {
 {
   color:red;
   font-size: 3vw;
+}
+.pastry6:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 .pastry6{
   position: absolute;
@@ -970,6 +1074,10 @@ body {
   color:red;
   font-size: 3vw;
 }
+.pastry7:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
 .pastry7{
   position: absolute;
   top: 277vw;
@@ -998,6 +1106,10 @@ body {
 {
   color:red;
   font-size: 3vw;
+}
+.pastry8:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 .pastry8{
   position: absolute;
@@ -1028,7 +1140,10 @@ body {
   color:red;
   font-size: 3vw;
 }
-
+.pastry9:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
 .pastry9{
   position: absolute;
   top: 277vw;
@@ -1057,6 +1172,10 @@ body {
 {
   color:red;
   font-size: 3vw;
+}
+.pastry10:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 .pastry10{
   position: absolute;
