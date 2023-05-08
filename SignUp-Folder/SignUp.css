@@ -1,0 +1,131 @@
+
+.Lpic {
+    position: absolute;
+    top: 8vw;
+    left: 49vw;
+    width: 40vw;
+    display: fill;
+    box-shadow: 0 4px 8px 0 #3535357a, 0 6px 20px 0 #3535357a;
+    height: 30vw;  
+}
+
+.squre{
+    position: absolute;
+    box-shadow: 0 4px 8px 0 #3535357a, 0 6px 20px 0 #3535357a;
+    left: 11vw;
+    height: 30vw;
+    top: 8vw;
+    width: 38vw;
+    background-color: #ffffff4b;
+    
+}
+.logo{
+    position: absolute;
+    top: 14vw;
+    left: 60vw;
+    width: 16vw;
+
+}
+.UP{
+    position: absolute;
+    left: 35vw;
+    top: 10vw;
+    font-style: dosis;
+    color:rgb(0, 0, 0);
+}
+
+.IN{
+    position: absolute;
+    left: 19vw;
+    top: 10vw;
+    font-style: dosis;
+    color:black;
+}
+  .User-In {
+   
+    position: absolute;
+    top: 13vw;
+    left: 15vw;
+    border-radius: 1vw;
+    display: block;
+    box-sizing: border-box;
+    width: 28vw;
+    height: auto;
+    padding: 1vw;
+}
+
+.Email-In {
+   
+    position: absolute;
+    top: 17vw;
+    left: 15vw;
+    border-radius: 1vw;
+    display: block;
+    box-sizing: border-box;
+    width: 28vw;
+    height: auto;
+    padding: 1vw;
+}
+.Number-In {
+   
+    position: absolute;
+    top: 21vw;
+    left: 15vw;
+    border-radius: 1vw;
+    display: block;
+    box-sizing: border-box;
+    width: 28vw;
+    height: auto;
+    padding: 1vw;
+}
+.Password-In {
+  
+    position: absolute;
+    top: 25vw;
+    left: 15vw;
+    border-radius: 1vw;
+    display: block;
+    box-sizing: border-box;
+    width: 28vw;
+    height: auto;
+    padding: 1vw;
+}
+
+.Confirm_Password-In {
+  
+    position: absolute;
+    top: 29vw;
+    left: 15vw;
+    border-radius: 1vw;
+    display: block;
+    box-sizing: border-box;
+    width: 28vw;
+    height: auto;
+    padding: 1vw;
+}
+
+.IN:hover, .UP:hover
+{
+     text-decoration: underline;
+    color: #ffc0cb;
+}
+/* login Button */
+
+#login-btn {
+    top: 34vw;
+    left: 24.5vw;
+    border-radius: 2vw;
+    position: absolute;
+    cursor: pointer;
+    background-color: rgb(255, 98, 242);
+    color: rgb(255, 255, 255);
+    padding: 0.5vw 4vw;
+    border: none;
+    cursor: pointer;
+  }
+  
+#login-btn:hover
+{
+    background-color:#ffc0cb;
+    color:rgb(255, 145, 145);
+}
