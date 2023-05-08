@@ -70,5 +70,5 @@ setInterval(showNextText, 5000); // move to the next text every 5 seconds
 $(window).on("load", function() {
   setTimeout(function() {
     $(".loader-wrapper").fadeOut("slow");
-  }, 500);
+  }, 700);
 });
