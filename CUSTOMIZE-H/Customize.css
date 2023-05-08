@@ -1,0 +1,169 @@
+/* Default styles */
+
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+  }
+  
+  .vector-icon {
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: auto;
+    top: 0%;
+    left: 0;
+  }
+  
+  .promo2:hover, .customize-us1:hover, .Findus:hover, .aboutuus:hover {
+    background-color: #ff85f58a;
+    border: 1px solid var(--color-black);
+    border-radius: 6px;
+  }
+  
+  .user-login {
+    z-index: 1;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    width: 5%;
+    height: auto;
+  
+  }
+  
+  .user-login {
+    color: #fd8cfda6;
+    top:0.7vw;
+    left: 2vw;
+    font-family: var(--font-gupter);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .promo2 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    width: 5%;
+    height: auto;
+  }
+  
+  .promo2 {
+    top:2.5vw;
+    left: 13vw;
+    font-family: var(--font-gupter);
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .customize-us {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    width: 6%;
+    height: auto;
+  }
+  
+  .customize-us {
+    top:2.57vw;
+    left: 24vw;
+    font-family: var(--font-gupter);
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .s-cakes-logo-1 {
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .s-cakes-logo-1 {
+    top: -1vw;
+    left: 39vw;
+    width: 17vw;
+    height: auto;
+    display: block;
+  }
+  
+  .est-2013 {
+    position: absolute;
+  }
+  
+  .est-2013 {
+    top: 4.5vw;
+    left: 53vw;
+    color: var(--color-black);
+    display:block;
+    align-items: center;
+    justify-content: center;
+    width: 4vw;
+    height: auto;
+  }
+  
+  .Findus {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    width: 6%;
+    height: auto;
+  }
+  
+  .Findus {
+    top:2.5vw;
+    left: 65vw;
+    font-family: var(--font-gupter);
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .aboutuus {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    width: 6%;
+    height: auto;
+  }
+  
+  .aboutuus
+  {
+    top:2.5vw;
+    left: 78vw;
+    font-family: var(--font-gupter);
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.back {
+    position: absolute;
+    z-index: -1;
+    top: 6.3vw;
+    left: 0vw;
+    height: auto;
+    width: 98.7vw;
+}
