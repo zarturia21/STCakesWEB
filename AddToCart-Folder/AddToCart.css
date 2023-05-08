@@ -1,0 +1,364 @@
+/* Default styles */
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+}
+
+.rec {
+  position: absolute;
+  width: 100vw;
+  height: 100vw;
+  left: 0vw;
+  background-color: #fef9ee;
+}
+
+.rectangle {
+  position: absolute;
+  width: 100vw;
+  height: 6.2vw;
+  left: 0vw;
+  background-color: rgba(255, 211, 240, 0.8);
+}
+
+.promo2:hover, .customize-us1:hover, .Findus:hover, .aboutuus:hover {
+  background-color: #ff85f58a;
+  border: 1px solid var(--color-black);
+  border-radius: 6px;
+
+}
+
+.promo2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 5vw;
+  height: auto;
+}
+
+.promo2 {
+  top:2.5vw;
+  left: 13vw;
+  font-family: var(--font-gupter);
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.customize-us {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 7vw;
+  height: auto;
+}
+
+.customize-us {
+  top:2.57vw;
+  left: 24vw;
+  font-family: var(--font-gupter);
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.s-cakes-logo-1 {
+  position: absolute;
+  z-index: 1;
+}
+
+.s-cakes-logo-1 {
+  top: -.7vw;
+  left: 42vw;
+  width: 11vw;
+  object-fit:fill;
+  display: block;
+}
+
+.est-2013 {
+  position: absolute;
+  top: 2vw;
+  left: 50.5vw;
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5vw;
+  height: 2.5vw;
+}
+
+.Findus {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 6vw;
+  height: auto;
+}
+
+.Findus {
+  top:2.5vw;
+  left: 65vw;
+  font-family: var(--font-gupter);
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutuus {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 8vw;
+  height: auto;
+}
+
+.aboutuus
+{
+  top:2.5vw;
+  left: 78vw;
+  font-family: var(--font-gupter);
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*Add to Cart*/
+.SCart {
+  position: absolute;
+  top: 7vw;
+  left: 37vw;
+  font-family: Dosis;
+  color: #000000
+}
+.Prefer {
+  position: absolute;
+  top: 10vw;
+  left: 36.8vw;
+  font-family: Dosis;
+  color: #000000
+}
+.Cakes:hover, .Breads:hover, .Pastries:hover {
+  background-color:rgba(255, 211, 240, 0.8);
+  border: 1px solid var(--color-black);
+  border-radius: 6px;
+}
+.Cakes {
+  position: absolute;
+  text-decoration: underline;
+  top: 13vw;
+  left: 30vw;
+  font-family: Dosis;
+  color: #000000
+}
+.Breads {
+  position: absolute;
+  text-decoration: underline;
+  top: 13vw;
+  left: 44vw;
+  font-family: Dosis;
+  color: #000000
+}
+.Pastries {
+  position: absolute;
+  text-decoration: underline;
+  top: 13vw;
+  left: 60vw;
+  font-family: Dosis;
+  color: #000000
+}
+.rectangle2 {
+  position: absolute;
+  top: 12vw;
+  width: 80vw;
+  height: .2vw;
+  left: 10vw;
+  background-color: rgb(0, 0, 0);
+}
+.rectangle3 {
+  position: absolute;
+  top: 16.5vw;
+  width: 80vw;
+  height: .2vw;
+  left: 10vw;
+  background-color: rgb(0, 0, 0);
+}
+.Notes {
+  position: absolute;
+  top: 30vw;
+  left: 10vw;
+  font-family: Dosis;
+  color: #000000
+}
+textarea {
+  position: absolute;
+  top: 32vw;
+  left: 10vw;
+  width: 30vw;
+  height: 5vw;
+  padding: 1vw;
+  border: .2vw solid #000000;
+  border-radius: .5vw;
+  font-size: 1vw;
+  resize: none;
+  outline: none;
+}
+.rectangle4 {
+  position: absolute;
+  top: 40vw;
+  width: 80vw;
+  height: .2vw;
+  left: 10vw;
+  background-color: rgb(0, 0, 0);
+}
+.Payment {
+  position: absolute;
+  top: 41vw;
+  left: 10vw;
+  font-family: Dosis;
+  color: #000000
+}
+.MasterCard {
+  position: absolute;
+  width: 5vw;
+  height: 2.8vw;
+  top: 43vw;
+  left: 10vw;
+  display: block;
+}
+.Visa {
+  position: absolute;
+  width: 5vw;
+  height: 2vw;
+  top: 43.5vw;
+  left: 15.7vw;
+  display: block;
+}
+.Gcash {
+  position: absolute;
+  width: 8vw;
+  height: 3vw;
+  top: 43vw;
+  left: 20.7vw;
+  display: block;
+}
+.Paypal {
+  position: absolute;
+  width: 8vw;
+  height: 3.8vw;
+  top: 42.6vw;
+  left: 29vw;
+  display: block;
+}
+.Total {
+  position: absolute;
+  top: 41vw;
+  left: 70vw;
+  font-family: Dosis;
+  color: #000000
+}
+.checkout-button {
+  position: absolute;
+  top: 43vw;
+  left: 77vw;
+  display: block;
+  padding: .7vw 1.5vw;
+  font-size: 1vw;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  background-color: rgba(255, 211, 240, 0.8);
+  border: none;
+  border-radius: .5vw;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #ff85f58a;
+}
+.rectangle5 {
+  position: absolute;
+  top: 47vw;
+  width: 80vw;
+  height: .2vw;
+  left: 10vw;
+  background-color: rgb(0, 0, 0);
+}
+.locpound {
+  position: absolute;
+  top: 50vw;
+  left: 20vw;
+  letter-spacing: 0.14em;
+  line-height: 0;
+  color: #5a5a5a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 59vw;
+  height: auto;
+  text-align: center;
+}
+.numts {
+  position: absolute;
+  top: 52vw;
+  left: 20vw;
+  letter-spacing: 0.14em;
+  line-height: 0;
+  color: #5a5a5a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 59vw;
+  height: auto;
+  text-align: center;
+}
+.dates {
+  position: absolute;
+  top: 54vw;
+  left: 20vw;
+  letter-spacing: 0.14em;
+  line-height: 0;
+  color: #5a5a5a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 59vw;
+  height: auto;
+  text-align: center;
+}
+
+.find-us,
+.links {
+  position: absolute;
+  top: 61vw;
+  left: 47vw;
+  line-height: 5;
+}
+.find-us {
+  text-decoration: underline;
+
+  top: 56vw;
+  left: 46vw;
+}
+
