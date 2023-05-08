@@ -2,7 +2,7 @@
 .Line1
 {  
     position:absolute;
-    width: 7.2vw;  
+    width: 6.3vw;  
     background-color: #70432E;  
     top: 0vw;
     left: 0vw;
@@ -11,109 +11,95 @@
 
   .home1 {
     position: absolute;
-    top: 5vw;
-    left: 2vw;
+    top: 8vw;
+    left: 1.7vw;
     color: #f1f1f1;
   }
   .customize1 {
     position: absolute;
-    top: 120px;
-    left: 5px;
-    width: 140px;
-    height: 45px;
-    color: #f1f1f1;
-    font-size: 15px;
+    top: 12vw;
+    left: 0.2vw;
+    color: white;
   }
-  .products {
+  .products1 {
     position: absolute;
-    top: 55px;
-    left: 4px;
-    width: 70px;
-    height: 45px;
+    top: 16vw;
+    left: 0.5vw;
+    width: 2vw;
     color: #f1f1f1;
-    font-size: 15px;
+
   }
-  .find-us {
-    position: absolute;
-    top: 50px;
-    left: 9px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .find1us1 {
+   position: absolute;
+    top: 20vw;
+    left: 1vw;
+    width: 5vw;
+    color: #f1f1f1;
+
   }
   .about-us1 {
     position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    line-height: 45px;
-    display: flex;
-    align-items: center;
-  }
-  .about-us {
-    position: absolute;
-    top: 88px;
-    left: 3px;
-    width: 118px;
-    height: 5px;
+    width: 5vw;
+    top: 24vw;
+    left: 0.5vw;
+    color: #f1f1f1;
   }
   .bckg {
     position: absolute;
-    top: -265px ;
-    left: 87px;
-    width: 555px;
-    height: 625px;
+    top: 0vw ;
+    left: 6.5vw;
+    display: block;
+    width: 40.5vw;
+    height: 45.5vw;
   }
   .back2
 {  
     position:absolute;
-    width: 712px;  
+    width: 53vw;  
     background: radial-gradient( #a15f40 30%, #b37f67 50%,  #b3846d 60%, #bb9f92 100%);  
-    top: -265px;
-    left: 642px;
-    height: 627px;
+    top: 0vw;
+    left: 47vw;
+    height: 45.75vw;
     }  
     .special-for-special {
       position: absolute;
-      top: -80px;
-      left: 240px;
-      font-size:30px;
-      width: 400px;
+      top: 6vw;
+      left: 8vw;
+      width: 30vw;
       font-family: var(--font-cookie);
       color: black;
       font-family: cookie;
     }
     .this-cake {
       position: absolute;
-      top: -5px;
-      left: 190px;
-      font-size:20px;
-      width: 400px;
+      top: 10vw;
+      left: 9vw;
+      width: 30vw;
       color: black;
   
     }
     .logoo {
       position: absolute;
-      top: -260px ;
-      left: 500px;
-      width: 250px;
+      top: 0vw ;
+      left: 40vw;
+      width: 18vw;
       height: 150px;
       font-size: 12px;
     }
     .choco {
       position:absolute;
-      top: -100px ;
-      left: 550px;
-      width: 550px;
-      height: 450px;
+      top: 10vw ;
+      left: 35vw;
+      width: 40vw;
+      height: auto;
+      display: block;
     }
     .buy {
       position: absolute;
-      top: 200px;
-      left: 300px;
-      font-size: 30px;
-      line-height: 45px;
+      top: 25vw;
+      left: 17vw;
+      padding: 1vw 3vw;
+      border-radius: 1.2vw;
       color: white;
       background-color: black;
     }
