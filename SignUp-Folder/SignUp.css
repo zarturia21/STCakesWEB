@@ -103,4 +103,23 @@
     height: auto;
     padding: 1vw;
 }
+/* login Button */
 
+#login-btn {
+    top: 34vw;
+    left: 24.5vw;
+    border-radius: 2vw;
+    position: absolute;
+    cursor: pointer;
+    background-color: rgb(255, 98, 242);
+    color: rgb(255, 255, 255);
+    padding: 0.5vw 4vw;
+    border: none;
+    cursor: pointer;
+  }
+  
+#login-btn:hover
+{
+    background-color:#ffc0cb;
+    color:rgb(255, 145, 145);
+}
