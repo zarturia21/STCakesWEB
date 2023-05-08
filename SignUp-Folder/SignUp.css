@@ -103,6 +103,12 @@
     height: auto;
     padding: 1vw;
 }
+
+.IN:hover, .UP:hover
+{
+     text-decoration: underline;
+    color: #ffc0cb;
+}
 /* login Button */
 
 #login-btn {
