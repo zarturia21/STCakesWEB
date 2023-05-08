@@ -1,28 +1,21 @@
-body {
 
-    background-color: #f1f1f1;
-  
-  }
-  
 .Line1
 {  
     position:absolute;
-    width: 100px;  
+    width: 7.2vw;  
     background-color: #70432E;  
-    top: 0px;
-    left: 0px;
-    height: 625px;
+    top: 0vw;
+    left: 0vw;
+    height: 45.72vw;
     }  
 
   .home1 {
     position: absolute;
-    top: 50px;
-    left: 25px;
-    line-height: 45px;
+    top: 5vw;
+    left: 2vw;
     color: #f1f1f1;
-    font-size: 15px;
   }
-  .customize {
+  .customize1 {
     position: absolute;
     top: 120px;
     left: 5px;
