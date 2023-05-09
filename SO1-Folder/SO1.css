@@ -85,7 +85,7 @@
     }  
     .special-for-special {
       position: absolute;
-      top: 6vw;
+      top: 7vw;
       left: 8vw;
       width: 30vw;
       font-family: var(--font-cookie);
@@ -94,10 +94,11 @@
     }
     .this-cake {
       position: absolute;
-      top: 10vw;
-      left: 9vw;
+      top: 14vw;
+      left: 14vw;
       width: 30vw;
       color: black;
+  
   
     }
     .logoo {
@@ -109,7 +110,7 @@
     }
     .choco {
       position:absolute;
-      top: 10vw ;
+      top: 17vw ;
       left: 35vw;
       width: 40vw;
       height: auto;
@@ -117,7 +118,7 @@
     }
     .buy {
       position: absolute;
-      top: 25vw;
+      top: 30vw;
       left: 17vw;
       padding: 1vw 3vw;
       border-radius: 1.2vw;
@@ -184,4 +185,39 @@
   50% { height: 100%;}
   75% { height: 100%;}
   100% { height: 0%;}
+}
+.arrow-icon {
+  position: absolute;
+  top: 24vw;
+  left: 95vw;
+  width: 3vw;
+  height:auto;
+}
+.cake-slides-1 {
+  position: absolute;
+  top: 48vw;
+  left: 48vw;
+  width: 0.5vw;
+  height:auto;
+}
+.cake-slides-2 {
+  position: absolute;
+  top: 48vw;
+  left: 49vw;
+  width: 0.5vw;
+  height:auto;
+}
+.cake-slides-3 {
+  position: absolute;
+  top: 48vw;
+  left: 50vw;
+  width: 0.5vw;
+  height:auto;
+}
+.cake-slides-4 {
+  position: absolute;
+  top: 48vw;
+  left: 51vw;
+  width: 0.5vw;
+  height:auto;
 }
