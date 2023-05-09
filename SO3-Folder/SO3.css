@@ -1,0 +1,135 @@
+body {
+
+    background-color: #f1f1f1;
+  
+  }
+  
+.Line1
+{  
+    position:absolute;
+    width: 100px;  
+    background-color: #70432E;  
+    top: 0px;
+    left: 0px;
+    height: 625px;
+    }  
+
+  .home1 {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    line-height: 45px;
+    color: #f1f1f1;
+    font-size: 15px;
+  }
+  .customize {
+    position: absolute;
+    top: 120px;
+    left: 5px;
+    width: 140px;
+    height: 45px;
+    color: #f1f1f1;
+    font-size: 15px;
+  }
+  .products {
+    position: absolute;
+    top: 55px;
+    left: 4px;
+    width: 70px;
+    height: 45px;
+    color: #f1f1f1;
+    font-size: 15px;
+  }
+  .find-us {
+    position: absolute;
+    top: 50px;
+    left: 9px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-us1 {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+  }
+  .about-us {
+    position: absolute;
+    top: 88px;
+    left: 3px;
+    width: 118px;
+    height: 5px;
+  }
+  .bckg {
+    position: absolute;
+    top: -265px ;
+    left: 87px;
+    width: 555px;
+    height: 625px;
+  }
+  .back2
+{  
+    position:absolute;
+    width: 712px;  
+    background: radial-gradient( #ca896b 30%, #ac5f39 50%,  #a35934 60%, #773d20 100%);  
+    top: -265px;
+    left: 642px;
+    height: 627px;
+    }  
+    .special-for-special {
+      position: absolute;
+      top: -80px;
+      left: 240px;
+      font-size:30px;
+      width: 400px;
+      font-family: var(--font-cookie);
+      color: black;
+      font-family: cookie;
+    }
+    .this-cake {
+      position: absolute;
+      top: -5px;
+      left: 190px;
+      font-size:20px;
+      width: 400px;
+      color: black;
+  
+    }
+    .logoo {
+      position: absolute;
+      top: -260px ;
+      left: 500px;
+      width: 250px;
+      height: 150px;
+      font-size: 12px;
+    }
+    .graham {
+      position:absolute;
+      top: -100px ;
+      left: 550px;
+      width: 550px;
+      height: 450px;
+    }
+    .buy {
+      position: absolute;
+      top: 200px;
+      left: 300px;
+      font-size: 30px;
+      line-height: 45px;
+      color: white;
+      background-color: black;
+    }
+   .est3{
+    position: absolute;
+      top: -180px ;
+      left: 720px;
+      width: 250px;
+      height: 150px;
+      font-size: 8px;
+      color: black;
+   }
