@@ -1,7 +1,7 @@
 .boader {
     position: absolute;
     height: 4vw;
-    width: 100vw;
+    width: 10vw;
     background-color:white;
    
 }
@@ -13,7 +13,9 @@
     font-style: dosis;
     color: rgb(0, 0, 0); 
     text-align: justify;
+  
 }
+
 .search {
     position: absolute;
     top: 1.3vw;
@@ -36,6 +38,21 @@
     left: 25vw;
     background-color:rgba(15, 15, 15, 0.432);
 }
+
+.functionbut
+ {
+    position: absolute;
+    top: 1vw;
+    height: 2vw;
+    width: 6.5vw;
+    left: 72vw;
+    background-color:rgba(255, 255, 255, 0.432);
+    border-radius: 2vw;
+}
+.functionbut:hover
+{
+    background-color: rgba(255, 192, 203, 0.534);
+}
 .about {
     position: absolute;
     top: 9vw;
@@ -57,7 +74,7 @@
     position: absolute;
     top:19vw;
     height: 26.75vw;
-    width: 100vw;
+    width: 10vw;
     background-color:white;
 }
 .history {
