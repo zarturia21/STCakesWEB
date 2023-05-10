@@ -1,48 +1,45 @@
-<!DOCTYPE html>
-
-    <?php
- $servername = "localhost";
- $username = "fallzur";
- $password = "pass123";
- $dbname = "stcakesdb";
- 
- // Create connection
- $conn = mysqli_connect($servername, $username, $password, $dbname);
- 
- // Check connection
- if (!$conn) {
-   die("Connection failed: " . mysqli_connect_error());
- }
-    ?>
-
 <?php
-// Include database connection file
-include_once("db_connect.php");
+// Establish a connection to the database
+$host = "localhost";
+$username = "user";
+$password = "password123";
+$database = "tscakesdb1.sql";
 
-if($_SERVER["REQUEST_METHOD"] == "POST") {
-  // username and password sent from form 
-  $myusername = mysqli_real_escape_string($conn,$_POST['username']);
-  $mypassword = mysqli_real_escape_string($conn,$_POST['password']); 
+$conn = mysqli_connect($host, $username, $password, $database);
+
+// Check connection
+if (!$conn) {
+  die("Connection failed: " . mysqli_connect_error());
+}
+
+// Check if the form is submitted
+if(isset($_POST['login'])) {
+  // Get username and password from the form
+  $username = $_POST['username'];
+  $password = $_POST['password'];
+
+  // Prepare a SQL query to check if the username and password exist in the database
+  $sql = "SELECT * FROM users WHERE username='$username' AND password='$password'";
   
-  $sql = "SELECT id FROM users WHERE username = '$myusername' and password = '$mypassword'";
-  $result = mysqli_query($conn,$sql);
-  $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
-  $active = $row['active'];
-  
-  $count = mysqli_num_rows($result);
-  
-  // If result matched $myusername and $mypassword, table row must be 1 row
-  if($count == 1) {
-     session_register("myusername");
-     $_SESSION['login_user'] = $myusername;
-     
-     header("location: welcome.php");
-  }else {
-     $error = "Your Login Name or Password is invalid";
+  // Execute the query
+  $result = mysqli_query($conn, $sql);
+
+  // Check if there is a record that matches the username and password
+  if(mysqli_num_rows($result) == 1) {
+    // Redirect the user to the home page or dashboard
+    header("Location: home.php");
+  } else {
+    // Display an error message if the username and password are incorrect
+    echo "Invalid username or password";
   }
 }
+
+// Close the database connection
+mysqli_close($conn);
 ?>
-    
+
+
+<!DOCTYPE html>  
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -90,11 +87,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="S-IN" style="font-size:1.5vw;">SIGN UP</div>
     
     <form action="login.php" method="post">
-    <input class="User-In" type="text"  placeholder="User Name ....."style="font-size:1.1vw;"/>
-     <input id="mypasswrod"class="Passwrd-In" type="password" placeholder="Password ..." style="font-size: 1.1vw;">
-     <input class="chkbox" type="checkbox" onclick="myFunction()">
-     <div class="chcktxt" style="font-size:0.8vw;">View Password</div>
-    </form>
+  <input class="User-In" type="text" name="username" placeholder="User Name ....." style="font-size:1.1vw;"/>
+  <input id="mypasswrod" class="Passwrd-In" type="password" name="password" placeholder="Password ..." style="font-size: 1.1vw;">
+  <input class="chkbox" type="checkbox" onclick="myFunction()">
+  <div class="chcktxt" style="font-size:0.8vw;">View Password</div>
+  <button type="submit" name="login">Login</button>
+</form>
+
 
      <button id="login-btn">Login</button>
 
