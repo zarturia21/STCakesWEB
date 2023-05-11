@@ -1,43 +1,3 @@
-<?php
-// Establish a connection to the database
-$host = "localhost";
-$username = "user";
-$password = "password123";
-$database = "tscakesdb1.sql";
-
-$conn = mysqli_connect($host, $username, $password, $database);
-
-// Check connection
-if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
-}
-
-// Check if the form is submitted
-if(isset($_POST['login'])) {
-  // Get username and password from the form
-  $username = $_POST['username'];
-  $password = $_POST['password'];
-
-  // Prepare a SQL query to check if the username and password exist in the database
-  $sql = "SELECT * FROM users WHERE username='$username' AND password='$password'";
-  
-  // Execute the query
-  $result = mysqli_query($conn, $sql);
-
-  // Check if there is a record that matches the username and password
-  if(mysqli_num_rows($result) == 1) {
-    // Redirect the user to the home page or dashboard
-    header("Location: home.php");
-  } else {
-    // Display an error message if the username and password are incorrect
-    echo "Invalid username or password";
-  }
-}
-
-// Close the database connection
-mysqli_close($conn);
-?>
-
 
 <!DOCTYPE html>  
 <html lang="en">
@@ -73,6 +33,7 @@ mysqli_close($conn);
 
 </head>
 
+
 <body>
     
     <img class="cake-main" id="Rec1img" alt="" src="./Photo/bkcs.png" />
@@ -86,16 +47,17 @@ mysqli_close($conn);
     <div class="S-UP" style="font-size:1.5vw;">SIGN IN</div>
     <div class="S-IN" style="font-size:1.5vw;">SIGN UP</div>
     
-    <form action="login.php" method="post">
-  <input class="User-In" type="text" name="username" placeholder="User Name ....." style="font-size:1.1vw;"/>
-  <input id="mypasswrod" class="Passwrd-In" type="password" name="password" placeholder="Password ..." style="font-size: 1.1vw;">
+    <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">  
+  <input class="User-In" type="text" name="user"id="user" placeholder="User Name ....." style="font-size:1.1vw;"/>
+
+  <input id="pass" class="Passwrd-In" type="password" name="pass" placeholder="Password ..." style="font-size: 1.1vw;">
+
   <input class="chkbox" type="checkbox" onclick="myFunction()">
   <div class="chcktxt" style="font-size:0.8vw;">View Password</div>
-  <button type="submit" name="login">Login</button>
-</form>
 
+  <button class="login-btn" id="btn" type="submit" value="login">Login</button>
 
-     <button id="login-btn">Login</button>
+  </form>  
 
 </div>
     
