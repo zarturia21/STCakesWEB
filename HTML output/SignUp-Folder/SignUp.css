@@ -49,65 +49,53 @@
   .User-In {
     z-index: -1;
     position: absolute;
-    top: 13vw;
+    top: 15vw;
     left: 15vw;
     border-radius: 1vw;
     display: block;
     box-sizing: border-box;
     width: 28vw;
-    height: auto;
+    height: 3vw;
     padding: 1vw;
 }
 
 .Email-In {
     z-index: -2;
     position: absolute;
-    top: 17vw;
+    top: 19vw;
     left: 15vw;
     border-radius: 1vw;
     display: block;
     box-sizing: border-box;
     width: 28vw;
-    height: auto;
+    height: 3vw;
     padding: 1vw;
 }
 .Number-In {
     z-index: -2;
     position: absolute;
-    top: 21vw;
+    top: 23vw;
     left: 15vw;
     border-radius: 1vw;
     display: block;
     box-sizing: border-box;
     width: 28vw;
-    height: auto;
+    height: 3vw;
     padding: 1vw;
 }
 .Password-In {
     z-index: -2;
     position: absolute;
-    top: 25vw;
+    top: 27vw;
     left: 15vw;
     border-radius: 1vw;
     display: block;
     box-sizing: border-box;
     width: 28vw;
-    height: auto;
+    height: 3vw;
     padding: 1vw;
 }
 
-.Confirm_Password-In {
-    z-index: -2;
-    position: absolute;
-    top: 29vw;
-    left: 15vw;
-    border-radius: 1vw;
-    display: block;
-    box-sizing: border-box;
-    width: 28vw;
-    height: auto;
-    padding: 1vw;
-}
 
 .IN:hover, .UP:hover
 {
@@ -117,7 +105,7 @@
 /* login Button */
 
 #login-btn {
-    top: 34vw;
+    top: 32vw;
     left: 24.5vw;
     border-radius: 2vw;
     position: absolute;

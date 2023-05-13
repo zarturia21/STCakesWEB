@@ -1,36 +1,3 @@
-<?php
-$servername = "localhost";
-$username = "your_username";
-$password = "your_password";
-$dbname = "your_database_name";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-
-// Get form data
-$username = $_POST['username'];
-$email = $_POST['email'];
-$mobile_number = $_POST['mobile_number'];
-$password = $_POST['password'];
-
-// Insert data into table
-$sql = "INSERT INTO users (username, email, mobile_number, password)
-VALUES ('$username', '$email', '$mobile_number', '$password')";
-
-if ($conn->query($sql) === TRUE) {
-  echo "New record created successfully";
-} else {
-  echo "Error: " . $sql . "<br>" . $conn->error;
-}
-
-$conn->close();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -81,19 +48,18 @@ $conn->close();
   <div class="squre"></div>
 
   <img class="logo" alt="" src="./photo/logo.png"/>
-  <a href="/Login-Folder/Login.html">
+  <a href="http://localhost/STCakesWEB/PhpOutput/loginpage.php">
   <div class="IN" style="font-size:1.5vw;">SIGN IN</div>
   </a>
   <div class="UP" style="font-size:1.5vw;">SIGN UP</div>
 
-  <form action="register.php" method="post">
-     <input class="User-In" type="text"  placeholder="User Name ....."style="font-size:1.1vw;"/>
-     <input class="Email-In" type="text"  placeholder="Email ....."style="font-size:1.1vw;"/>
-     <input class="Number-In" type="tel" onkeypress="return AllowOnlyNumbers(event);" placeholder="Mobile Number ....."style="font-size:1.1vw;"/>
-     <input id="password"class="Password-In" type="password" placeholder="Password ..." style="font-size: 1.1vw;">
-     <input id="confirm_password"class="Confirm_Password-In" type="password" placeholder="Confirm Password ..." style="font-size: 1.1vw;">
-
-
-     <button type="submit">Sign Up</button>
+ <form method="POST" action="register.php">
+  <input class="User-In" type="text" name="username" placeholder="User Name ....."style="font-size:1.1vw;"/>
+  <input class="Email-In" type="text" name="email" placeholder="Email ....."style="font-size:1.1vw;"/>
+  <input class="Number-In" type="tel" name="mobile_number" onkeypress="return AllowOnlyNumbers(event);" placeholder="Mobile Number ....."style="font-size:1.1vw;"/>
+  <input id="password" class="Password-In" type="password" name="password" placeholder="Password ..." style="font-size: 1.1vw;">
+  <input type="submit" value="Register">
 </form>
+
+     
 </body>

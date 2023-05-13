@@ -44,9 +44,10 @@
     <div class="squre"></div>
 
     <img class="logo" alt="" src="./photo/logo.png"/>
-    <div class="S-UP" style="font-size:1.5vw;">SIGN IN</div>
-    <div class="S-IN" style="font-size:1.5vw;">SIGN UP</div>
-    
+    <div class="S-IN" style="font-size:1.5vw;">SIGN IN</div>
+    <a href="http://localhost/STCakesWEB/PhpOutput/SignUp-Folder/SignUp.php">
+    <div class="S-UP" style="font-size:1.5vw;">SIGN UP</div>
+</a>
     <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">  
   <input class="User-In" type="text" name="user"id="user" placeholder="User Name ....." style="font-size:1.1vw;"/>
 
