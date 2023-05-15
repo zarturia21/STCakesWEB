@@ -4,9 +4,9 @@
     
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./new.css" />
+<link rel="stylesheet" href="./aboutus.css" />
 <link rel="stylesheet" href="./global.css" />
-<script src="Jswebse.js"></script>
+<script src="./aboutus.js"></script>
 
 <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Gidugu:wght@400&display=swap"/>
 <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400&display=swap"/>
@@ -26,6 +26,7 @@
 </head>
 
 <body>
+<div id="loader" class="center"></div>
 
     <div class="boader" size="5"></div>
 

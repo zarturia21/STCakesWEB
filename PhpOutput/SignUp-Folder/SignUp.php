@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./SignUp.css">
+  <link rel="stylesheet" href="./Sign-up.css">
     <link rel="stylesheet" href="./global.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="SignUp-Form.js"></script>
@@ -35,10 +35,6 @@
 
 <body>
 
-  <div class="loader-wrapper">
-    <span class="loader"><span class="loader-inner"></span></span>
-</div>
-    
 
   <img class="cake-main" id="Rec1img" alt="" src="./Photo/bkcs.png" />
   <img class="Lpic" alt="" src="./photo/Bckg.png"/>
@@ -58,7 +54,7 @@
   <input class="Email-In" type="text" name="email" placeholder="Email ....."style="font-size:1.1vw;"/>
   <input class="Number-In" type="tel" name="mobile_number" onkeypress="return AllowOnlyNumbers(event);" placeholder="Mobile Number ....."style="font-size:1.1vw;"/>
   <input id="password" class="Password-In" type="password" name="password" placeholder="Password ..." style="font-size: 1.1vw;">
-  <input type="submit" value="Register">
+  <input class="regs" type="submit" value="Register">
 </form>
 
      

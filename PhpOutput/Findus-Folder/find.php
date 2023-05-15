@@ -5,14 +5,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
     <link rel="stylesheet" href="./Findus.css" />
+    <script src="./findUs.js"></script>
 
 </head>
 <body>
-
     <img class="s-cakes-logo-1" alt="" src="./Photo/scakelogo.png "/>
     <img class="FindUsBackground1" alt="" src="./Photo/FindUsBackground1.png" />
     <img class="FindUsBackground2" alt="" src="./Photo/FindUsBackground2.png" />
     <div class="est-2013" style="font-size: .8vw;">E.S.T 2013</div>
+    <div id="loader" class="center"></div>
 
     <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Gidugu:wght@400&display=swap"/>
     <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400&display=swap"/>
@@ -29,10 +30,12 @@
     <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400&display=swap"/>
     <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Cormorant Garamond:wght@400&display=swap"/>
 
-
-    <div class="Home" style="font-size: 1.5vw;">HOME</div>
-    <div class="Aboutus" style="font-size: 1.5vw;">ABOUT US</div>
-    <div class="Products" style="font-size: 1.5vw;">PRODUCTS</div>
+    <a href="http://localhost/STCakesWEB/PhpOutput/home.php">
+    <div class="Home" style="font-size: 1.5vw;">HOME</div></a>
+    <a href="http://localhost/STCakesWEB/PhpOutput/PhpAboutus/aboutus.php">
+    <div class="Aboutus" style="font-size: 1.5vw;">ABOUT US</div></a>
+    <a href="http://localhost/STCakesWEB/PhpOutput/Categories-Folder/categ.php">
+    <div class="Products" style="font-size: 1.5vw;">PRODUCTS</div></a>
     <div class="Customize" style="font-size: 1.5vw;">CUSTOMIZED</div>
 
     <div class="store-location" style="font-size: 5vw;">STORE LOCATION</div>

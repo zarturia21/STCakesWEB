@@ -1,6 +1,6 @@
 body{
 
-    background-color: #fefaf1;
+    background-color: #ffeafcbd;
 }
 /* Buttons */
 .Home{
@@ -10,7 +10,7 @@ body{
   top: 6vw;
   left: 6vw;
   font-family: Dosis;
-  color: rgb(0, 0, 0);
+  color: #030303;
 }
 .Aboutus{
   position:absolute;
@@ -19,7 +19,7 @@ body{
   top: 6vw;
   left: 18vw;
   font-family: Dosis;
-  color: rgb(0, 0, 0);
+  color: #030303;
 }
 .Products{
   position:absolute;
@@ -28,7 +28,7 @@ body{
   top: 6vw;
   left: 69vw;
   font-family: Dosis;
-  color: rgb(0, 0, 0);
+  color: #030303;
 }
 .Customize{
   position:absolute;
@@ -38,7 +38,7 @@ body{
   top: 6vw;
   left: 85vw;
   font-family: Dosis;
-  color: rgb(0, 0, 0);
+  color: #030303;
 }
 .Home:hover, .Aboutus:hover, .Products:hover, .Customize:hover {
   background-color: #ff85f58a;
@@ -101,7 +101,7 @@ body{
   left: 33vw;
   right: 23vw; 
   color:#ffffff;
-  font-family:Dosis;
+  font-family: Dosis;
 } 
 /* Place pic*/
 .Place{
@@ -213,3 +213,28 @@ body{
   }
 
     
+  /*loader*/
+  #loader {
+    background-image: url(./gif/cupcake.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 231, 235, 0.658); /* Set the background color to pink */
+  }
+  
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }

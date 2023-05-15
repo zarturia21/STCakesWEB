@@ -4,10 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./Log.css">
+  <link rel="stylesheet" href="./loginpage.css">
   <link rel="stylesheet" href="./Golobal.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="logjs.js"></script>
+  <script src="loginpage.js"></script>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -35,7 +35,7 @@
 
 
 <body>
-    
+
     <img class="cake-main" id="Rec1img" alt="" src="./Photo/bkcs.png" />
     <img class="Lpic" alt="" src="./photo/Bckg.png"/>
 

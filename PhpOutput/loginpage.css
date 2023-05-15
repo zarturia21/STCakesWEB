@@ -1,0 +1,124 @@
+.Lpic {
+    position: absolute;
+    z-index: -1;
+    top: 8vw;
+    left: 49vw;
+    width: 40vw;
+    display: fill;
+    box-shadow: 0 4px 8px 0 #3535357a, 0 6px 20px 0 #3535357a;
+    height: 30vw;  
+}
+
+.squre{
+    position: absolute;
+    box-shadow: 0 4px 8px 0 #3535357a, 0 6px 20px 0 #3535357a;
+    left: 11vw;
+    height: 30vw;
+    z-index: -2;
+    top: 8vw;
+    width: 38vw;
+    background-color: #ffffff5d;
+    
+}
+.logo{
+    position: absolute;
+    top: 14vw;
+    z-index: -1;
+    left: 60vw;
+    width: 16vw;
+
+}
+.S-UP{
+    cursor: pointer;
+    position: absolute;
+    left: 35vw;
+    top: 10vw;
+    font-style: dosis;
+    color:#fdfdfde3;
+}
+
+.S-IN{
+    cursor: pointer;
+    position: absolute;
+    left: 19vw;
+    top: 10vw;
+    font-style: dosis;
+    color:#f947ff;
+}
+
+.S-IN:hover, .S-UP:hover
+{
+     text-decoration: underline;
+    color: #ffc0cb;
+}
+/* sign in and out */
+
+.User-In {
+   
+    position: absolute;
+    top: 18vw;
+    left: 15vw;
+    border-radius: 1vw;
+    display: block;
+    box-sizing: border-box;
+    width: 28vw;
+    height: auto;
+    padding: 1vw;
+}
+
+.Passwrd-In {
+  
+    position: absolute;
+    top: 23vw;
+    left: 15vw;
+    border-radius: 1vw;
+    display: block;
+    box-sizing: border-box;
+    width: 28vw;
+    height: auto;
+    padding: 1vw;
+}
+
+.User-In, .Passwrd-In
+{
+  z-index: -2;
+}
+
+/* showpassw*/
+.chkbox
+{
+    position: absolute;
+    top: 28vw;
+    left: 15vw;
+    display: block;
+    border: 1px solid black;
+    color:black;
+}
+
+.chcktxt {
+    position: absolute;
+    top: 28.2vw;
+    left: 16.5vw;
+    width: 7.5vw;
+}
+/* login Button */
+
+.login-btn {
+    top: 30vw;
+    left: 24.5vw;
+    border-radius: 2vw;
+    position: absolute;
+    cursor: pointer;
+    background-color: rgb(255, 98, 242);
+    color: rgb(255, 255, 255);
+    padding: 0.5vw 4vw;
+    border: none;
+  }
+  
+#login-btn:hover
+{
+    background-color:#ffc0cb;
+    color:rgb(255, 145, 145);
+}
+
+/*FANCY LOADERRRR*/

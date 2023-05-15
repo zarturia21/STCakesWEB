@@ -3,10 +3,13 @@
 <head> 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./Categories.css" />
-<link rel="stylesheet" href="./gobal.css" />
+<link rel="stylesheet" href="./Categoriess.css" />
+<link rel="stylesheet" href="./categset.css" />
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="./categ.js"></script>
+<script src="PhpOutput/Loader/loader.js"></script>
+<link rel="stylesheet" href="PhpOutput/Loader/loader.css">
 
  <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -32,28 +35,32 @@
 </head>
 
 <body>
+<div id="loader" class="center"></div>
 
-  <div class="Container">
-  <img class="s-cakes-logo-1" alt="" src="./Photo/scakelogo.png "/>
+<a href="http://localhost/STCakesWEB/PhpOutput/home.php">
+    <img class="s-cakes-logo-1" alt="" src="./Photo/scakelogo.png">
+</a>
   <div class="rectangle"></div>
 
   <div class="promo2">
-    <div class="about-us" style="font-size:1.5vw;">Promo</div>
+    <div class="about-us" style="font-size:1.2vw;">Promo</div>
     </div>
   
     <div class="customize-us">
-      <div class="customize-us1" style="font-size:1.5vw;" >Customize </div>
+      <div class="customize-us1" style="font-size:1.2vw;" >Customize </div>
     </div>
 
   <div class="est-2013" style="font-size: .7vw;">E.S.T 2013</div>
 
+  <a href="http://localhost/STCakesWEB/PhpOutput/Findus-Folder/find.php">
   <button class="Findus">
-    <div class="about-us" style="font-size:1.5vw;" >Find Us</div>
-  </button>
+    <div class="about-us" style="font-size:1.2vw;" >Find Us</div>
+  </button></a>
 
+  <a href="http://localhost/STCakesWEB/PhpOutput/PhpAboutus/aboutus.php">
   <button class="aboutuus">
-    <div class="about-us" style="font-size:1.5vw;" >About Us</div>
-  </button>
+    <div class="about-us" style="font-size:1.2vw;" >About Us</div>
+  </button></a>
 
   
   <!-- Cakes Categories-->
@@ -194,9 +201,5 @@
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-  <div class="loader-wrapper">
-    <span class="loader"><span class="loader-inner"></span></span>
-</div>
 
 </body>

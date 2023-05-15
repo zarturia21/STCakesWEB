@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="SO1.css">
+    <link rel="stylesheet" href="special1.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="sco1.js"></script>
+    <script src="special1.js"></script>
     
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -31,22 +31,24 @@
   </head>
 
   <body>
+  <div id="loader" class="center"></div>
 
     <div class="Line1" size="50" width="100%"></div>
 
-      <a href="/Main.html">
+    <a href="http://localhost/STCakesWEB/PhpOutput/home.php">
       <div class="home1"style="font-size: 1vw;">HOME</div>
       </a>
 
         <div class="customize1"style="font-size: 1vw;">CUSTOMIZE</div>
     
-        <a href="/Categories-Folder/Categories.html">
+        <a href="http://localhost/STCakesWEB/PhpOutput/Categories-Folder/categ.php">
        <div class="products1"style="font-size: 1vw;">PRODUCTS</div>
       </a>
+      <a href="http://localhost/STCakesWEB/PhpOutput/Findus-Folder/find.php">
+    <div class="find1us1"  style="font-size: 1vw;">FIND US</div></a>
 
-    <div class="find1us1"  style="font-size: 1vw;">FIND US</div>
-
-      <div class="about-us1"style="font-size: 1vw;">ABOUT US</div>
+    <a href="http://localhost/STCakesWEB/PhpOutput/PhpAboutus/aboutus.php">
+      <div class="about-us1"style="font-size: 1vw;">ABOUT US</div></a>
 
       <img src="./Photo/1f28191d-02dd-4412-8c5b-3819ab68a4e6_1681874389218122798.png" alt="bcrkg"class="bckg">
 
@@ -71,10 +73,6 @@
        <!-- Bootstrap JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-  <div class="loader-wrapper">
-    <span class="loader"><span class="loader-inner"></span></span>
-</div>
 
 <img class="arrow-icon" alt="" src="./PNGimages/arrow.svg" />
 

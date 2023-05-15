@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./stylemain.css">
+  <link rel="stylesheet" href="./home.css">
   <link rel="stylesheet" href="./global.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="javamain.js"></script>
+  <script src="homefunc.js"></script>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -30,11 +30,16 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant Garamond:wght@400&display=swap">
 
-<title>Your Website</title>
-
 </head>
 
 <body>
+ <!-- test loader-->
+<div id="loader" class="center"></div>
+
+
+ <!-- test loader-->
+
+
   <!-- HTML code-->
   <a href="loginpage.php">
   <div class="user-login" id="mylogbut">
@@ -49,11 +54,18 @@
   <img class="s-cakes-logo-1" alt="" src="./Photo/scakelogo.png"/>
   <img class="cake-main" id="Rec1img" alt="" src="./Photo/cakemain.png" />
   <img class="vector-icon" alt="" src="./SVG File/dashpink.svg" />
-  
-  <div class="promo2">
-  <div class="about-us" style="font-size:1.2vw;">Promo</div>
+   <!-- TEST -->
+   <div class="promo2">
+    <div class="about-us" style="font-size:1.2vw;">Promo</div>
   </div>
-  
+
+  <div class="popup-container">
+    <img class="popup-image" src="" alt="Popup Image">
+  </div>
+
+   <!-- TEST -->
+<div class="overlay" id="overlay"></div>
+
   <div class="customize-us">
     <div class="customize-us1" style="font-size:1.2vw;" >Customize </div>
   </div>
@@ -66,9 +78,9 @@
   </button></a>
 
   <a href="./PhpAboutus/aboutus.php">
-  <button class="aboutuus">
-    <div class="about-us" style="font-size:1.2vw;">About Us</div>
-  </button>
+  <button class="aboutuus" id="buttonID">
+        <div class="about-us" style="font-size:1.2vw;">About Us</div>
+    </button>
 </a>
 
   <h1 class="tscakes" style="font-size:5vw;">TScakes</h1>
@@ -129,9 +141,9 @@
 </video>
 
 
-<a href="http://localhost/STCakesWEB/PhpOutput/Categories-Folder/categ.php">
+
 <div class="wedding-cake"style="font-size:2vw;" id="varycake">WEDDING CAKE</div>
-</a>
+
 <div class="sweetness-in-every" style="font-size:4.5vw;">
   “Sweetness in Every Bite, Wonder in Every Slice”
 </div>
