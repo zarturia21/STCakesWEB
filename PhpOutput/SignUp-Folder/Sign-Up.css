@@ -35,7 +35,7 @@
     left: 35vw;
     top: 10vw;
     font-style: dosis;
-    color:#f947ff;
+    color:#ff9ff7c2;
 }
 
 .IN{
@@ -111,7 +111,7 @@
     position: absolute;
     cursor: pointer;
     z-index: -2;
-    background-color: rgb(255, 98, 242);
+    background-color: #ff9ff7c2;
     color: rgb(255, 255, 255);
     padding: 0.5vw 4vw;
     border: none;

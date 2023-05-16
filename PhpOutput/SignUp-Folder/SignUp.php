@@ -49,7 +49,7 @@
   </a>
   <div class="UP" style="font-size:1.5vw;">SIGN UP</div>
 
- <form method="POST" action="register.php">
+ <form method="POST" action="connect.php">
   <input class="User-In" type="text" name="username" placeholder="User Name ....."style="font-size:1.1vw;"/>
   <input class="Email-In" type="text" name="email" placeholder="Email ....."style="font-size:1.1vw;"/>
   <input class="Number-In" type="tel" name="mobile_number" onkeypress="return AllowOnlyNumbers(event);" placeholder="Mobile Number ....."style="font-size:1.1vw;"/>

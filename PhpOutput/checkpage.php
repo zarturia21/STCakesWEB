@@ -26,7 +26,7 @@
 session_start();
 //Check whether the session variable SESS_MEMBER_ID is present or not
 if (!isset($_SESSION['user_id']) || (trim($_SESSION['user_id']) == '')) {
-    header("location: index.php");
+    header("location: home.php");
     exit();
 }
 $session_id=$_SESSION['user_id'];
@@ -35,5 +35,5 @@ $session_id=$_SESSION['user_id'];
 <?php
 session_start();
 session_destroy();
-header('location:index.php');
+header('location:home.php');
 ?>
