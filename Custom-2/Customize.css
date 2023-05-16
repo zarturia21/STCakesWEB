@@ -181,8 +181,8 @@ body {
 }
 .quote {
   position: absolute;
-  top: 17vw ;
-  left: 40vw ;
+  top: 25vw ;
+  left: 10vw ;
   line-height: 1.05vw;
   display: flex;
   align-items: center;
@@ -190,113 +190,123 @@ body {
 }
 .quote2 {
   position: absolute;
-  top: 23vw ;
-  left: 40vw ;
-  line-height: 1.05vw;
+  top: 30vw ;
+  left: 10vw ;
+  line-height: 1.50vw;
   display: flex;
   align-items: center;
-  width: 45vw;
+  width: 30vw;
 }
 .quote3 {
   position: absolute;
-  top: 27vw ;
-  left: 40vw ;
-  line-height: 1.05vw;
+  top: 35vw ;
+  left: 10vw ;
+  line-height: 1.50vw;
   display: flex;
   align-items: center;
-  width: 45vw;
+  width: 30vw;
 }
-.options {
+.quote4 {
   position: absolute;
-  top: 15vw;
-  left: 10vw;
+  top: 42vw;
+  left: 10vw ;
+  line-height: 1.50vw;
   display: flex;
   align-items: center;
-  width: 20vw;
-  height: auto ;
-  border-radius: 10vw;
-  padding: 1vw;
-  background: linear-gradient(135deg, #ffc3e7 30%, #ffaadb);
-  border-bottom: 2px solid var(--color-darkslategray-200);
-  box-sizing: border-box;
+  width: 30vw;
 }
 
-.step {
+.Cakes  {
   position: absolute;
-  display: flex;
+  top: 25vw ;
+  left: 50vw ;
   align-items: center;
-  top: 32vw;
-  left: 45vw;
-  text-transform: uppercase;
-  width: 20vw;
+  width: 35vw;
 }
-.choose {
+.flavour {
   position: absolute;
-  top: 35vw;
-  left: 40vw;
+  top: 50vw ;
+  left: 10vw ;
+  line-height: 1.05vw;
   display: flex;
   align-items: center;
   width: 10vw;
 }
-.tier  {
+.drop1 {
   position: absolute;
-  top: 38vw ;
-  left: 40vw ;
+  top: 49.2vw ;
+  left: 30vw ;
+  line-height: 1.05vw;
+  display: flex;
   align-items: center;
-  width: 5vw;
+  width: 3vw;
 }
-.single {
+.filling {
   position: absolute;
-  top: 38vw;
-  left: 47vw;
-  width: 5vw;
-}
-.singletext {
-  position: absolute;
-  top: 43vw;
-  left: 48.7vw;
-  width: 5vw;
-}
-.multiple {
-  position: absolute;
-  top: 38vw;
-  left: 55vw;
-  width: 5vw;
-}
-.multipletext {
-  position: absolute;
-  top: 43vw;
-  left: 56.5vw;
-  width: 5vw;
-}
-.round {
-  position: absolute;
-  top: 45vw;
-  left: 47vw;
-  width: 5vw;
-}
-.roundtext {
-  position: absolute;
-  top: 50vw;
-  left: 48.7vw;
-  width: 5vw;
-}
-.sheet {
-  position: absolute;
-  top: 45vw;
-  left: 55vw;
-  width: 5vw;
-}
-.sheettext {
-  position: absolute;
-  top: 50vw;
-  left: 56.5vw;
-  width: 5vw;
-}
-.shape  {
-  position: absolute;
-  top: 45vw ;
-  left: 40vw ;
+  top: 54vw ;
+  left: 10vw ;
+  line-height: 1.05vw;
+  display: flex;
   align-items: center;
-  width: 5vw;
+  width: 10vw;
+}
+.drop2 {
+  position: absolute;
+  top: 53.2vw ;
+  left: 30vw ;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 3vw;
+}
+.Decor {
+  position: absolute;
+  top: 58vw ;
+  left: 10vw ;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 10vw;
+}
+.drop3 {
+  position: absolute;
+  top: 57.2vw ;
+  left: 30vw ;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 3vw;
+}
+.pricing {
+  position: absolute;
+  top: 62vw ;
+  left: 10vw ;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 10vw;
+}
+.drop4 {
+  position: absolute;
+  top: 61.2vw ;
+  left: 30vw ;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 3vw;
+}
+.Enquire {
+  position: absolute;
+  top: 68vw;
+  left: 15vw;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 15vw;
+  border-radius: 15vw;
+  justify-content: center ;
+  color: white;
+  background-color: rgb(233, 116, 139);
+  height: auto;
+  padding: 2vw;
 }
