@@ -167,3 +167,136 @@ body {
     height: auto;
     width: 98.7vw;
 }
+.sidebar {
+  position: absolute;
+  width: 15vw ;
+  top: 10vw;
+  left: 10vw;
+  border-radius: 2vw;
+  padding: 1vw;
+  background: linear-gradient(135deg, #ffc3e7 30%, #ffaadb);
+  border-bottom: 2px solid var(--color-darkslategray-200);
+  box-sizing: border-box;
+  height: auto;
+}
+.quote {
+  position: absolute;
+  top: 17vw ;
+  left: 40vw ;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 45vw;
+}
+.quote2 {
+  position: absolute;
+  top: 23vw ;
+  left: 40vw ;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 45vw;
+}
+.quote3 {
+  position: absolute;
+  top: 27vw ;
+  left: 40vw ;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 45vw;
+}
+.options {
+  position: absolute;
+  top: 15vw;
+  left: 10vw;
+  display: flex;
+  align-items: center;
+  width: 20vw;
+  height: auto ;
+  border-radius: 10vw;
+  padding: 1vw;
+  background: linear-gradient(135deg, #ffc3e7 30%, #ffaadb);
+  border-bottom: 2px solid var(--color-darkslategray-200);
+  box-sizing: border-box;
+}
+
+.step {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 32vw;
+  left: 45vw;
+  text-transform: uppercase;
+  width: 20vw;
+}
+.choose {
+  position: absolute;
+  top: 35vw;
+  left: 40vw;
+  display: flex;
+  align-items: center;
+  width: 10vw;
+}
+.tier  {
+  position: absolute;
+  top: 38vw ;
+  left: 40vw ;
+  align-items: center;
+  width: 5vw;
+}
+.single {
+  position: absolute;
+  top: 38vw;
+  left: 47vw;
+  width: 5vw;
+}
+.singletext {
+  position: absolute;
+  top: 43vw;
+  left: 48.7vw;
+  width: 5vw;
+}
+.multiple {
+  position: absolute;
+  top: 38vw;
+  left: 55vw;
+  width: 5vw;
+}
+.multipletext {
+  position: absolute;
+  top: 43vw;
+  left: 56.5vw;
+  width: 5vw;
+}
+.round {
+  position: absolute;
+  top: 45vw;
+  left: 47vw;
+  width: 5vw;
+}
+.roundtext {
+  position: absolute;
+  top: 50vw;
+  left: 48.7vw;
+  width: 5vw;
+}
+.sheet {
+  position: absolute;
+  top: 45vw;
+  left: 55vw;
+  width: 5vw;
+}
+.sheettext {
+  position: absolute;
+  top: 50vw;
+  left: 56.5vw;
+  width: 5vw;
+}
+.shape  {
+  position: absolute;
+  top: 45vw ;
+  left: 40vw ;
+  align-items: center;
+  width: 5vw;
+}
