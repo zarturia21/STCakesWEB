@@ -89,7 +89,7 @@
   <img class="arrow-icon" alt="" src="./SVG File/arrow.svg" />
 
 <div>
-  <div class="cake-bread" style="font-size:10;" >Cake, Bread & Pastries</div>
+  <div class="cake-bread" style="font-size:6vw;" >Cake, Bread & Pastries</div>
 </div>
   <div class="caken-nidri"style="font-size:2vw;">Cake vary for any event</div>
 

@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./Sign-up.css">
-    <link rel="stylesheet" href="./global.css">
+  <link rel="stylesheet" href="./Sign-Up.css">
+    <link rel="stylesheet" href="./Global.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="SignUp-Form.js"></script>
 

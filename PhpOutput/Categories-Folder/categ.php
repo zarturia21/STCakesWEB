@@ -37,9 +37,10 @@
 <body>
 <div id="loader" class="center"></div>
 
-<a href="http://localhost/STCakesWEB/PhpOutput/home.php">
+<a href="http://localhost/STCakesWEB/PhpOutput/home.php" class="hover-link">
     <img class="s-cakes-logo-1" alt="" src="./Photo/scakelogo.png">
 </a>
+
   <div class="rectangle"></div>
 
   <div class="promo2">
