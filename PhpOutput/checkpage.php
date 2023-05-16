@@ -11,7 +11,7 @@
             if ($num_row > 0) 
                 {            
                     $_SESSION['user_id']=$row['user_id'];
-                    header('location:home.php');
+                    header("Location: http://localhost/STCakesWEB/PhpOutput/AfterLogin/afterlog.php");
                     
                 }
             else
@@ -26,8 +26,9 @@
 session_start();
 //Check whether the session variable SESS_MEMBER_ID is present or not
 if (!isset($_SESSION['user_id']) || (trim($_SESSION['user_id']) == '')) {
-    header("location: home.php");
+    header("Location: http://localhost/STCakesWEB/PhpOutput/AfterLogin/afterlog.php");
     exit();
+    
 }
 $session_id=$_SESSION['user_id'];
 ?>
@@ -35,5 +36,5 @@ $session_id=$_SESSION['user_id'];
 <?php
 session_start();
 session_destroy();
-header('location:home.php');
+header("Location: http://localhost/STCakesWEB/PhpOutput/AfterLogin/afterlog.php");
 ?>

@@ -2,8 +2,8 @@
 // Establish database connection
 $host = 'localhost';
 $db = 'tscakesdb';
-$user = 'your_username';
-$password = 'your_password';
+$user = 'root';
+$password = '';
 
 $conn = new PDO("mysql:host=$host;dbname=$db", $user, $password);
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -16,26 +16,30 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $mobileNumber = $_POST['mobile_number'];
     $password = $_POST['password'];
 
+    // Check for empty fields
+    if (empty($username) || empty($email) || empty($mobileNumber) || empty($password)) {
+        // Fields are blank, show error message or redirect back to the registration form
+        header("Location: ./SignUp.php");
+        exit;
+    }
+
     // Check for existing user
-    $stmt = $conn->prepare("SELECT COUNT(*) FROM users WHERE email = ?");
+    $stmt = $conn->prepare("SELECT COUNT(*) FROM tscakeslog WHERE email = ?");
     $stmt->execute([$email]);
     $emailExists = $stmt->fetchColumn();
 
     if ($emailExists) {
         // Email already registered, show error message or redirect back to the registration form
-        header("Location: registration_error.php?error=email_exists");
+        header("Location: ./SignUp.php");
         exit;
     }
 
-    // Hash the password
-    $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-
     // Insert data into the database
-    $stmt = $conn->prepare("INSERT INTO users (username, email, mobile_number, password) VALUES (?, ?, ?, ?)");
-    $stmt->execute([$username, $email, $mobileNumber, $hashedPassword]);
+    $stmt = $conn->prepare("INSERT INTO tscakeslog (username, email, mobile_number, password) VALUES (?, ?, ?, ?)");
+    $stmt->execute([$username, $email, $mobileNumber, $password]);
 
     // Redirect to registration success page
-    header("Location: registration_success.php");
+    header("Location: /STCakesWEB/PhpOutput/loginpage.php");
     exit;
 }
 ?>

@@ -21,7 +21,7 @@
         $_SESSION['userid'] = $row['id'];
         
         // Redirect to another PHP file
-        header("Location: home.php");
+        header("Location: http://localhost/STCakesWEB/PhpOutput/AfterLogin/afterlog.php");
         exit();
     }
     else{
