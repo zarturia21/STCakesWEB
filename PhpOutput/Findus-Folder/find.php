@@ -30,7 +30,7 @@
     <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400&display=swap"/>
     <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Cormorant Garamond:wght@400&display=swap"/>
 
-    <a href="http://localhost/STCakesWEB/PhpOutput/home.php">
+    <a href="http://localhost/STCakesWEB/PhpOutput/AfterLogin/afterlog.php">
     <div class="Home" style="font-size: 1.5vw;">HOME</div></a>
     <a href="http://localhost/STCakesWEB/PhpOutput/PhpAboutus/aboutus.php">
     <div class="Aboutus" style="font-size: 1.5vw;">ABOUT US</div></a>

@@ -37,7 +37,7 @@
 <body>
 <div id="loader" class="center"></div>
 
-<a href="http://localhost/STCakesWEB/PhpOutput/home.php" class="hover-link">
+<a href="http://localhost/STCakesWEB/PhpOutput/AfterLogin/afterlog.php" class="hover-link">
     <img class="s-cakes-logo-1" alt="" src="./Photo/scakelogo.png">
 </a>
 

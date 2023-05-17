@@ -35,7 +35,7 @@
 
     <div class="Line1" size="50" width="100%"></div>
 
-    <a href="http://localhost/STCakesWEB/PhpOutput/home.php">
+    <a href="http://localhost/STCakesWEB/PhpOutput/AfterLogin/afterlog.php">
       <div class="home1"style="font-size: 1vw;">HOME</div>
       </a>
 

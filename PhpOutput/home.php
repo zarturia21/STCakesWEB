@@ -46,7 +46,7 @@
     <i class='fa fa-user' id="logbut" style="font-size:5vw;"></i>
 </div>  </a>
 
-<a href="http://localhost/STCakesWEB/PhpOutput/Categories-Folder/categ.php">
+<a href="http://localhost/STCakesWEB/PhpOutput/loginpage.php">
   <div class="Ordernow1" style="font-size:1.8vw;" >Order Online</div>
   </a>
 
@@ -153,19 +153,19 @@
 
 <div id="categories" class="Categ-Big" style="font-size:3vw;">CATEGORIES</div>
 
-<a href="http://localhost/STCakesWEB/PhpOutput/Categories-Folder/categ.php">
+<a href="http://localhost/STCakesWEB/PhpOutput/loginpage.php">
 <div class="pastriesn">
   <img class="Cake-C" alt="" src="./Photo/Cake-C.png" id="rectangleImage2"onmouseover="CakeHov(this, './Photo/Cake-D.png')" onmouseout="CakeHov(this, './Photo/Cake-C.png')"/>
 </div></a>
 
-<a href="http://localhost/STCakesWEB/PhpOutput/Categories-Folder/categ.php">
+<a href="http://localhost/STCakesWEB/PhpOutput/loginpage.php">
 <h1 class="Caketxt" style="font-size:3vw;">CAKES</h1>
 <div class="pastriesn">
   <img
     class="Pastrien-C" alt="" src="./Photo/Pastries-C.png" id="rectangleImage2"onmouseover="PasHov(this, './Photo/Pastries-D.png')" onmouseout="PasHov(this, './Photo/Pastries-C.png')"/>
 </div></a>
 
-<a href="http://localhost/STCakesWEB/PhpOutput/Categories-Folder/categ.php">
+<a href="http://localhost/STCakesWEB/PhpOutput/loginpage.php">
 <h1 class="Pastriestxt" style="font-size:3vw;">PASTRIES</h1>
 <div class="pastriesn">
   <img

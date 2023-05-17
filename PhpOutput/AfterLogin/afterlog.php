@@ -87,7 +87,7 @@
     <div class="about-us" style="font-size:1.2vw;" >Find Us</div>
   </button></a>
 
-  <a href="./PhpAboutus/aboutus.php">
+  <a href="http://localhost/STCakesWEB/PhpOutput/PhpAboutus/aboutus.php">
   <button class="aboutuus" id="buttonID">
         <div class="about-us" style="font-size:1.2vw;">About Us</div>
     </button>
