@@ -7,16 +7,18 @@ body{
   position:absolute;
   height: 2vw;
   width: 3.7vw;
-  top: 6vw;
   left: 6vw;
   font-family: Dosis;
   color: #030303;
+  top: 5.5vw;
+  padding: 0.5vw;;
 }
 .Aboutus{
   position:absolute;
   height: 2vw;
   width: 6vw;
-  top: 6vw;
+  top: 5.5vw;
+  padding: 0.5vw;;
   left: 18vw;
   font-family: Dosis;
   color: #030303;
@@ -25,7 +27,8 @@ body{
   position:absolute;
   height: 2vw;
   width: 6.5vw;
-  top: 6vw;
+  top: 5.5vw;
+  padding: 0.5vw;;
   left: 69vw;
   font-family: Dosis;
   color: #030303;
@@ -35,7 +38,8 @@ body{
   z-index: 1vw;
   height: 2vw;
   width: 7.8vw;
-  top: 6vw;
+  top: 5.5vw;
+  padding: 0.5vw;;
   left: 85vw;
   font-family: Dosis;
   color: #030303;
@@ -44,6 +48,7 @@ body{
   background-color: #ff85f58a;
   border: 1px solid var(--color-black);
   border-radius: 6px;
+  color:white;
 }
  /*Logo ni dri*/
   

@@ -4,7 +4,7 @@
 
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <link rel="stylesheet" href="./Findus.css" />
+    <link rel="stylesheet" href="./Finduss.css" />
     <script src="./findUs.js"></script>
 
 </head>
