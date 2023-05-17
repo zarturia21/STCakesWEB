@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./home.css">
+  <link rel="stylesheet" href="./homes.css">
   <link rel="stylesheet" href="./global.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="homefunc.js"></script>
@@ -38,7 +38,9 @@
 
 
  <!-- test loader-->
-
+ <a href="http://localhost/STCakesWEB/PhpOutput/loginpage.php">
+  <img class="gifcart" alt="" src="./gif/cart.gif"/>
+  </a>
 
   <!-- HTML code-->
   <a href="loginpage.php">

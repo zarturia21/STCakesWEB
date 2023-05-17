@@ -1,0 +1,1216 @@
+/* Default styles */
+
+body {
+  background-color: #f1f1f1;
+  margin: 0;
+}
+.gifcart
+{
+  position: absolute;
+  top:-0.5vw;
+  width: 6vw;
+  left: 90vw;
+  z-index: 2;
+}
+.rectangle {
+  position: absolute;
+  width: 98.7vw;
+  height: 6.2vw;
+  left: 0vw;
+  top: 0vw;
+  background-color: rgba(255, 211, 240, 0.8);
+}
+
+.promo2:hover, .customize-us1:hover, .Findus:hover, .aboutuus:hover {
+  background-color: #ff85f58a;
+  border: 1px solid var(--color-black);
+  border-radius: 6px;
+
+}
+
+.promo2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 5%;
+  height: auto;
+}
+
+.promo2 {
+  top:2.5vw;
+  left: 13vw;
+  font-family: var(--font-gupter);
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.customize-us {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 6%;
+  height: auto;
+}
+
+.customize-us {
+  top:2.57vw;
+  left: 24vw;
+  font-family: var(--font-gupter);
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.s-cakes-logo-1 {
+  top: -0.7vw;
+  left: 42vw;
+  width: 11vw;
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+
+.est-2013 {
+  position: absolute;
+  top: 2vw;
+  left: 50.5vw;
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5vw;
+  height: 2.5vw;
+  color: rgb(8, 8, 8);
+}
+
+.Findus {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 6%;
+  height: auto;
+}
+
+.Findus {
+  top:2.5vw;
+  left: 65vw;
+  font-family: var(--font-gupter);
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutuus {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 8%;
+  height: auto;
+}
+
+.aboutuus
+{
+  top:2.5vw;
+  left: 78vw;
+  font-family: var(--font-gupter);
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*CakeCategories*/
+.TitleBG {
+  position: absolute;
+  z-index: -1;
+  top: 0vw;
+  left: 0vw;
+  width: 98.7vw;
+  height: 35vw;
+  object-fit:fill;
+  display: block;
+}
+/*CakeTitle*/
+.CAKES {
+  position: absolute;
+  top: 21vw;
+  left: 6vw;
+  font-family: Cormorant;
+  color: #ffffff
+}
+/*CakeInfo*/
+.CAKESInfo {
+  position: absolute;
+  top: 26.5vw;
+  left: 6vw;
+  width: 80vw;
+  font-family: Cormorant;
+  text-align: justify;
+  color: #ffffff
+}
+.cake1:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.cake1{
+  position: absolute;
+  top: 38vw;
+  left: 3vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.CakeName1{
+  position: absolute;
+  top: 62vw;
+  left: 6vw;
+  font-family: Cormorant;
+  width: 8vw;
+  height: 50vw;
+}
+.cakeprice1 {
+  position: absolute;
+  top: 63vw;
+  left: 5.8vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b1
+{
+  color:red;
+  font-size: 3vw;
+}
+.cake2:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.cake2{
+  position: absolute;
+  top: 38vw;
+  left: 23vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.CakeName2{
+  position: absolute;
+  top: 62vw;
+  left: 26vw;
+  font-family: Cormorant;
+  width: 8vw;
+  height: 50vw;
+}
+.cakeprice2 {
+  position: absolute;
+  top: 63vw;
+  left: 25.8vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b2
+{
+  color:red;
+  font-size: 3vw;
+}
+.cake3:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.cake3{
+  position: absolute;
+  top: 38vw;
+  left: 43vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.CakeName3{
+  position: absolute;
+  top: 62vw;
+  left: 46vw;
+  font-family: Cormorant;
+  width: 15vw;
+  height: 50vw;
+}
+.cakeprice3 {
+  position: absolute;
+  top: 63vw;
+  left: 45.8vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b3
+{
+  color:red;
+  font-size: 3vw;
+}
+.cake4:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.cake4{
+  position: absolute;
+  top: 38vw;
+  left: 63vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.CakeName4{
+  position: absolute;
+  top: 62vw;
+  left: 66vw;
+  font-family: Cormorant;
+  width: 8vw;
+  height: 50vw;
+}
+.cakeprice4 {
+  position: absolute;
+  top: 63vw;
+  left: 65.8vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b4
+{
+  color:red;
+  font-size: 3vw;
+}
+.cake5:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.cake5{
+  position: absolute;
+  top: 38vw;
+  left: 83vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.CakeName5{
+  position: absolute;
+  top: 62vw;
+  left: 86vw;
+  font-family: Cormorant;
+  width: 8vw;
+  height: 50vw;
+}
+.cakeprice5 {
+  position: absolute;
+  top: 63vw;
+  left: 85.8vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b5
+{
+  color:red;
+  font-size: 3vw;
+}
+.cake6:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.cake6{
+  position: absolute;
+  top: 69.5vw;
+  left: 3vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.CakeName6{
+  position: absolute;
+  top: 93vw;
+  left: 6vw;
+  font-family: Cormorant;
+  width: 8vw;
+  height: 50vw;
+}
+.cakeprice6 {
+  position: absolute;
+  top: 94vw;
+  left: 5.8vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b6
+{
+  color:red;
+  font-size: 3vw;
+}
+.cake7:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.cake7{
+  position: absolute;
+  top: 69.5vw;
+  left: 23vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.CakeName7{
+  position: absolute;
+  top: 93vw;
+  left: 26vw;
+  font-family: Cormorant;
+  width: 8vw;
+  height: 50vw;
+}
+.cakeprice7 {
+  position: absolute;
+  top: 94vw;
+  left: 25.8vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b7
+{
+  color:red;
+  font-size: 3vw;
+}
+.cake8:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.cake8{
+  position: absolute;
+  top: 69.5vw;
+  left: 43vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.CakeName8{
+  position: absolute;
+  top: 93vw;
+  left: 46vw;
+  font-family: Cormorant;
+  width: 8vw;
+  height: 50vw;
+}
+.cakeprice8 {
+  position: absolute;
+  top: 94vw;
+  left: 45.8vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b8
+{
+  color:red;
+  font-size: 3vw;
+}
+.cake9:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.cake9{
+  position: absolute;
+  top: 69.5vw;
+  left: 63vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.CakeName9{
+  position: absolute;
+  top: 93vw;
+  left: 66vw;
+  font-family: Cormorant;
+  width: 8vw;
+  height: 50vw;
+}
+.cakeprice9 {
+  position: absolute;
+  top: 94vw;
+  left: 65.8vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b9
+{
+  color:red;
+  font-size: 3vw;
+}
+.cake10:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.cake10{
+  position: absolute;
+  top: 69.5vw;
+  left: 83vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.CakeName10{
+  position: absolute;
+  top: 93vw;
+  left: 86vw;
+  font-family: Cormorant;
+  width: 8vw;
+  height: 50%vw;
+}
+.cakeprice10 {
+  position: absolute;
+  top: 94vw;
+  left: 85.8vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b10
+{
+  color:red;
+  font-size: 3vw;
+}
+/*Bread Categories*/
+.BreadBG {
+  position: absolute;
+  z-index: -1;
+  top: 107vw;
+  left: 0vw;
+  width: 98.7vw;
+  height: 28vw;
+  object-fit:fill;
+  display: block;
+}
+.BREAD {
+  position: absolute;
+  top: 121vw;
+  left: 6vw;
+  font-family: Cormorant;
+  color: #ffffff
+}
+/*Bread Info*/
+.BREADInfo {
+  position: absolute;
+  top: 126.5vw;
+  left: 6vw;
+  width: 80vw;
+  font-family: Cormorant;
+  text-align: justify;
+  color: #ffffff
+}
+.bread1:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.bread1{
+  position: absolute;
+  top: 140.3vw;
+  left: 3vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.BreadName1{
+  position: absolute;
+  top: 164vw;
+  left: 6vw;
+  font-family: Cormorant;
+  width: 9vw;
+  height: 50vw;
+}
+.breadprice1 {
+  position: absolute;
+  top: 165vw;
+  left: 6vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b1
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread2:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.bread2{
+  position: absolute;
+  top: 140.3vw;
+  left: 23vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.BreadName2{
+  position: absolute;
+  top: 164vw;
+  left: 26vw;
+  font-family: Cormorant;
+  width: 9vw;
+  height: 50vw;
+}
+.breadprice2 {
+  position: absolute;
+  top: 165vw;
+  left: 26vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b2
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread3:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.bread3{
+  position: absolute;
+  top: 140.3vw;
+  left: 43vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.BreadName3{
+  position: absolute;
+  top: 164vw;
+  left: 46vw;
+  font-family: Cormorant;
+  width: 9vw;
+  height: 50vw;
+}
+.breadprice3 {
+  position: absolute;
+  top: 165vw;
+  left: 46vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b3
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread4:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.bread4{
+  position: absolute;
+  top: 140.3vw;
+  left: 63vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.BreadName4{
+  position: absolute;
+  top: 164vw;
+  left: 66vw;
+  font-family: Cormorant;
+  width: 9vw;
+  height: 50vw;
+}
+.breadprice4 {
+  position: absolute;
+  top: 165vw;
+  left: 66vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b4
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread5:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.bread5{
+  position: absolute;
+  top: 140.3vw;
+  left: 83vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.BreadName5{
+  position: absolute;
+  top: 164vw;
+  left: 86vw;
+  font-family: Cormorant;
+  width: 9vw;
+  height: 50vw;
+}
+.breadprice5 {
+  position: absolute;
+  top: 165vw;
+  left: 86vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b5
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread6:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.bread6{
+  position: absolute;
+  top: 173.7vw;
+  left: 3vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.BreadName6{
+  position: absolute;
+  top: 197.5vw;
+  left: 6vw;
+  font-family: Cormorant;
+  width: 9vw;
+  height: 50vw;
+}
+.breadprice6 {
+  position: absolute;
+  top: 198.5vw;
+  left: 6vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b6
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread7:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.bread7{
+  position: absolute;
+  top: 173.7vw;
+  left: 23vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.BreadName7{
+  position: absolute;
+  top: 197.5vw;
+  left: 26vw;
+  font-family: Cormorant;
+  width: 9vw;
+  height: 50vw;
+}
+.breadprice7 {
+  position: absolute;
+  top: 198.5vw;
+  left: 26vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b7
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread8:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.bread8{
+  position: absolute;
+  top: 173.7vw;
+  left: 43vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.BreadName8{
+  position: absolute;
+  top: 197.5vw;
+  left: 46vw;
+  font-family: Cormorant;
+  width: 9vw;
+  height: 50vw;
+}
+.breadprice8 {
+  position: absolute;
+  top: 198.5vw;
+  left: 46vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b8
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread9:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.bread9{
+  position: absolute;
+  top: 173.7vw;
+  left: 63vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.BreadName9{
+  position: absolute;
+  top: 197.5vw;
+  left: 66vw;
+  font-family: Cormorant;
+  width: 15vw;
+  height: 50vw;
+}
+.breadprice9 {
+  position: absolute;
+  top: 198.5vw;
+  left: 66vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b9
+{
+  color:red;
+  font-size: 3vw;
+}
+.bread10:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.bread10{
+  position: absolute;
+  top: 173.7vw;
+  left: 83vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.BreadName10{
+  position: absolute;
+  top: 197.5vw;
+  left: 86vw;
+  font-family: Cormorant;
+  width: 9vw;
+  height: 50vw;
+}
+.breadprice10 {
+  position: absolute;
+  top: 198.5vw;
+  left: 86vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b10
+{
+  color:red;
+  font-size: 3vw;
+}
+/*Pastry Categories*/
+.PastryBG {
+  position: absolute;
+  z-index: -1;
+  top: 210vw;
+  left: 0vw;
+  width: 98.7vw;
+  height: 28vw;
+  object-fit:fill;
+  display: block;
+}
+.PASTRY {
+  position: absolute;
+  top: 226vw;
+  left: 6vw;
+  font-family: Cormorant;
+  color: #ffffff
+}
+/*Bread Info*/
+.PASTRYInfo {
+  position: absolute;
+  top: 231.5vw;
+  left: 6vw;
+  width: 60vw;
+  font-family: Cormorant;
+  text-align: justify;
+  color: #ffffff
+}
+.pastry1:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.pastry1{
+  position: absolute;
+  top: 244vw;
+  left: 3vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.PastryName1{
+  position: absolute;
+  top: 268vw;
+  left: 6vw;
+  font-family: Cormorant;
+  width: 9vw;
+  height: 50vw;
+}
+.pastryprice1 {
+  position: absolute;
+  top: 269vw;
+  left: 6vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b1
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry2:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.pastry2{
+  position: absolute;
+  top: 244vw;
+  left: 23vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.PastryName2{
+  position: absolute;
+  top: 268vw;
+  left: 26vw;
+  font-family: Cormorant;
+  width: 15vw;
+  height: 50vw;
+}
+.pastryprice2 {
+  position: absolute;
+  top: 269vw;
+  left: 26vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b2
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry3:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.pastry3{
+  position: absolute;
+  top: 244vw;
+  left: 43vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.PastryName3{
+  position: absolute;
+  top: 268vw;
+  left: 46vw;
+  font-family: Cormorant;
+  width: 15vw;
+  height: 50vw;
+}
+.pastryprice3 {
+  position: absolute;
+  top: 269vw;
+  left: 46vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b3
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry4:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.pastry4{
+  position: absolute;
+  top: 244vw;
+  left: 63vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.PastryName4{
+  position: absolute;
+  top: 268vw;
+  left: 66vw;
+  font-family: Cormorant;
+  width: 15vw;
+  height: 50vw;
+}
+.pastryprice4 {
+  position: absolute;
+  top: 269vw;
+  left: 66vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b4
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry5:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.pastry5{
+  position: absolute;
+  top: 244vw;
+  left: 83vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.PastryName5{
+  position: absolute;
+  top: 268vw;
+  left: 86vw;
+  font-family: Cormorant;
+  width: 9vw;
+  height: 50vw;
+}
+.pastryprice5 {
+  position: absolute;
+  top: 269vw;
+  left: 86vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b5
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry6:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.pastry6{
+  position: absolute;
+  top: 277vw;
+  left: 3vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.PastryName6{
+  position: absolute;
+  top: 301vw;
+  left: 6vw;
+  font-family: Cormorant;
+  width: 15vw;
+  height: 10vw;
+}
+.pastryprice6 {
+  position: absolute;
+  top: 302vw;
+  left: 6vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b6
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry7:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.pastry7{
+  position: absolute;
+  top: 277vw;
+  left: 23vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.PastryName7{
+  position: absolute;
+  top: 301vw;
+  left: 26vw;
+  font-family: Cormorant;
+  width: 9vw;
+  height: 10vw;
+}
+.pastryprice7 {
+  position: absolute;
+  top: 302vw;
+  left: 26vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b7
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry8:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.pastry8{
+  position: absolute;
+  top: 277vw;
+  left: 43vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.PastryName8{
+  position: absolute;
+  top: 301vw;
+  left: 46vw;
+  font-family: Cormorant;
+  width: 9vw;
+  height: 10vw;
+}
+.pastryprice8 {
+  position: absolute;
+  top: 302vw;
+  left: 46vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b8
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry9:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.pastry9{
+  position: absolute;
+  top: 277vw;
+  left: 63vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.PastryName9{
+  position: absolute;
+  top: 301vw;
+  left: 66vw;
+  font-family: Cormorant;
+  width: 9vw;
+  height: 10vw;
+}
+.pastryprice9 {
+  position: absolute;
+  top: 302vw;
+  left: 66vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b9
+{
+  color:red;
+  font-size: 3vw;
+}
+.pastry10:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.pastry10{
+  position: absolute;
+  top: 277vw;
+  left: 83vw;
+  width: 15vw;
+  height: 23vw;
+  display: block;
+}
+.PastryName10{
+  position: absolute;
+  top: 301vw;
+  left: 86vw;
+  font-family: Cormorant;
+  width: 9vw;
+  height: 10vw;
+}
+.pastryprice10 {
+  position: absolute;
+  top: 302vw;
+  left: 86vw;
+  width: 8vw;
+  font-family: Cormorant;
+  color: #000000
+}
+.b10
+{
+  color:red;
+  font-size: 3vw;
+}
+
+/* testing a tabling */
+

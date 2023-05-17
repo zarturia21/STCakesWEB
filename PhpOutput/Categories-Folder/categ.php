@@ -3,7 +3,7 @@
 <head> 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./Categoriess.css" />
+<link rel="stylesheet" href="./Categories.css" />
 <link rel="stylesheet" href="./categset.css" />
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -35,7 +35,23 @@
 </head>
 
 <body>
+
+
+
+<!--Testing something -->
 <div id="loader" class="center"></div>
+
+<div class="dropdown">
+  <div class="user-login">
+<button class="dropbtn" id="mylogbut">
+    <i class="fa fa-user" id="logbut" style="font-size:4vw;"></i></div>
+    <div class="dropdown-content">
+        <a href="#">Settings & Configurations</a>
+        <a href="http://localhost/STCakesWEB/PhpOutput/home.php" id="logoutLink">Logout</a>
+
+     <div>
+</div></div></div>
+</button>
 
 <a href="http://localhost/STCakesWEB/PhpOutput/AfterLogin/afterlog.php" class="hover-link">
     <img class="s-cakes-logo-1" alt="" src="./Photo/scakelogo.png">
@@ -50,7 +66,9 @@
     <div class="customize-us">
       <div class="customize-us1" style="font-size:1.2vw;" >Customize </div>
     </div>
-
+    <a href="http://localhost/STCakesWEB/PhpOutput/AddToCart-Folder/addtoc.php">
+  <img class="gifcart" alt="" src="./gif/cart.gif"/>
+  </a>
   <div class="est-2013" style="font-size: .7vw;">E.S.T 2013</div>
 
   <a href="http://localhost/STCakesWEB/PhpOutput/Findus-Folder/find.php">
@@ -70,8 +88,8 @@
   <div class="CAKESInfo" style="font-size: 1.4vw;">Our cakes are freshly made with high-quality ingredients and can be customized to suit your preferences. Whether you are looking for a classic chocolate cake, a fruity and refreshing option, or a cake that is gluten-free or vegan, we have something for you. Our store cakes are perfect for birthdays, weddings, or any special event. We take great care in preparing our cakes and follow safe food handling practices to ensure your satisfaction and peace of mind. Browse our selection and place your order today!</div>
  
   <img class="cake1" alt="" src="./Photo/cake1.jpg">
-  <div class="CakeName1" style="font-size: 1.7vw;"><b>Cake Name</b></div>
-  <div class="cakeprice1" style="font-size: 2vw;">Price<h class="b1">200</h></div>
+  <div class="CakeName1" style="font-size: 1.7vw;"><b>CakeFlow</b></div>
+  <div class="cakeprice1" id="000001" style="font-size: 2vw;">Price<h class="b1">₱200</h></div>
 
   <img class="cake2" alt="" src="./Photo/cake2.jpg">
   <div class="CakeName2" style="font-size: 1.7vw;"><b>Cake Name</b></div>

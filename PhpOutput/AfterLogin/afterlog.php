@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./afterlog.css">
+  <link rel="stylesheet" href="./afterlogs.css">
   <link rel="stylesheet" href="./globalall.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="afterlogs.js"></script>
@@ -60,6 +60,12 @@
   <div class="Ordernow1" style="font-size:1.8vw;" >Order Online</div>
   </a>
 
+   <!-- test loader-->
+   
+ <a href="http://localhost/STCakesWEB/PhpOutput/AddToCart-Folder/addtoc.php">
+  <img class="gifcart" alt="" src="./gif/cart.gif"/>
+  </a>
+  
   <div class="Container">
   <img class="s-cakes-logo-1" alt="" src="./Photo/scakelogo.png"/>
   <img class="cake-main" id="Rec1img" alt="" src="./Photo/cakemain.png" />
