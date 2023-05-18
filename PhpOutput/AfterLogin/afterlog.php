@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="./afterlogs.css">
   <link rel="stylesheet" href="./globalall.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="afterlogs.js"></script>
+  <script src="afterlog.js"></script>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -127,6 +127,10 @@
 
   <div class="Promo1">
     <div class="Main-2" id="categoriesText" style="font-size:1.8vw;">Promo</div>
+  </div>
+
+  <div class="popup-con">
+    <img class="popup-imag" src="" alt="Popup Imag">
   </div>
 
   <div class="Customize1">
