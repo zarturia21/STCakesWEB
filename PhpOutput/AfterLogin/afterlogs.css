@@ -242,6 +242,7 @@ body {
     border: .2vw solid #ffffff;
     border-radius: 0.8vw;
     padding: 0.1vw;
+    z-index: 1;
 }
 .Ordernow1:hover
 {
@@ -1025,7 +1026,7 @@ body {
   display: none;
   position: absolute;
   background-color: #ffcdfd71;
-  top: 6.2vw;
+  top: 6.276vw;
   z-index: 1;
 }
 

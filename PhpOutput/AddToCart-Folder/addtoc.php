@@ -4,7 +4,7 @@
     
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./AddToCart.css" />
+<link rel="stylesheet" href="./AddToCarts.css" />
 <link rel="stylesheet" href="./global.css" />
 <script src="Jswebse.js"></script>
 
@@ -26,10 +26,12 @@
 </head>
 
 <body>
+
   <div class="rec"></div>
-  <div class="Container">
-  <img class="s-cakes-logo-1" alt="" src="./Photo/scakelogo.png "/>
+  <div class="Container"><a href="http://localhost/STCakesWEB/PhpOutput/AfterLogin/afterlog.php">
+  <img class="s-cakes-logo-1" id="logbut" alt="" src="./Photo/scakelogo.png "/></a>
   <div class="rectangle"></div>
+
 
   <div class="promo2">
     <div class="about-us" style="font-size:1.5vw;">Promo</div>
