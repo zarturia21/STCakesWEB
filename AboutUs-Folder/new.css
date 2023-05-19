@@ -140,4 +140,48 @@
   .image-container:hover .vision::before {
     opacity: 0.5; /* Adjust the opacity value as desired */
   }
-  
+
+
+.fb {
+  position: absolute;
+  top: 20vw;
+  left:29vw;
+  width: 3vw;
+}
+.IG {
+  position: absolute;
+  top: 20vw;
+  left:39vw;
+  width: 3vw;
+}
+.tik {
+  position: absolute;
+  top: 20vw;
+  left:49vw;
+  width: 3vw;
+}
+.twit {
+  position: absolute;
+  top: 20vw;
+  left:59vw;
+  width: 3vw;
+}
+.yt {
+  position: absolute;
+  top: 20vw;
+  left:69vw;
+  width: 3vw;
+}
+
+.line1
+{
+  position:absolute;
+  height: 0.1vw;
+  width: 99vw;
+  left: 0.5vw;
+  top: 23vw;
+  background-color: #ffd4d4be;
+  border-color: rgba(255, 255, 255, 0);
+  border-radius: 1vw;
+
+}
