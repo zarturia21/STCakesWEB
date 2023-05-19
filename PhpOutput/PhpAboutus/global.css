@@ -1,14 +1,13 @@
-.Container {
-    width: 90%;
-    min-width: 95%;
-    height: 335vw;
-    margin: auto;
-    
-}
-.html
-{
-    height: 1800vw;
-    margin: auto;
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffd4d4ad;
+    font-family: 'Trebuchet MS';
 }
 
-/*FANCY LOADERRRR*/
+.Container {
+    width: 90%;
+    min-width: 500px;
+    margin: auto;
+}
