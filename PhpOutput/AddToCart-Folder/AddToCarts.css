@@ -18,7 +18,7 @@ body {
   width: 100vw;
   height: 6.2vw;
   left: 0vw;
-  background-color: rgba(255, 211, 240, 0.8);
+  background-color: #ffc3e7;
 }
 
 .promo2:hover, .customize-us1:hover, .Findus:hover, .aboutuus:hover {
@@ -47,6 +47,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: Dosis;
 
 }
 
@@ -57,6 +58,7 @@ body {
   background-color: transparent;
   position: absolute;
   width: 7vw;
+  font-family: Dosis;
   height: auto;
 }
 
@@ -89,6 +91,7 @@ body {
   position: absolute;
   top: 2vw;
   left: 50.5vw;
+  font-family: Dosis;
   color: var(--color-black);
   display: flex;
   align-items: center;
@@ -104,6 +107,7 @@ body {
   background-color: transparent;
   position: absolute;
   width: 6vw;
+  font-family: Dosis;
   height: auto;
 }
 
@@ -124,6 +128,7 @@ body {
   background-color: transparent;
   position: absolute;
   width: 8vw;
+  font-family: Dosis;
   height: auto;
 }
 
@@ -365,6 +370,17 @@ textarea {
   top: 56vw;
   left: 46vw;
 }
+/*hover*/
+#logbut
+{
+  color: rgb(2, 2, 2);
+}
+
+#logbut:hover
+{
+  border-radius: 5vw;
+  color: rgb(255, 255, 255);
+}
 
 #logbut
 {
@@ -375,4 +391,93 @@ textarea {
 {
   border-radius: 5vw;
   color: rgb(255, 255, 255);
+}
+  .user-login {
+    z-index: 1;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    width: 5%;
+    height: auto;
+  
+  }
+  
+  .user-login {
+    color: #fd8cfda6;
+    top:0.2vw;
+    left: 3vw;
+    font-family: var(--font-gupter);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.dropbtn {
+
+  color: rgba(255, 255, 255, 0);
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 1vw;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffcdfd71;
+  top: 6.276vw;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgba(255, 255, 255, 0.87);
+  padding: 1vw 2vw;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgba(255, 191, 244, 0.322);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #ffb9ea00;}
+
+
+/*loader*/
+
+#loader {
+  background-image: url(./gif/cupcake.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 20vw;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.658); /* Set the background color to pink */
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }

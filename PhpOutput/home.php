@@ -68,18 +68,19 @@
    <!-- TEST -->
 <div class="overlay" id="overlay"></div>
 
+<a href="http://localhost/STCakesWEB/PhpOutput/loginpage.php">
   <div class="customize-us">
     <div class="customize-us1" style="font-size:1.2vw;" >Customize </div>
-  </div>
+  </div></a>
 
   <div class="est1"  style="font-size:0.5vw;">E.S.T 2013</div>
 
-  <a href="http://localhost/STCakesWEB/PhpOutput/Findus-Folder/find.php">
+  <a href="http://localhost/STCakesWEB/PhpOutput/loginpage.php">
   <button class="Findus">
     <div class="about-us" style="font-size:1.2vw;" >Find Us</div>
   </button></a>
 
-  <a href="./PhpAboutus/aboutus.php">
+  <a href="http://localhost/STCakesWEB/PhpOutput/loginpage.php">
   <button class="aboutuus" id="buttonID">
         <div class="about-us" style="font-size:1.2vw;">About Us</div>
     </button>
@@ -142,9 +143,6 @@
   Your browser does not support the video tag.
 </video>
 
-
-
-<div class="wedding-cake"style="font-size:2vw;" id="varycake">WEDDING CAKE</div>
 
 <div class="sweetness-in-every" style="font-size:4.5vw;">
   “Sweetness in Every Bite, Wonder in Every Slice”
@@ -242,4 +240,98 @@
 
   <div class="loader-wrapper">
     <span class="loader"><span class="loader-inner"></span></span>
+
+
+
+    <!--TESTTTTT -->
+
+    
+<div id="pillar">
+
+<div class="row">
+  <div class="wrap">
+    <div class="left">Cake is pointless</div>
+    <div class="right">without passion</div>  
+    </div>
+</div>
+  
+  <div class="row">
+  <div class="wrap">
+    <div class="left">You have to go out</div>
+    <div class="right">and Get a cake.</div>  
+    </div>
+</div>
+  
+  <div class="row">
+  <div class="wrap">
+    <div class="left">Make a cake</div>
+    <div class="right">And be sweet</div>  
+    </div>
+</div>
+  
+   <div class="row">
+  <div class="wrap">
+    <div class="left">and make a living</div>
+    <div class="right">By making a cake</div>  
+    </div>
+</div>
+  
+  <div class="row">
+  <div class="wrap">
+    <div class="left">you can't just let</div>
+    <div class="right">other people define your sweetness</div>  
+    </div>
+</div>
+  
+  <div class="row">
+  <div class="wrap">
+    <div class="left">the rest of your life</div>
+    <div class="right">and say you will</div>  
+    </div>
+</div>
+  
+  <div class="row">
+  <div class="wrap">
+    <div class="left">Be sweet, Make your way.</div>
+    <div class="right">follow your taste.</div>  
+    </div>
+</div>
+  
+  <div class="row">
+  <div class="wrap">
+    <div class="left">you will end up</div>
+    <div class="right">happy and happy</div>  
+    </div>
+</div>
+  
+  <div class="row">
+  <div class="wrap">
+    <div class="left">a starving for sweetness.</div>
+    <div class="right">love you cake</div>  
+    </div>
+</div>
+  
+  <div class="row">
+  <div class="wrap">
+    <div class="left">contribute to society</div>
+    <div class="right">by inspiring people</div>  
+    </div>
+</div>
+  
+  <div class="row">
+  <div class="wrap">
+    <div class="left">instead of wasting time</div>
+    <div class="right">Make sweets for people</div>  
+    </div>
+</div>
+  
+  <div class="row">
+  <div class="wrap">
+    <div class="left">you're cake is worthless</div>
+    <div class="right">you can change the world.</div>  
+    </div>
+</div>
+  
+  
+  </div>
 </div>

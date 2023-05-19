@@ -183,6 +183,7 @@ body {
   height: auto;
   left: -0.4vw;
   display: block;
+  top: 0vw;
   width: 99.1vw;
 }
 
@@ -1008,3 +1009,55 @@ body {
 }
 
 /*vid stye */
+#pillar {display: block; margin: 100px auto; width: 300px; transform: translateX(-200px); 
+ perspective: 1900px;
+}
+
+.wrap {display: flex; transform: rotateY(0deg);
+transition: all 1.0s cubic-bezier(.25,.8,.25,1);
+   transform-style: preserve-3d;
+}
+
+.row {
+  width: 30vw;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-size: 1vw;
+  text-transform: uppercase;
+  font-weight: bold;
+  top: 112vw;
+  left:-1vw;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  transition: all 3.0s cubic-bezier(.25,.8,.25,1);
+  &:hover .wrap {transform: rotateY(-45deg);
+  cursor: pointer;
+  }
+  &:hover {z-index: 1;}
+  &:hover .left {
+    
+    &:before {
+      width: 55%;
+    }
+  }
+
+  .left { width: 400px; padding: 15px 20px; text-align: right;
+    
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+    &:before {content: "";
+       position: absolute; display: block; top:0; left:0; width: 50%; height: 100%;
+      transition: width 1s ease-in-out;
+    }
+    
+  }
+  .right { width: 400px; padding: 15px 20px;
+  text-align: left;
+    transform: rotateY(90deg);
+  transform-origin: left center;
+    transform-style: preserve-3d;
+     backface-visibility: hidden;
+  }
+
+}

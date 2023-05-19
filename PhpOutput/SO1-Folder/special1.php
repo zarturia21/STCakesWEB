@@ -38,8 +38,8 @@
     <a href="http://localhost/STCakesWEB/PhpOutput/AfterLogin/afterlog.php">
       <div class="home1"style="font-size: 1vw;">HOME</div>
       </a>
-
-        <div class="customize1"style="font-size: 1vw;">CUSTOMIZE</div>
+      <a href="http://localhost/STCakesWEB/PhpOutput/Customize/custom.php">
+        <div class="customize1"style="font-size: 1vw;">CUSTOMIZE</div></a>
     
         <a href="http://localhost/STCakesWEB/PhpOutput/Categories-Folder/categ.php">
        <div class="products1"style="font-size: 1vw;">PRODUCTS</div>

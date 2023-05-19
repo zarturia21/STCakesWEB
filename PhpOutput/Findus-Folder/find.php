@@ -36,6 +36,7 @@
     <div class="Aboutus" style="font-size: 1.5vw;">ABOUT US</div></a>
     <a href="http://localhost/STCakesWEB/PhpOutput/Categories-Folder/categ.php">
     <div class="Products" style="font-size: 1.5vw;">PRODUCTS</div></a>
+    <a href="http://localhost/STCakesWEB/PhpOutput/Customize/custom.php">
     <div class="Customize" style="font-size: 1.5vw;">CUSTOMIZED</div>
 
     <div class="store-location" style="font-size: 5vw;">STORE LOCATION</div>

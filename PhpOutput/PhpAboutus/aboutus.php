@@ -4,7 +4,7 @@
     
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./abouts.css" />
+<link rel="stylesheet" href="./about.css" />
 <link rel="stylesheet" href="./globals.css" />
 <script src="abtus.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -61,5 +61,30 @@
     <img class="twit"src="./newphoto/twit.png" alt="twit" sizes="-10">
     <img class="yt"src="./newphoto/yt.png" alt="yt" sizes="-10">
 
+
+    <!--test our team -->
+
+    
+    <!-- Embedding Fonts from google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <section class="team">
+      <h2 class="section-heading">Our Team</h2>
+      <div class="container">
+        <div class="profile">
+          <img src="./newphoto/jmt.jpg" alt=""/><span class="name">Jm Tutor</span>
+        </div>
+        <div class="profile1">
+          <img src="./newphoto/ron.jpg" alt=""/><span class="name1">Ra Sarigumba</span>
+        </div>
+    
+        <div class="profile2">
+          <img src="./newphoto/jms.jpg" alt=""/><span class="name2">Jm Salazar</span>
+        </div>
     
 </body>

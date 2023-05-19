@@ -5,8 +5,8 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="./AddToCarts.css" />
-<link rel="stylesheet" href="./global.css" />
-<script src="Jswebse.js"></script>
+<link rel="stylesheet" href="./addtoc.css" />
+<script src="addtoc.js"></script>
 
 <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Gidugu:wght@400&display=swap"/>
 <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400&display=swap"/>
@@ -26,30 +26,45 @@
 </head>
 
 <body>
+  <!--TESTER-->
+  <!--TESTER-->
+<div id="loader" class="center"></div>
 
   <div class="rec"></div>
   <div class="Container"><a href="http://localhost/STCakesWEB/PhpOutput/AfterLogin/afterlog.php">
   <img class="s-cakes-logo-1" id="logbut" alt="" src="./Photo/scakelogo.png "/></a>
   <div class="rectangle"></div>
 
+  <div class="dropdown">
+  <div class="user-login">
+<button class="dropbtn" id="mylogbut">
+    <i class="fa fa-user" id="logbut" style="font-size:4vw;"></i></div>
+    <div class="dropdown-content">
+        <a href="#">Settings & Configurations</a>
+        <a href="http://localhost/STCakesWEB/PhpOutput/home.php" id="logoutLink">Logout</a>
+
+     <div>
+</div></div></div>
+</button>
+
 
   <div class="promo2">
-    <div class="about-us" style="font-size:1.5vw;">Promo</div>
+    <div class="about-us" style="font-size:1.3vw;">Promo</div>
     </div>
-  
+    <a href="http://localhost/STCakesWEB/PhpOutput/Customize/custom.php">
     <div class="customize-us">
-      <div class="customize-us1" style="font-size:1.5vw;" >Customize </div>
-    </div>
+      <div class="customize-us1" style="font-size:1.3vw;" >Customize </div>
+    </div></a>
 
   <div class="est-2013" style="font-size: .7vw;">E.S.T 2013</div>
-
+  <a href="http://localhost/STCakesWEB/PhpOutput/Findus-Folder/find.php">
   <button class="Findus">
-    <div class="about-us" style="font-size:1.5vw;" >Find Us</div>
-  </button>
-
+    <div class="about-us" style="font-size:1.3vw;" >Find Us</div>
+  </button></a>
+  <a href="http://localhost/STCakesWEB/PhpOutput/PhpAboutus/aboutus.php">
   <button class="aboutuus">
-    <div class="about-us" style="font-size:1.5vw;" >About Us</div>
-  </button>
+    <div class="about-us" style="font-size:1.3vw;" >About Us</div>
+  </button></a>
 
   
   <!-- Cakes Add to Cart-->
@@ -99,5 +114,9 @@
 
 <div class="find-us"style="font-size:1.8vw;">Find Us</div>
 <div class="links"style="font-size:1.5vw;">LINKS</div>
+
+<div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
 
 </body>

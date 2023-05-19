@@ -1,0 +1,12 @@
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+.Container {
+    width: 90%;
+    min-width: 500px;
+    margin: auto;
+}

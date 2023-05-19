@@ -1,0 +1,408 @@
+/* Default styles */
+
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+  }
+  
+  .vector-icon {
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: auto;
+    top: 0%;
+    left: 0;
+  }
+  
+  .promo2:hover, .Findus:hover, .aboutuus:hover {
+    background-color: #ff85f58a;
+    border: 1px solid var(--color-black);
+    border-radius: 6px;
+  }
+  #logbut
+{
+  color: rgb(2, 2, 2);
+}
+
+#logbut:hover
+{
+  border-radius: 5vw;
+  color: rgb(255, 255, 255);
+}
+  .user-login {
+    z-index: 1;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    width: 5%;
+    height: auto;
+  
+  }
+  
+  .user-login {
+    color: #fd8cfda6;
+    top:0.2vw;
+    left: 3vw;
+    font-family: var(--font-gupter);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .promo2 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    width: 5%;
+    height: auto;
+  }
+  
+  .promo2 {
+    top:2.5vw;
+    left: 13vw;
+    font-family: var(--font-gupter);
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .customize-us {
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    width: 6%;
+    height: auto;
+  }
+  
+  .gifcart
+{
+  position: absolute;
+  top:-0.5vw;
+  width: 6vw;
+  left: 90vw;
+  z-index: 2;
+}
+  .customize-us {
+    top:2.57vw;
+    left: 24vw;
+    font-family: var(--font-gupter);
+    color: #ff6bf3;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .s-cakes-logo-1 {
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .s-cakes-logo-1 {
+    top: -1vw;
+    left: 39vw;
+    width: 17vw;
+    height: auto;
+    display: block;
+  }
+  
+  .est-2013 {
+    position: absolute;
+  }
+  
+  .est-2013 {
+    top: 4.5vw;
+    left: 53vw;
+    color: var(--color-black);
+    display:block;
+    align-items: center;
+    justify-content: center;
+    width: 4vw;
+    height: auto;
+  }
+  
+  .Findus {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    width: 6%;
+    height: auto;
+  }
+  
+  .Findus {
+    top:2.5vw;
+    left: 65vw;
+    font-family: var(--font-gupter);
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .aboutuus {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    width: 6%;
+    height: auto;
+  }
+  
+  .aboutuus
+  {
+    top:2.5vw;
+    left: 78vw;
+    font-family: var(--font-gupter);
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.back {
+    position: absolute;
+    z-index: -1;
+    top: 6.3vw;
+    left: 0vw;
+    height: auto;
+    width: 98.7vw;
+}
+.sidebar {
+  position: absolute;
+  width: 15vw ;
+  top: 10vw;
+  left: 10vw;
+  border-radius: 2vw;
+  padding: 1vw;
+  background: linear-gradient(135deg, #ffc3e7 30%, #ffaadb);
+  border-bottom: 2px solid var(--color-darkslategray-200);
+  box-sizing: border-box;
+  height: auto;
+}
+.quote {
+  position: absolute;
+  top: 25vw ;
+  left: 10vw ;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 45vw;
+}
+.quote2 {
+  position: absolute;
+  top: 30vw ;
+  left: 10vw ;
+  line-height: 1.50vw;
+  display: flex;
+  align-items: center;
+  width: 30vw;
+}
+.quote3 {
+  position: absolute;
+  top: 35vw ;
+  left: 10vw ;
+  line-height: 1.50vw;
+  display: flex;
+  align-items: center;
+  width: 30vw;
+}
+.quote4 {
+  position: absolute;
+  top: 42vw;
+  left: 10vw ;
+  line-height: 1.50vw;
+  display: flex;
+  align-items: center;
+  width: 30vw;
+}
+
+.Cakes  {
+  position: absolute;
+  top: 25vw ;
+  left: 57vw ;
+  align-items: center;
+  width: 35vw;
+}
+.flavour {
+  position: absolute;
+  top: 50vw ;
+  left: 10vw ;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 10vw;
+}
+.drop1 {
+  position: absolute;
+  top: 49.2vw ;
+  left: 30vw ;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 3vw;
+}
+.filling {
+  position: absolute;
+  top: 54vw ;
+  left: 10vw ;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 10vw;
+}
+.drop2 {
+  position: absolute;
+  top: 53.2vw ;
+  left: 30vw ;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 3vw;
+}
+.Decor {
+  position: absolute;
+  top: 58vw ;
+  left: 10vw ;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 10vw;
+}
+.drop3 {
+  position: absolute;
+  top: 57.2vw ;
+  left: 30vw ;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 3vw;
+}
+.pricing {
+  position: absolute;
+  top: 62vw ;
+  left: 10vw ;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 10vw;
+}
+.drop4 {
+  position: absolute;
+  top: 61.2vw ;
+  left: 30vw ;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 3vw;
+}
+.Enquire {
+  position: absolute;
+  top: 68vw;
+  left: 15vw;
+  line-height: 1.05vw;
+  display: flex;
+  align-items: center;
+  width: 15vw;
+  border-radius: 15vw;
+  justify-content: center ;
+  color: white;
+  background-color: rgb(233, 116, 139);
+  height: auto;
+  padding: 2vw;
+  cursor: pointer;
+}
+.Enquire:hover
+{
+  background-color: rgb(255, 147, 255);
+
+}
+
+
+  /*TESTTTT*/
+  
+  /*TESTTTT*/
+  
+.dropbtn {
+
+  color: rgba(255, 255, 255, 0);
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 1vw;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffcdfd71;
+  top: 6.276vw;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgba(255, 255, 255, 0.87);
+  padding: 1vw 2vw;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgba(255, 191, 244, 0.322);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #ffb9ea00;}
+
+
+/*loader*/
+/* test loading */
+#loader {
+  background-image: url(./gif/cupcake.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 20vw;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.658); /* Set the background color to pink */
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/*asdasdasdasdsadas*/
