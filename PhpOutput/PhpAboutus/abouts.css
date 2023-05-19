@@ -1,143 +1,226 @@
 
 .boader {
-    position: absolute;
-    height: 4vw;
-    width: 100vw;
-    background-color:#ffd4d4be;
-   
+  position: absolute;
+  height: 4vw;
+  top:0vw;
+  width: 100vw;
+  left: 0vw;
+  background-color:#ffd4d4be;
+ 
 }
 .shop {
-    position: absolute;
+  position: absolute;
 
-    top: 1.4vw;
-    left: 75vw;
-    font-size: 1.20vw;
-    font-style: dosis;
-    color: rgb(0, 0, 0); 
-    text-align: justify;
+  top: 1.4vw;
+  left: 75vw;
+  font-size: 1.20vw;
+  font-style: dosis;
+  color: rgb(0, 0, 0); 
+  text-align: justify;
 }
 .search {
-    position: absolute;
-    top: 1.3vw;
-    left: 73vw;
-    size: -5vw;
-    width: 1.5vw;
+  position: absolute;
+  top: 1.3vw;
+  left: 73vw;
+  size: -5vw;
+  width: 1.5vw;
 }
 .marble {
-    position: absolute;
-    top: 4vw;
-    left: 0vw;
-    height: 15vw;
-    width: 100vw;
+  position: absolute;
+  top: 4vw;
+  left: 0vw;
+  height: 15vw;
+  width: 100vw;
 }
 .trans {
-    position: absolute;
-    top: 4vw;
-    height: 15vw;
-    width: 50vw;
-    left: 25vw;
-    background-color:rgba(15, 15, 15, 0.432);
+  position: absolute;
+  top: 4vw;
+  height: 15vw;
+  width: 50vw;
+  left: 25vw;
+  background-color:rgba(15, 15, 15, 0.432);
 }
 .about {
-    position: absolute;
-    top: 9vw;
-    left: 32vw;
-    font-size:5vw;
-    font-style: charm;
-    color: rgb(255, 255, 255); 
-    text-align: justify;
+  position: absolute;
+  top: 9vw;
+  left: 32vw;
+  font-size:5vw;
+  font-style: charm;
+  color: rgb(255, 255, 255); 
+  text-align: justify;
 }
 .tagline {
-        position: absolute;
-        top: 15vw;
-        left:33vw;
-        font-size: 1.5vw;
-        font-style: Dela Gothic One;
-        color: white;
+      position: absolute;
+      top: 15vw;
+      left:33vw;
+      font-size: 1.5vw;
+      font-style: Dela Gothic One;
+      color: white;
 }
 
 .vision {
-    position: absolute;
-    top: 30vw;
-    left: 43vw;
-    height: 18vw;
-    width: 15vw;
+  position: absolute;
+  top: 30vw;
+  left: 43vw;
+  height: 18vw;
+  width: 15vw;
 }
 .mission {
-    position: absolute;
-    top: 30vw;
-    left: 72vw;
-    height: 18vw;
-    width: 15vw;
+  position: absolute;
+  top: 30vw;
+  left: 72vw;
+  height: 18vw;
+  width: 15vw;
 }
 .Habc {
-    position: absolute;
-    top: 45.5vw;
-    left:16.5vw;
-    font-size: 2vw;
-    font-style: dosis;
-    color: rgb(255, 255, 255);
+  position: absolute;
+  top: 45.5vw;
+  left:16.5vw;
+  font-size: 2vw;
+  font-style: dosis;
+  color: rgb(255, 255, 255);
 }
 .Vabc {
-    position: absolute;
-    top:45.5vw;
-    left:47.6vw;
-    font-size: 2vw;
-    font-style: dosis;
-    color: rgb(255, 255, 255);
+  position: absolute;
+  top:45.5vw;
+  left:47.6vw;
+  font-size: 2vw;
+  font-style: dosis;
+  color: rgb(255, 255, 255);
 }
 .Mabc {
-    position: absolute;
-    top: 45.5vw;
-    left:76.4vw;
-    font-size: 2vw;
-    font-style: dosis;
-    color: rgb(255, 255, 255);
+  position: absolute;
+  top: 45.5vw;
+  left:76.4vw;
+  font-size: 2vw;
+  font-style: dosis;
+  color: rgb(255, 255, 255);
 }
 
-
-  .history {
-    position: absolute;
-    top: 30vw;
-    left: 13vw;
-    height: 18vw;
-    width: 15vw;
-    transition: all 0.3s ease-in-out;
-  }
-  .home {
-    position: absolute;
-    top: 0.8vw;
-    left: 6vw;
-    width: 2.5vw;
+.home {
+  position: absolute;
+  top: 0.8vw;
+  left: 6vw;
+  width: 2.5vw;
 }
 
 .image-container {
-    position: relative;
-    display: inline-block;
-  }
+  position: relative;
+  display: inline-block;
+}
+
+.vision {
+  position: relative;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.vision::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.2; /* Adjust the opacity value as desired */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .vision {
+  opacity: 0.8; /* Adjust the opacity value as desired */
+}
+
+.image-container:hover .vision::before {
+  opacity: 0.5; /* Adjust the opacity value as desired */
+}
+
+
+.fb {
+position: absolute;
+top: 20vw;
+left:29vw;
+width: 3vw;
+}
+.IG {
+position: absolute;
+top: 20vw;
+left:39vw;
+width: 3vw;
+}
+.tik {
+position: absolute;
+top: 20vw;
+left:49vw;
+width: 3vw;
+}
+.twit {
+position: absolute;
+top: 20vw;
+left:59vw;
+width: 3vw;
+}
+.yt {
+position: absolute;
+top: 20vw;
+left:69vw;
+width: 3vw;
+}
+/*hover*/
+.fb:hover, .IG:hover, .tik:hover, .twit:hover, .yt:hover
+ {
+
+  background-color: pink;
+  border-radius: 1vw;
+}
+/*log*/
+
+.line1
+{
+position:absolute;
+height: 0.1vw;
+width: 99vw;
+left: 0.5vw;
+top: 23vw;
+background-color: #ffd4d4be;
+border-color: rgba(255, 255, 255, 0);
+border-radius: 1vw;
+
+}
+
+.history {
+  position: absolute;
+  top: 31vw;
+  left: 13vw;
+  height: 18vw;
+  width: 15vw;
+}
+.history, .vision, .mission {
+  --s: 15vw;   /* the size of the image */
+  --b: 1vw;     /* the border thickness*/
+  --g: 1vw;    /* the gap */
+  --c: #ffbebebe; /* the color */
   
-  .vision {
-    position: relative;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  .vision::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.2; /* Adjust the opacity value as desired */
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  .image-container:hover .vision {
-    opacity: 0.8; /* Adjust the opacity value as desired */
-  }
-  
-  .image-container:hover .vision::before {
-    opacity: 0.5; /* Adjust the opacity value as desired */
-  }
-  
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s)/2) solid #0009;
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.history:hover,.vision:hover,.mission:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+
+.history + .history {
+  border-radius: 0vw;
+}
+
+.vision + .vision {
+  border-radius: 0vw;
+}
+
+.mission + .mission {
+  border-radius: 0vw;
+}
+

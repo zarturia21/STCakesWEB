@@ -1,0 +1,11 @@
+
+body, html {
+    background-color: #ffe9e9ad;
+    font-family: 'Trebuchet MS';
+    height: 50vw;
+}
+
+.Container {
+    width: 90%;
+    min-width: 100%;
+}
