@@ -101,7 +101,8 @@
   <div class="pricing" style="font-size: 1.2vw;" > Pricing </div>
   <img class="drop4" alt="" src="./Photo/pricing.png" />
 
-  <div class="Enquire" style="font-size: 1.2vw;" > ENQUIRE NOW </div>
+  <a href="http://localhost/STCakesWEB/PhpOutput/customizedhere/customize.php">
+  <div class="Enquire" style="font-size: 1.2vw;" > ENQUIRE NOW </div></a>
 
 
   <div class="loader-wrapper">

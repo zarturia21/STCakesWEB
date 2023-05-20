@@ -245,14 +245,15 @@
           <div class="sign-up-with"style="font-size:1.5vw;"> Sign up with your email address to receive news and updates.</div>
           <div class="we-respect-your">We respect your privacy.</div>
 
-      <button class="sign-up"style="font-size:1.1vw;">Sign up</button>
-    <div>
-      <h1 class="zts-techdev-we"style="font-size:1.1vw;">ZTS Techdev “We Create” V.1 First Creation</h1>
-    </div>
-      <input class="rectangle-input" type="text"  placeholder="Your Email Here"style="font-size:1.1vw;"/>
+    <form method="post" action="signup.php">
+    <input class="rectangle-input" type="text" name="email" placeholder="Your Email Here" style="font-size:1.1vw;" required />
+    <button class="sign-up" style="font-size:1.1vw;">Sign up</button>
+    </form>
 
       <div class="BLine6" size="20" width="100%"></div>
-
+      <div>
+      <h1 class="zts-techdev-we"style="font-size:1.1vw;">ZTS Techdev “We Create” V.1 First Creation</h1>
+    </div>
   <!-- Bootstrap JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
