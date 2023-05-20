@@ -333,5 +333,11 @@
 </div>
   
   
+<img class="fb"src="./newphoto/fb.png" alt="fb" sizes="-10">
+    <img class="IG"src="./newphoto/IG.png" alt="IG" sizes="-10">
+    <img class="tik"src="./newphoto/tik.png" alt="tik" sizes="-10">
+    <img class="twit"src="./newphoto/twit.png" alt="twit" sizes="-10">
+    <img class="yt"src="./newphoto/yt.png" alt="yt" sizes="-10">
+    
   </div>
 </div>
