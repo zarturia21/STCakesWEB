@@ -50,7 +50,8 @@
 </button>
 
   <div class="Container">
-  <img class="s-cakes-logo-1" alt="" src="./Photo/scakelogo.png"/>
+  <a href="http://localhost/STCakesWEB/PhpOutput/AfterLogin/afterlog.php">
+  <img class="s-cakes-logo-1" alt="" src="./Photo/scakelogo.png"/></a>
   <img class="vector-icon" alt="" src="./SVG File/dashpink.svg" />
   
   <div class="promo2">
@@ -92,14 +93,41 @@
   
   <img class="Cakes" id="Cakes" alt="" src="./Photo/C1.jpg" />
 
-  <div class="flavour" style="font-size: 1.2vw;" > Cake Flavours </div>
+  <div class="flavour" onclick="toggleFlavour()">Cake Flavours</div>
   <img class="drop1" alt="" src="./Photo/flavour.png" />
-  <div class="filling" style="font-size: 1.2vw;" > Filling Options </div>
+  <div id="flavour-content" class="flavour-content">
+    <p>Dark Chocolate Mud Cake – A dense, moist mud cake made with Belgian creamy dark chocolate and 100% pure Callebaut cocoa powder, layered with a Belgian chocolate ganache or buttercream filling.</p>
+    <p>White Chocolate Mud Cake - A dense and creamy mud cake made with Belgian chocolate and a smooth Belgian white chocolate ganache or buttercream filling.</p>
+    <p>Vanilla Bean Buttercake – A moist butter cake made with fresh butter and 100% natural vanilla bean paste, filled with our signature light and creamy Madagascan vanilla buttercream icing or choice of buttercream.</p>
+    <p>Caramel Mud Cake – A creamy, dense caramel cake made from our delicious homemade caramel base, layered with our creamy, light buttercream filling.</p>
+  </div>
+
+  <div class="filling" onclick="toggleFilling()">Filling Options</div>
   <img class="drop2" alt="" src="./Photo/filling.png" />
-  <div class="Decor" style="font-size: 1.2vw;" > Decorations </div>
+  <div id="filling-content" class="filling-content">
+    <p>Dark Chocolate Mud Cake – A dense, moist mud cake made with Belgian creamy dark chocolate and 100% pure Callebaut cocoa powder, layered with a Belgian chocolate ganache or buttercream filling.</p>
+    <p>White Chocolate Mud Cake - A dense and creamy mud cake made with Belgian chocolate and a smooth Belgian white chocolate ganache or buttercream filling.</p>
+    <p>Vanilla Bean Buttercake – A moist butter cake made with fresh butter and 100% natural vanilla bean paste, filled with our signature light and creamy Madagascan vanilla buttercream icing or choice of buttercream.</p>
+    <p>Caramel Mud Cake – A creamy, dense caramel cake made from our delicious homemade caramel base, layered with our creamy, light buttercream filling.</p>
+  </div>
+
+  <div class="Decor" onclick="toggleDecor()">Decorations</div>
   <img class="drop3" alt="" src="./Photo/Decor.png" />
-  <div class="pricing" style="font-size: 1.2vw;" > Pricing </div>
+  <div id="Decor-content" class="Decor-content">
+    <p>Option 1: Fondant decorations in various shapes and designs.</p>
+    <p>Option 2: Buttercream piping in different patterns and colors.</p>
+    <p>Option 3: Edible flowers and fresh fruit toppings.</p>
+    <p>Option 4: Customized cake toppers and figurines.</p>
+  </div>
+
+  <div class="pricing" onclick="togglePricing()">Pricing</div>
   <img class="drop4" alt="" src="./Photo/pricing.png" />
+  <div id="pricing-content" class="pricing-content">
+    <p>6-inch cake: $30</p>
+    <p>8-inch cake: $45</p>
+    <p>10-inch cake: $60</p>
+    <p>12-inch cake: $80</p>
+  </div>
 
   <a href="http://localhost/STCakesWEB/PhpOutput/customizedhere/customize.php">
   <div class="Enquire" style="font-size: 1.2vw;" > ENQUIRE NOW </div></a>

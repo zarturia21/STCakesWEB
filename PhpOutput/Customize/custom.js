@@ -31,3 +31,40 @@ function changeImage() {
 var interval = 1000;
 setInterval(changeImage, interval);
 
+
+
+function toggleFlavour() {
+  var content = document.getElementById("flavour-content");
+  if (content.style.display === "none") {
+    content.style.display = "block";
+  } else {
+    content.style.display = "none";
+  }
+}
+
+function toggleFilling() {
+  var content = document.getElementById("filling-content");
+  if (content.style.display === "none") {
+    content.style.display = "block";
+  } else {
+    content.style.display = "none";
+  }
+}
+
+function toggleDecor() {
+  var content = document.getElementById("Decor-content");
+  if (content.style.display === "none") {
+    content.style.display = "block";
+  } else {
+    content.style.display = "none";
+  }
+}
+
+function togglePricing() {
+  var content = document.getElementById("pricing-content");
+  if (content.style.display === "none") {
+    content.style.display = "block";
+  } else {
+    content.style.display = "none";
+  }
+}
